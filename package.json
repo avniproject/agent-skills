@@ -1,0 +1,47 @@
+{
+  "name": "@avni/agent-skills",
+  "version": "1.0.0",
+  "description": "React Native development skills and utilities for Avni projects",
+  "main": "index.js",
+  "bin": {
+    "avni-skills": "./bin/avni-skills.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/",
+    "link-local": "npm link",
+    "unlink-local": "npm unlink -g @avni/agent-skills"
+  },
+  "keywords": [
+    "react-native",
+    "avni",
+    "skills",
+    "development",
+    "cli",
+    "agent"
+  ],
+  "author": "Avni Team",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.0",
+    "inquirer": "^8.2.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.0",
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:avniproject/agent-skills.git"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
