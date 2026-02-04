@@ -1,0 +1,2689 @@
+{
+  "nodes": [
+    {
+      "file": "packages/openchs-android/__mocks__/@bugsnag/react-native.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/__mocks__/react-native-fs.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/__mocks__/rn-fetch-blob.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/android/app/src/common/java/com/openchsclient/TamperCheckModule.java",
+      "language": "Java"
+    },
+    {
+      "file": "packages/openchs-android/android/app/src/common/java/com/openchsclient/TamperCheckPackage.java",
+      "language": "Java"
+    },
+    {
+      "file": "packages/openchs-android/android/app/src/debug/java/com/openchsclient/ReactNativeFlipper.java",
+      "language": "Java"
+    },
+    {
+      "file": "packages/openchs-android/android/app/src/main/java/com/openchsclient/BugsnagInitializer.java",
+      "language": "Java"
+    },
+    {
+      "file": "packages/openchs-android/android/app/src/main/java/com/openchsclient/ConfigModule.java",
+      "language": "Java"
+    },
+    {
+      "file": "packages/openchs-android/android/app/src/main/java/com/openchsclient/ConfigPackage.java",
+      "language": "Java"
+    },
+    {
+      "file": "packages/openchs-android/android/app/src/main/java/com/openchsclient/MainActivity.java",
+      "language": "Java"
+    },
+    {
+      "file": "packages/openchs-android/android/app/src/main/java/com/openchsclient/MainApplication.java",
+      "language": "Java"
+    },
+    {
+      "file": "packages/openchs-android/android/app/src/release/java/com/openchsclient/ReactNativeFlipper.java",
+      "language": "Java"
+    },
+    {
+      "file": "packages/openchs-android/babel.config.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/index.android.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/index.ios.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/BaseIntegrationTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/DatabaseTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/EntityApprovalServiceTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/IntegrationTestApp.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/IntegrationTestMethod.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/IntegrationTestRunner.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/PersonRegisterActionsIntegrationTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/PruneMediaIntegrationTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/RealmDBOperationsCascadeTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/RealmIssuesApp.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/RealmNestedObjectFrameworkTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/RealmProxyTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/ReportCardServiceIntegrationTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/TestSuite.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/UserInfoServiceTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/UtilTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/model/IndividualIntegrationTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/service/TestChecklistService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/service/TestMetadataService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/integrationTest/service/TestOrganisationService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/ios/OpenCHSClient/AppDelegate.h",
+      "language": "C++"
+    },
+    {
+      "file": "packages/openchs-android/metro.config.generic.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/metro.config.lfe.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Badge.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Body.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Button.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Card.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/CardItem.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/CheckBox.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Container.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Content.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Fab.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Footer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/FooterTab.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Form.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/H1.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/H2.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/H3.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Header.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Icon.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Input.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/InputGroup.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Item.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Label.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Left.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/ListItem.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Picker.android.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Picker.ios.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Picker.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Radio.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Right.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Segment.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Separator.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Spinner.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Subtitle.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/SwipeRow.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Switch.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Tab.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/TabBar.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/TabContainer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/TabHeading.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Text.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Textarea.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Thumbnail.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Title.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/Toast.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/View.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/components/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/variables/commonColor.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/variables/material.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/native-base-theme/variables/platform.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/patches/Utils.java",
+      "language": "Java"
+    },
+    {
+      "file": "packages/openchs-android/polyfills/bindings.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/polyfills/crypto.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/react-native.config.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/scripts/generate-autolinking.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/scripts/token.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/scripts/version.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/App.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/Avni.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/AvniBackgroundJob.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/GlobalContext.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/Playground.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/ServerUrlConfiguration.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/LandingViewActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/LoginActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/MenuActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/SettingsActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/SyncActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/SyncTelemetryActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/VideoListViewActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/approval/ApprovalActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/beneficiaryMode/BeneficiaryDashboardActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/beneficiaryMode/BeneficiaryIdentificationActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/comment/CommentActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/common/AddressLevelsState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/common/EntitySyncStatusActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/common/EntityTypeChoiceActionNames.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/common/EntityTypeChoiceState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/common/GeolocationActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/common/GroupAffiliationActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/common/ObservationsHolderActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/common/PhoneNumberVerificationActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/common/QuickFormEditingActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/common/TimerActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/customDashboard/CustomDashboardActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/encounter/CompletedEncountersActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/familyFolder/FamilyDashboardActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/familyFolder/FamilyFolderActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/familyFolder/FamilyProfileActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/familyFolder/FamilyRegisterActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/glific/GlificActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/groupSubject/MemberAction.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/individual/EncounterActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/individual/IndividualGeneralHistoryActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/individual/IndividualProfileActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/individual/IndividualRegistrationDetailsActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/individual/IndividualSearchActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/individual/PersonAddRelativeActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/individual/PersonRegisterActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/mydashboard/CustomFilterActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/mydashboard/FiltersActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/mydashboard/FiltersActionsV2.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/mydashboard/GenderFilterActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/mydashboard/MyDashboardActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/news/NewsActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/program/ChecklistActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/program/ChecklistItemActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/program/CompletedVisitsFilterAction.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/program/ManualProgramEligibilityActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/program/ProgramEncounterActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/program/ProgramEncounterCancelActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/program/ProgramEncounterCancelState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/program/ProgramEnrolmentActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/program/ProgramEnrolmentDashboardActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/program/ProgramEnrolmentsActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/program/StartProgramActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/program/SubjectDashboardViewActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/subject/SubjectRegisterActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/task/TaskActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/task/TaskFilterActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/task/TaskListActions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/action/util.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/encounter/CompletedEncountersView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/Config.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/EnvironmentConfig.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/Registry.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/bean/BeanRegistry.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/bean/Service.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/context/ServiceContext.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/db/RealmFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/errorHandling/AvniError.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/errorHandling/AvniErrorBoundary.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/errorHandling/ErrorDisplay.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/errorHandling/ErrorUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/errorHandling/UnhandledErrorView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/geo.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/http/BatchRequest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/http/ChainedRequests.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/http/requests.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/routing/Path.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/routing/PathRegistry.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/routing/Route.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/routing/Router.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/routing/TypedTransition.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/framework/view/AbstractComponent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/AllSyncableEntityMetaData.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/DashboardReportFilter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/FileSystem.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/Filter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/FormMetaDataSelection.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/IdpProviders.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/MultiSelectFilterModel.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/NamedSelectableEntities.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/PhoneCall.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/Range.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/SingleSelectFilterModel.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/TaskFilter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/UserSettings.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/WorklistsFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/model/reports/FormMetaDataFilterValue.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/reducer/Reducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/reducer/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/AddressLevelService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/AllServices.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/AnonymizeRealmService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/AuthService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/AuthenticationError.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/BackupRestoreRealmService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/BaseAddressLevelService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/BaseAuthProviderService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/BaseService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/BeneficiaryModePinService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/CallService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/ChecklistService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/CognitoAuthService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/ConceptService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/CustomDashboardCacheService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/CustomFilterService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/DashboardCacheService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/DraftConfigService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/EncounterService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/EncounterServiceUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/EncounterTypeService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/EncryptionService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/EntityApprovalStatusService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/EntityQueueService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/EntityService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/EntitySyncStatusService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/ExtensionService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/FamilyService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/FormMappingService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/FormQueryResult.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/GlificService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/GroupSubjectService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/IdentifierAssignmentService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/IndividualService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/KeycloakAuthService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/LocalCacheService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/LocationHierarchyService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/MediaQueueService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/MediaService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/MessageService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/MetricsService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/OrganisationConfigService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/PhoneVerificationService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/PrivilegeService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/ProgramConfigService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/ProgramEnrolmentService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/ProgressbarStatus.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/ResetSyncService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/RuleEvaluationService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/RuleService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/ServerError.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/SettingsService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/StubbedAuthService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/SubjectMigrationService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/SubjectTypeService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/SyncService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/SyncTelemetryService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/UserInfoService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/UserSubjectAssignmentService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/VideoService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/application/MenuItemService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/comment/CommentService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/comment/CommentThreadService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/customDashboard/CustomDashboardService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/customDashboard/DashboardSectionCardMappingService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/customDashboard/ReportCardQueryBuilder.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/customDashboard/ReportCardService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/draft/DraftEncounterService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/draft/DraftEnrolmentService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/draft/DraftProgramEncounterService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/draft/DraftSubjectService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/facade/AddressLevelServiceFacade.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/facade/IndividualServiceFacade.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/news/NewsService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/program/ProgramEncounterService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/program/ProgramService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/program/SubjectProgramEligibilityService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/query/FamilySearchCriteria.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/query/IndividualSearchCriteria.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/query/RealmQueryService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/relationship/IndividualRelationGenderMappingService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/relationship/IndividualRelationshipService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/relationship/IndividualRelationshipTypeService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/reports/DashboardFilterService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/rest/ConventionalRestClient.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/task/TaskService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/task/TaskStatusService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/task/TaskTypeService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/service/task/TaskUnAssignmentService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/AbstractDataEntryState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/BeneficiaryIdentificationState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/ChecklistItemState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/EncounterActionState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/FamilyRegistrationState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/GroupAffiliationState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/HouseholdState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/IndividualRegistrationState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/ProgramEncounterState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/ProgramEnrolmentState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/SubjectProgramEligibilityState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/SubjectRegistrationState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/TaskFilterState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/TaskState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/TimerState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/Wizard.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/state/WorkListState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/store/AppStore.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/task/BaseTask.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/task/DeleteDrafts.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/task/PruneMedia.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/task/Sync.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/utility/Analytics.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/utility/CHSNavigator.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/utility/ConsoleLogInterceptorService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/utility/CryptoUtils.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/utility/DeviceLocation.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/utility/DocumentationHtmlRenderer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/utility/ErrorHandler.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/utility/FileLoggerService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/utility/General.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/utility/IssueUploadUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/utility/JsonStringify.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/utility/ListViewHelper.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/utility/benchmark.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/utility/bugsnag.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/AutoCompleteSearch/AutocompleteSearch.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/AutoCompleteSearch/AutocompleteSearchWithLabel.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/BeneficiaryIdentificationPage.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/ChangePasswordView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/CustomActivityIndicator.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/DBRestoreProgress.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/ForgotPasswordView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/HomeScreenView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/LandingView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/LoginView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/MenuView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/ProgressBarView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/RegisterView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/ResetForgottenPasswordView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/RootView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/SetPasswordView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/SyncComponent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/approval/ApprovalButton.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/approval/ApprovalDetailsCard.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/approval/ApprovalDetailsView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/approval/ApprovalDialog.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/approval/ApprovalListingView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/approval/RejectionMessage.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/approval/SubjectApprovalView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/beneficiaryMode/BeneficiaryDashboard.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/beneficiaryMode/BeneficiaryModeStartView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/beneficiaryMode/ExitBeneficiaryModeButton.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/checklist/ChecklistListingView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/comment/CommentCard.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/comment/CommentDiscussionView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/comment/CommentListView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/comment/CommentResolveButton.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/comment/CommentView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/comment/NewThreadModal.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/ActionSelector.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/AddressLevel.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/AddressLevels.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/AlertMessage.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/AppHeader.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/AsyncAlert.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/AvniAlert.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/AvniIcon.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/AvniModel.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/AvniToast.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/Badge.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/CHSContainer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/CHSContent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/CollapsibleEncounter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/ExpandableAudio.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/ExpandableFile.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/ExpandableImage.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/ExpandableMedia.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/ExpandableVideo.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/FormElementLabelWithDocumentation.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/GroupAffiliationInformation.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/HelpText.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/IconFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/IndividualDetailsCard.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/IndividualProfile.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/Line.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/MediaContent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/MessageIcon.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/NewFormButton.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/NextScheduledVisits.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/NextScheduledVisitsForOtherSubjects.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/Observations.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/ObservationsSectionOptions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/ObservationsSectionTitle.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/PhoneNumberVerificationView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/Pin.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/PreviousEncounters.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/ProgramFilter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/Relatives.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/SecureTextInput.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/SubjectInfoCard.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/SubjectProfilePicture.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/SubjectTypeIcon.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/SummaryButton.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/TabularListView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/Timer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/WizardButtons.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/ZeroResults.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/formMetaData/EncounterTypeSelect.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/formMetaData/FormMetaDataSelect.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/formMetaData/ProgramSelect.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/common/formMetaData/SubjectTypeSelect.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/conclusion/SystemRecommendationView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/customDashboard/CardListView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/customDashboard/CardTileView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/customDashboard/CountResult.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/customDashboard/CustomDashboardTab.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/customDashboard/CustomDashboardView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/entitysyncstatus/EntitySyncStatusSummary.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/entitysyncstatus/EntitySyncStatusTable.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/entitysyncstatus/EntitySyncStatusView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/error/ErrorView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/familyfolder/AddressFamilyRow.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/familyfolder/FamilyDashboardView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/familyfolder/FamilyFolderView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/familyfolder/FamilyList.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/familyfolder/FamilyProfile.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/familyfolder/FamilyRegisterFormView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/familyfolder/FamilyRegisterView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/familyfolder/FamilyRegisterViewsMixin.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/filter/AppliedFilters.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/filter/AppliedFiltersV2.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/filter/BaseFilter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/filter/CompletedVisitsFilterView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/filter/CustomFilters.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/filter/DateRangeFilter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/filter/FiltersView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/filter/FiltersViewV2.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/filter/GenderFilter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/filter/MultiSelectFilter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/filter/ObservationBasedFilterView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/filter/SingleSelectFilter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/FormElementGroup.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/ValidationErrorMessage.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/AbstractFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/AttendanceFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/AudioFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/CheckBoxFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/DateFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/DateOfBirthAndAgeFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/DurationDateFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/DurationFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/EncounterSelectFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/FileFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/GenderFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/GeolocationFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/GroupAffiliationFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/IdFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/IndividualFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/IndividualNameFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/LocationHierarchyFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/MediaFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/MediaV2FormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/MultiSelectEncounterFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/MultiSelectFileFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/MultiSelectFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/MultiSelectMediaFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/MultiSelectSubjectFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/MultiSelectSubjectLandingFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/NumericFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/NumericFormElementHelper.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/PhoneNumberFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/QuestionGroup.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/QuestionGroupFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/RegistrationDateFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/RepeatableFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/SelectFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/SingleSelectEncounterFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/SingleSelectFileFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/SingleSelectFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/SingleSelectMediaFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/SingleSelectSubjectFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/SingleSelectSubjectLandingFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/SubjectFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/TextFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/TimeFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/formElement/ValueSelectFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/form/inputComponents/LocationHierarchyInput.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/glific/GlificMessagesTab.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/glific/GlificScheduledAndSentMsgsView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/groupSubject/Actions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/groupSubject/AddMemberDetails.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/groupSubject/AddNewMemberView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/groupSubject/Members.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/groupSubject/RemoveMemberView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individual/IndividualAddRelativeView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individual/IndividualEncounterView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individual/IndividualSearchResultPaginatedView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individual/IndividualSearchResultsView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individual/IndividualSearchView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individual/PersonRegisterFormView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individual/PersonRegisterView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individual/PersonRegisterViewsMixin.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individual/PreviousEncounterPullDownView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individual/SearchResultsHeader.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individual/SubjectDashboardGeneralTab.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individual/SubjectDashboardProfileTab.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individual/SubjectProgramEligibilityWidget.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individual/SubjectRegisterFromTaskView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individuallist/IndividualDetails.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individuallist/IndividualList.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/individuallist/IndividualListView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/menu/Menu.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/menu/MenuItem.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/menu/StaticMenuItem.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/menu/StaticMenuItemFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/menu/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/mydashbaord/AddressHeader.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/mydashbaord/DashboardFilters.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/mydashbaord/MyDashboardView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/mydashbaord/RefreshReminder.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/mydashbaord/StatusCountRow.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/mydashbaord/TitleNumberBlock.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/news/NewsCard.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/news/NewsDetailView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/news/NewsListView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/Colors.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/ContextActionButton.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/DatePicker.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/Distances.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/DynamicGlobalStyles.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/FloatingButton.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/Fonts.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/GlobalStyles.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/LabelValue.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/MaterialDesign.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/RadioLabelValue.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/SelectableItem.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/SelectableItemGroup.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/Separator.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/Styles.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/TimePicker.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/primitives/themes.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/ChecklistDisplay.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/ChecklistItemDisplay.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/ChecklistItemView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/ChecklistView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/GenericDashboardView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/GrowthChartView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/ManualProgramEligibilityView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/NewVisitMenuView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/NewVisitPageView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/ProgramActionsView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/ProgramEncounterCancelView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/ProgramEncounterView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/ProgramEnrolmentView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/ProgramExitView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/ProgramFormComponent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/ProgramList.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/SubjectDashboardProgramsTab.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/program/SubjectDashboardView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/settings/DevSettingsView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/settings/SettingsView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/subject/SubjectRegisterFormView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/subject/SubjectRegisterView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/subject/SubjectRegisterViewsMixin.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/task/IconContainer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/task/TaskCard.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/task/TaskFilterView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/task/TaskFormView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/task/TaskListView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/task/TaskStatusPicker.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/videos/Video.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/videos/VideoListView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/videos/VideoPlayerView.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/videos/VideoPlayerWrapper.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/viewmodel/ContextAction.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/src/views/viewmodel/StaticFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/DateSpikeTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/EntityFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/AbstractDataEntryStateTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/EncounterActionsTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/IndividualProfileActionsTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/ProgramEnrolmentActionsTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/StartProgramActionsTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/StubbedDataEntryState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/WizardNextActionStub.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/reducer/ReducerDefinitionTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/ConceptServiceTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/IndividualServiceTestI.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedBaseService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedConceptService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedConfigService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedDraftConfigService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedEncounterService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedEntityService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedFormMappingService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedGroupSubjectService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedIdentifierAssignmentService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedIndividualService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedMediaQueueService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedMessageService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedOrganisationConfigService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedPrivilegeService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedProgramEnrolmentService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedRuleEvaluationService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedSettingsService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/StubbedUserInfoService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/dashboard/StubbedCustomDashboardCacheService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/stub/dashboard/StubbedDashboardFilterService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/service/task/TaskServiceTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/testHelper.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/utility/GeneralTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/utility/JSONStringifyTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/views/primitives/DynamicGlobalStylesTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/action/views/testframework/TestContext.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/framework/errorHandling/ErrorDisplayTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/jestSetupFile.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/AllSyncableEntityMetaDataTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TaskFilterTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestAddressLevelFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestConceptFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestDashboardFilterConfigFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestDashboardFilterFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestEncounterTypeFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestEntityQueueFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestFormatFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestGenderFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestGroupsFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestKeyValueFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestLocaleMappingFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestMyGroupsFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestObsFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestOrganisationConfigFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestProgramFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestSubjectTypeFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestTaskFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestTaskFilterFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestTaskStatusFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestTaskTypeFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/TestUserInfoFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/approval/TestApprovalStatusFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/approval/TestEntityApprovalStatusFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/comment/TestCommentFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/comment/TestCommentThreadFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/form/TestFormElementFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/form/TestFormElementGroupFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/form/TestFormFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/form/TestFormMappingFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/reportNDashboard/TestDashboardReportFilterFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/reportNDashboard/TestDashboardReportRuleInputFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/reportNDashboard/TestReportCardFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/reportNDashboard/TestStandardReportCardTypeFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/txn/TestEncounterFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/txn/TestObservationFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/txn/TestProgramEncounterFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/txn/TestProgramEnrolmentFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/txn/TestSubjectFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/model/user/TestSettingsFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/service/FormQueryResultTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/service/ServiceRegistrationTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/service/customDashboard/ReportCardQueryBuilderTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/state/AddressLevelStateTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/state/TaskFilterStateTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/utility/ConsoleLogInterceptorServiceTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/utility/FileLoggerServiceTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/utility/IssueUploadUtilTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test/views/forms/formElement/NumericFormElementTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/openchs-android/test-transform.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/unminifiy/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/unminifiy/missingTranslations.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/utilities/translation.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/utilities/translationsAgg.js",
+      "language": "JavaScript"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,198 @@
+{
+  "total_files": 7,
+  "categories": {
+    "templates": [
+      ".github/ISSUE_TEMPLATE/bug_report.md",
+      ".github/ISSUE_TEMPLATE/bug_snag_issue.md",
+      ".github/ISSUE_TEMPLATE/story.md"
+    ],
+    "overview": [
+      "Readme.md"
+    ],
+    "other": [
+      "docs/AvniGraminPrivacyPolicy.md",
+      "docs/PrivacyPolicy.md",
+      "docs/TeachNagalandPrivacyPolicy.md"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "filename": "bug_report.md",
+      "category": "templates",
+      "size_bytes": 1041,
+      "title": "bug_report",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 164,
+        "line_count": 44
+      },
+      "summary": "--- name: Bug report about: Create a report to help us improve title: '' labels: '' assignees: ''\n(164 words, 0 code blocks)",
+      "content": "---\nname: Bug report\nabout: Create a report to help us improve\ntitle: ''\nlabels: ''\nassignees: ''\n\n---\n\n**Describe the bug**\nA clear and concise description of what the bug is.\n\n**To Reproduce**\nSteps to reproduce the behavior:\n1. Go to '...'\n2. Click on '....'\n3. Scroll down to '....'\n4. See error\n\n**Expected behavior**\nA clear and concise description of what you expected to happen.\n\n**Screenshots**\nIf applicable, add screenshots to help explain your problem.\n\n**Desktop (please complete the following information):**\n - OS: [e.g. iOS]\n - Browser [e.g. chrome, safari]\n - Version [e.g. 22]\n\n**Smartphone (please complete the following information):**\n - Device: [e.g. iPhone6]\n - OS: [e.g. iOS8.1]\n - Browser [e.g. stock browser, safari]\n - Version [e.g. 22]\n\n**Additional context**\nAdd any other context about the problem here.\n\n**Developer Checklist**\nDeveloper fixing the bug should fill this checklist.\n- [ ] Does the fix require extensive regression testing?\n- [ ] Are you mentioning the required scenarios that could be affected?\n"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_snag_issue.md",
+      "filename": "bug_snag_issue.md",
+      "category": "templates",
+      "size_bytes": 253,
+      "title": "bug_snag_issue",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 30,
+        "line_count": 15
+      },
+      "summary": "--- name: Bugsnag Error about: Report an error reported on BugSnag title: 'BugSnag Error (Avni Client)' labels: 'bugsnag' assignees: ''\n(30 words, 0 code blocks)",
+      "content": "---\nname: Bugsnag Error\nabout: Report an error reported on BugSnag\ntitle: 'BugSnag Error (Avni Client)'\nlabels: 'bugsnag'\nassignees: ''\n\n---\n\n**BugSnag Error**\n\n\n**Management of BugSnag error and BugSnag**\nhttps://avni.readme.io/docs/how-to-use-bugsnag\n"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/story.md",
+      "filename": "story.md",
+      "category": "templates",
+      "size_bytes": 187,
+      "title": "story",
+      "structure": {
+        "title": null,
+        "headers": [
+          {
+            "level": 3,
+            "text": "Motivation",
+            "line": 10
+          },
+          {
+            "level": 3,
+            "text": "Acceptance Criteria",
+            "line": 12
+          },
+          {
+            "level": 3,
+            "text": "Visual Design",
+            "line": 14
+          },
+          {
+            "level": 3,
+            "text": "Tech Approach",
+            "line": 16
+          }
+        ],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 28,
+        "line_count": 17
+      },
+      "summary": "Sections: Motivation, Acceptance Criteria, Visual Design, Tech Approach\n--- name: Story about: Describe this issue template's purpose here. title: '' labels: '' assignees: ''\n(28 words, 0 code blocks)",
+      "content": "---\nname: Story\nabout: Describe this issue template's purpose here.\ntitle: ''\nlabels: ''\nassignees: ''\n\n---\n\n### Motivation\n\n### Acceptance Criteria\n\n### Visual Design\n\n### Tech Approach\n"
+    },
+    {
+      "path": "Readme.md",
+      "filename": "Readme.md",
+      "category": "overview",
+      "size_bytes": 471,
+      "title": "Build Status",
+      "structure": {
+        "title": "Build Status",
+        "headers": [
+          {
+            "level": 1,
+            "text": "Build Status",
+            "line": 1
+          },
+          {
+            "level": 1,
+            "text": "Join our discussions",
+            "line": 5
+          },
+          {
+            "level": 1,
+            "text": "License",
+            "line": 8
+          },
+          {
+            "level": 1,
+            "text": "[Developer Documentations](https://avni.readme.io/docs/developer-environment-setup-ubuntu)",
+            "line": 11
+          }
+        ],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "![CircleCI",
+            "url": "https://circleci.com/gh/OpenCHS/openchs-client.svg?style=svg"
+          },
+          {
+            "text": "Skype",
+            "url": "https://join.skype.com/xiTU162DSJTd"
+          },
+          {
+            "text": "![License",
+            "url": "https://img.shields.io/badge/license-AGPL-green.svg?style=flat"
+          },
+          {
+            "text": "Developer Documentations",
+            "url": "https://avni.readme.io/docs/developer-environment-setup-ubuntu"
+          }
+        ],
+        "word_count": 19,
+        "line_count": 12
+      },
+      "summary": "**Build Status**\n[![CircleCI](https://circleci.com/gh/OpenCHS/openchs-client.svg?style=svg)](https://circleci.com/gh/OpenCHS/openchs-client)\n(19 words, 0 code blocks)",
+      "content": "# Build Status\n\n[![CircleCI](https://circleci.com/gh/OpenCHS/openchs-client.svg?style=svg)](https://circleci.com/gh/OpenCHS/openchs-client)\n\n# Join our discussions\nJoin the chat on [Skype](https://join.skype.com/xiTU162DSJTd)\n\n# License\n[![License](https://img.shields.io/badge/license-AGPL-green.svg?style=flat)](https://github.com/openchs/openchs-client/blob/master/LICENSE)\n\n# [Developer Documentations](https://avni.readme.io/docs/developer-environment-setup-ubuntu)\n"
+    },
+    {
+      "path": "docs/AvniGraminPrivacyPolicy.md",
+      "filename": "AvniGraminPrivacyPolicy.md",
+      "category": "other",
+      "size_bytes": 3084,
+      "title": "AvniGraminPrivacyPolicy",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 482,
+        "line_count": 53
+      },
+      "summary": "***Avni Gramin - Privacy Policy***\n(482 words, 0 code blocks)",
+      "content": "***Avni Gramin - Privacy Policy***\n\nThis privacy policy has been compiled to better serve those who are concerned with how their 'Personally Identifiable Information' (PII) is being used online. PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.\n\n**What personal information do we collect from the people that use our app?**\n\nAvni Gramin is a work application that you will use to service your community members or customers (customers from there on). We do not collect any personal information about you. We get and keep the information that you manually provide to us about whom you service. We only store the fact that you provided that information. We get and keep location information if you or your employer has enabled that configuration.\n\n**When do we collect information?**\n\nWhen you synchronise the data with the server manually.\n\n**How do we use your information?**\n\nThe information provided to us by you about your customers is used for research purpose by the organisation for whom you work for. Avni Gramin doesn't use this information.   \nThe information collected about you is used by your organisation members to understand your work load. \n\n**How do we protect your information?**\n\nWe do not use vulnerability scanning and/or scanning to PCI standards.\nWe never ask for credit card numbers.\nWe do not use Malware Scanning.\n\nYour personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential. In addition, all sensitive/credit information you supply is encrypted via Secure Socket Layer (SSL or TLS) technology.\n\n**Do we use 'cookies'?**\n\nWe do not use cookies for tracking purposes and it is not applicable in this application. We do not track your activities on your device.\n\n**Third-party disclosure**\n\nWe do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information.\n\n**Third-party links**\nWe do not include or offer third-party products or services on our website.\n\nWe do not specifically market to children under the age of 13 years old.\n\n**CAN SPAM Act**\nThe application is not meant to be used in USA.\n\n**Technical Note**\nThis application is a work application provided by organisations to their staff. Our current android version doesn't require READ_PHONE_STATE version but Play Store doesn't understand this logic and is asking for this because older version of apk had that permission requirement.\n\n**Contacting Us**\n\nIf there are any questions regarding this privacy policy, you may contact us using the information below.\n\navniproject.org\nhello@samanvayfoundation.org\n\nLast Edited on 2020-05-06\n"
+    },
+    {
+      "path": "docs/PrivacyPolicy.md",
+      "filename": "PrivacyPolicy.md",
+      "category": "other",
+      "size_bytes": 3320,
+      "title": "PrivacyPolicy",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 517,
+        "line_count": 55
+      },
+      "summary": "***Avni - Privacy Policy***\n(517 words, 0 code blocks)",
+      "content": "***Avni - Privacy Policy***\n\nThis privacy policy has been compiled to better serve those who are concerned with how their 'Personally Identifiable Information' (PII) is being used online. PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.\n\n**What personal information do we collect from the people that use our app?**\n\nAvni is a work application that you will use to service your community members or customers (customers from there on). We do not collect any personal information about you. We get and keep the information that you manually provide to us about whom you service. We only store the fact that you provided that information. We get and keep location information if you or your employer has enabled that configuration.\n\nImplementers that choose to collect PII data, can setup Avni to be compliant with domestic and other applicable international laws such as Information Technology Act, 2000 and corresponding IT Rules 2021, Digital Personal Data Protection (DPDP) Act, 2023.\n\n**When do we collect information?**\n\nWhen you synchronise the data with the server manually.\n\n**How do we use your information?**\n\nThe information provided to us by you about your customers is used for research purpose by the organisation for whom you work for. Avni doesn't use this information.   \nThe information collected about you is used by your organisation members to understand your work load. \n\n**How do we protect your information?**\n\nWe do not use vulnerability scanning and/or scanning to PCI standards.\nWe never ask for credit card numbers.\nWe do not use Malware Scanning.\n\nYour personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential. In addition, all sensitive/credit information you supply is encrypted via Secure Socket Layer (SSL or TLS) technology.\n\n**Do we use 'cookies'?**\n\nWe do not use cookies for tracking purposes and it is not applicable in this application. We do not track your activities on your device.\n\n**Third-party disclosure**\n\nWe do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information.\n\n**Third-party links**\nWe do not include or offer third-party products or services on our website.\n\nWe do not specifically market to children under the age of 13 years old.\n\n**CAN SPAM Act**\nThe application is not meant to be used in USA.\n\n**Technical Note**\nThis application is a work application provided by organisations to their staff. Our current android version doesn't require READ_PHONE_STATE version but Play Store doesn't understand this logic and is asking for this because older version of apk had that permission requirement.\n\n**Contacting Us**\n\nIf there are any questions regarding this privacy policy, you may contact us using the information below.\n\navniproject.org\nhello@samanvayfoundation.org\n\nLast Edited on 2020-05-06\n"
+    },
+    {
+      "path": "docs/TeachNagalandPrivacyPolicy.md",
+      "filename": "TeachNagalandPrivacyPolicy.md",
+      "category": "other",
+      "size_bytes": 3093,
+      "title": "TeachNagalandPrivacyPolicy",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 482,
+        "line_count": 53
+      },
+      "summary": "***Teach Nagaland - Privacy Policy***\n(482 words, 0 code blocks)",
+      "content": "***Teach Nagaland - Privacy Policy***\n\nThis privacy policy has been compiled to better serve those who are concerned with how their 'Personally Identifiable Information' (PII) is being used online. PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.\n\n**What personal information do we collect from the people that use our app?**\n\nTeach Nagaland is a work application that you will use to service your community members or customers (customers from there on). We do not collect any personal information about you. We get and keep the information that you manually provide to us about whom you service. We only store the fact that you provided that information. We get and keep location information if you or your employer has enabled that configuration.\n\n**When do we collect information?**\n\nWhen you synchronise the data with the server manually.\n\n**How do we use your information?**\n\nThe information provided to us by you about your customers is used for research purpose by the organisation for whom you work for. Teach Nagaland doesn't use this information.   \nThe information collected about you is used by your organisation members to understand your work load. \n\n**How do we protect your information?**\n\nWe do not use vulnerability scanning and/or scanning to PCI standards.\nWe never ask for credit card numbers.\nWe do not use Malware Scanning.\n\nYour personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential. In addition, all sensitive/credit information you supply is encrypted via Secure Socket Layer (SSL or TLS) technology.\n\n**Do we use 'cookies'?**\n\nWe do not use cookies for tracking purposes and it is not applicable in this application. We do not track your activities on your device.\n\n**Third-party disclosure**\n\nWe do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information.\n\n**Third-party links**\nWe do not include or offer third-party products or services on our website.\n\nWe do not specifically market to children under the age of 13 years old.\n\n**CAN SPAM Act**\nThe application is not meant to be used in USA.\n\n**Technical Note**\nThis application is a work application provided by organisations to their staff. Our current android version doesn't require READ_PHONE_STATE version but Play Store doesn't understand this logic and is asking for this because older version of apk had that permission requirement.\n\n**Contacting Us**\n\nIf there are any questions regarding this privacy policy, you may contact us using the information below.\n\navniproject.org\nhello@samanvayfoundation.org\n\nLast Edited on 2020-05-06\n"
+    }
+  ]
+}
