@@ -1,0 +1,853 @@
+{
+  "nodes": [
+    {
+      "file": "babel.config.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "scripts/validateSchemas.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/AbstractEncounter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/AddressLevel.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/ApprovalStatus.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/BaseEntity.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/BeneficiaryModePin.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Checklist.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/ChecklistDetail.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/ChecklistItem.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/ChecklistItemDetail.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/ChecklistItemStatus.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Comment.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/CommentThread.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/CompositeDuration.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Concept.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/ConceptAnswer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/ConceptMedia.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/CustomDashboardCache.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/CustomFilter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Dashboard.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/DashboardCache.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/DashboardSection.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/DashboardSectionCardMapping.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Displayable.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/Documentation.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/DocumentationItem.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/Duration.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Encounter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/EncounterType.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/EntityApprovalStatus.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/EntityMetaData.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/EntityQueue.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/EntityRule.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/EntitySyncStatus.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Extension.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Family.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/FileFormat.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Gender.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/GroupDashboard.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/GroupPrivileges.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/GroupRole.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/GroupSubject.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Groups.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Identifier.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/IdentifierAssignment.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/IdentifierSource.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Individual.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/LocaleMapping.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/LocationHierarchy.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Media.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/MediaQueue.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/MigrationsHelper.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/MyGroups.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/News.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Observation.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/ObservationsHolder.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/OrganisationConfig.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/PersistedObject.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/PhoneNumber.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/PlatformTranslation.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Privilege.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Program.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/ProgramEncounter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/ProgramEnrolment.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/ReferenceEntity.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/ReportCard.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/ResetSync.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/Rule.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/RuleDependency.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/RuleFailureTelemetry.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Schema.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/SchemaNames.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Settings.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/StandardReportCardType.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/SubjectLocation.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/SubjectMigration.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/SubjectType.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/SyncTelemetry.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/Translation.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/UserInfo.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/DashboardCacheFilter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/Filter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/Form.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/FormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/FormElementGroup.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/FormElementStatus.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/FormMapping.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/Format.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/KeyValue.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/MenuItem.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/MultiSelectFilter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/NullProgramEnrolment.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/SingleSelectFilter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/StaticFormElementGroup.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/StringKeyNumericValue.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/ValidationResult.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/ValidationResults.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/WorkItem.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/WorkList.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/application/WorkLists.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/UserSubjectAssignment.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/draft/DraftEncounter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/draft/DraftSubject.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/error/ErrorCodes.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/error/IgnorableSyncError.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/error/SyncError.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/framework/ArrayHelper.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/framework/DefinedObjectSchema.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/framework/RealmCollectionHelper.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/framework/RealmListProxy.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/framework/RealmNestedObjectHandler.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/framework/RealmObjectSchema.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/framework/RealmProxy.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/framework/RealmResultsProxy.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/framework/RealmResultsProxyHandler.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/geo/Point.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/location/Locations.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/observation/MultipleCodedValues.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/observation/PrimitiveValue.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/observation/QuestionGroup.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/observation/RepeatableQuestionGroup.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/observation/SingleCodedValue.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/program/SubjectProgramEligibility.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/relationship/IndividualRelation.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/relationship/IndividualRelationGenderMapping.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/relationship/IndividualRelationship.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/relationship/IndividualRelationshipType.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/relationship/IndividualRelative.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/DashboardFilter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/DashboardFilterConfig.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/NestedReportCardResult.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/Range.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/ReportCardResult.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/service/MetaDataService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/task/Task.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/task/TaskStatus.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/task/TaskType.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/task/TaskUnAssignment.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/utility/AgeUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/utility/ArrayUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/utility/AuditUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/utility/DateTimeUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/utility/General.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/utility/JsonStringify.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/utility/MergeUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/utility/ResourceUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/videos/Video.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/videos/VideoTelemetric.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/BaseEntityTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ChecklistItemDetailTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ChecklistItemTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ConceptTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/DashboardCacheTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/DefinedObjectSchemaTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/DurationTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/EncounterTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/EntitiesMetaDataTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/EntityFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/EntityMappingConfigTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ExtensionTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/IndividualTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/MediaTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ObservationHolderTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/PrimitiveValueTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ProgramEncounterTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ProgramEnrolmentTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ReferenceEntityTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ReportCardTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/SettingsTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ValidationResultsInspector.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ValidationResultsTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/application/FormElementGroupTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/application/FormElementTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/application/FormTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/application/FormattTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/application/WorkItemTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/application/WorkListTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/error/SyncErrorTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/framework/RealmListProxyTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/framework/RealmObjectProxyTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/framework/RealmObjectSchemaTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/framework/RealmProxyTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/framework/RealmResultsProxyTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/framework/RealmV12CompatibilityTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/framework/stubs/StubbedRealmDb.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/AddressLevelFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/EncounterFiller.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/EncounterTypeFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/EnrolmentFiller.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/FormMappingFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/ProgramFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/ReportCardFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/StandardReportCardTypeFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/SubjectTypeFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/TestConceptFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/TestFormElementFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/TestFormElementGroupFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/TestKeyValueFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/TestObservationFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/TestSubjectFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/TestTaskFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/approval/TestApprovalStatusFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/ref/approval/TestEntityApprovalStatusFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/reports/DashboardFilterConfigTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/service/MetaDataServiceTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/task/TaskTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/util/AgeUtilTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/util/ArrayUtilTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/util/DateTimeUtilTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "test/util/GeneralTest.js",
+      "language": "JavaScript"
+    }
+  ],
+  "edges": []
+}

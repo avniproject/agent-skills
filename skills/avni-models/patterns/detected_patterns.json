@@ -1,0 +1,1407 @@
+[
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/AddressLevel.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/AddressLevel.js",
+        "class_name": "LocationMapping",
+        "method_name": null,
+        "line_number": 19,
+        "evidence": [
+          "Part of strategy family with: AddressLevel"
+        ],
+        "related_classes": [
+          "BaseEntity"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/AddressLevel.js",
+        "class_name": "AddressLevel",
+        "method_name": null,
+        "line_number": 73,
+        "evidence": [
+          "Part of strategy family with: LocationMapping"
+        ],
+        "related_classes": [
+          "BaseEntity"
+        ]
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 1,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Strategy": 2
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/CustomFilter.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/CustomFilter.js",
+        "class_name": "CustomFilter",
+        "method_name": null,
+        "line_number": 1,
+        "evidence": [
+          "Class name suggests handler chain: CustomFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/Displayable.ts",
+    "language": "TypeScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/Displayable.ts",
+        "class_name": "Displayable",
+        "method_name": null,
+        "line_number": 1,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/Duration.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/Duration.js",
+        "class_name": "Duration",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/PhoneNumber.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/PhoneNumber.js",
+        "class_name": "PhoneNumber",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/Schema.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Singleton",
+        "category": "Creational",
+        "confidence": 0.4,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/Schema.js",
+        "class_name": "EntityMappingConfig",
+        "method_name": null,
+        "line_number": 1019,
+        "evidence": [
+          "Has instance method: getInstance"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 4,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Singleton": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/application/DashboardCacheFilter.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/application/DashboardCacheFilter.js",
+        "class_name": "DashboardCacheFilter",
+        "method_name": null,
+        "line_number": 8,
+        "evidence": [
+          "Class name suggests handler chain: DashboardCacheFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/application/Filter.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/application/Filter.js",
+        "class_name": "Filter",
+        "method_name": null,
+        "line_number": 1,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/application/Filter.js",
+        "class_name": "Filter",
+        "method_name": null,
+        "line_number": 1,
+        "evidence": [
+          "Class name suggests handler chain: Filter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/application/FormElementStatus.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/application/FormElementStatus.js",
+        "class_name": "FormElementStatus",
+        "method_name": null,
+        "line_number": 2,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/application/MultiSelectFilter.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/application/MultiSelectFilter.js",
+        "class_name": "MultiSelectFilter",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Parameterized factory method: constructor",
+          "Inherits from: Filter"
+        ],
+        "related_classes": [
+          "Filter"
+        ]
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/application/MultiSelectFilter.js",
+        "class_name": "MultiSelectFilter",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Class name suggests handler chain: MultiSelectFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/application/SingleSelectFilter.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/application/SingleSelectFilter.js",
+        "class_name": "SingleSelectFilter",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Parameterized factory method: constructor",
+          "Inherits from: Filter"
+        ],
+        "related_classes": [
+          "Filter"
+        ]
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/application/SingleSelectFilter.js",
+        "class_name": "SingleSelectFilter",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Class name suggests handler chain: SingleSelectFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/application/WorkList.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/application/WorkList.js",
+        "class_name": "WorkList",
+        "method_name": null,
+        "line_number": 5,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/error/IgnorableSyncError.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/error/IgnorableSyncError.js",
+        "class_name": "IgnorableSyncError",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Parameterized factory method: constructor",
+          "Inherits from: SyncError"
+        ],
+        "related_classes": [
+          "SyncError"
+        ]
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/framework/RealmListProxy.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/framework/RealmListProxy.js",
+        "class_name": "RealmListProxy",
+        "method_name": null,
+        "line_number": 2,
+        "evidence": [
+          "Class name suggests Decorator: RealmListProxy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/framework/RealmNestedObjectHandler.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/framework/RealmNestedObjectHandler.js",
+        "class_name": "RealmNestedObjectHandler",
+        "method_name": "create",
+        "line_number": null,
+        "evidence": [
+          "Factory method detected: create"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/framework/RealmNestedObjectHandler.js",
+        "class_name": "RealmNestedObjectHandler",
+        "method_name": null,
+        "line_number": 9,
+        "evidence": [
+          "Class name suggests handler chain: RealmNestedObjectHandler"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/framework/RealmProxy.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/framework/RealmProxy.js",
+        "class_name": "RealmProxy",
+        "method_name": null,
+        "line_number": 12,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/framework/RealmProxy.js",
+        "class_name": "RealmProxy",
+        "method_name": null,
+        "line_number": 12,
+        "evidence": [
+          "Class name suggests Decorator: RealmProxy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/framework/RealmResultsProxy.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.55,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/framework/RealmResultsProxy.js",
+        "class_name": "RealmResultsProxy",
+        "method_name": null,
+        "line_number": 6,
+        "evidence": [
+          "Parameterized factory method: create"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/framework/RealmResultsProxy.js",
+        "class_name": "RealmResultsProxy",
+        "method_name": null,
+        "line_number": 6,
+        "evidence": [
+          "Class name suggests Decorator: RealmResultsProxy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/observation/MultipleCodedValues.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/observation/MultipleCodedValues.js",
+        "class_name": "MultipleCodedValues",
+        "method_name": null,
+        "line_number": 5,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/observation/PrimitiveValue.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/observation/PrimitiveValue.js",
+        "class_name": "PrimitiveValue",
+        "method_name": null,
+        "line_number": 7,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/observation/SingleCodedValue.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/observation/SingleCodedValue.js",
+        "class_name": "SingleCodedValue",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/relationship/IndividualRelative.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/relationship/IndividualRelative.js",
+        "class_name": "IndividualRelative",
+        "method_name": null,
+        "line_number": 7,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/reports/DashboardFilter.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/reports/DashboardFilter.js",
+        "class_name": "DashboardFilter",
+        "method_name": null,
+        "line_number": 6,
+        "evidence": [
+          "Class name suggests handler chain: DashboardFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/reports/DashboardFilterConfig.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/reports/DashboardFilterConfig.js",
+        "class_name": "ObservationBasedFilter",
+        "method_name": null,
+        "line_number": 22,
+        "evidence": [
+          "Class name suggests handler chain: ObservationBasedFilter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/reports/DashboardFilterConfig.js",
+        "class_name": "GroupSubjectTypeFilter",
+        "method_name": null,
+        "line_number": 90,
+        "evidence": [
+          "Class name suggests handler chain: GroupSubjectTypeFilter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/reports/DashboardFilterConfig.js",
+        "class_name": "DashboardFilterConfig",
+        "method_name": null,
+        "line_number": 124,
+        "evidence": [
+          "Class name suggests handler chain: DashboardFilterConfig"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 3,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "ChainOfResponsibility": 3
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/reports/Range.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/reports/Range.js",
+        "class_name": "Range",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/task/Task.ts",
+    "language": "TypeScript",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/task/Task.ts",
+        "class_name": "Task",
+        "method_name": null,
+        "line_number": 14,
+        "evidence": [
+          "Class name suggests Command: Task"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/task/TaskStatus.ts",
+    "language": "TypeScript",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/task/TaskStatus.ts",
+        "class_name": "TaskStatus",
+        "method_name": null,
+        "line_number": 7,
+        "evidence": [
+          "Class name suggests Command: TaskStatus"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/task/TaskType.ts",
+    "language": "TypeScript",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/task/TaskType.ts",
+        "class_name": "TaskType",
+        "method_name": null,
+        "line_number": 7,
+        "evidence": [
+          "Class name suggests Command: TaskType"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/task/TaskUnAssignment.ts",
+    "language": "TypeScript",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/task/TaskUnAssignment.ts",
+        "class_name": "TaskUnAssignment",
+        "method_name": null,
+        "line_number": 6,
+        "evidence": [
+          "Class name suggests Command: TaskUnAssignment"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/utility/AgeUtil.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/utility/AgeUtil.js",
+        "class_name": "AgeUtil",
+        "method_name": null,
+        "line_number": 5,
+        "evidence": [
+          "Parameterized factory method: getDisplayAge",
+          "Factory method: getAgeInYears",
+          "Factory method: getAgeInWeeks",
+          "Multiple factory methods: getDisplayAge, getAgeInYears, getAgeInWeeks"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/utility/MergeUtil.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/utility/MergeUtil.js",
+        "class_name": "MergeUtil",
+        "method_name": null,
+        "line_number": 5,
+        "evidence": [
+          "Parameterized factory method: getMergeFunction"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/src/utility/ResourceUtil.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/src/utility/ResourceUtil.js",
+        "class_name": "ResourceUtil",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Parameterized factory method: getUUIDFor",
+          "Parameterized factory method: getFieldValue",
+          "Multiple factory methods: getUUIDFor, getFieldValue"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/EntityFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/EntityFactory.js",
+        "class_name": "EntityFactory",
+        "method_name": null,
+        "line_number": 17,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/AddressLevelFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/AddressLevelFactory.js",
+        "class_name": "AddressLevelFactory",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/EncounterFiller.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/EncounterFiller.js",
+        "class_name": "EncounterFiller",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/EncounterTypeFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/EncounterTypeFactory.js",
+        "class_name": "EncounterTypeFactory",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/EnrolmentFiller.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/EnrolmentFiller.js",
+        "class_name": "EnrolmentFiller",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/FormMappingFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/FormMappingFactory.js",
+        "class_name": "FormMappingFactory",
+        "method_name": null,
+        "line_number": 5,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/ProgramFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/ProgramFactory.js",
+        "class_name": "ProgramFactory",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/ReportCardFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/ReportCardFactory.js",
+        "class_name": "ReportCardFactory",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/StandardReportCardTypeFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/StandardReportCardTypeFactory.js",
+        "class_name": "StandardReportCardTypeFactory",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/SubjectTypeFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/SubjectTypeFactory.js",
+        "class_name": "SubjectTypeFactory",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestConceptFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestConceptFactory.js",
+        "class_name": "TestConceptFactory",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestFormElementFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestFormElementFactory.js",
+        "class_name": "TestFormElementFactory",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestFormElementGroupFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestFormElementGroupFactory.js",
+        "class_name": "TestFormElementGroupFactory",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestKeyValueFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestKeyValueFactory.js",
+        "class_name": "TestKeyValueFactory",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestObservationFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestObservationFactory.js",
+        "class_name": "TestObservationFactory",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestSubjectFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestSubjectFactory.js",
+        "class_name": "TestSubjectFactory",
+        "method_name": null,
+        "line_number": 5,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestTaskFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestTaskFactory.js",
+        "class_name": "TestTaskFactory",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/TestTaskFactory.js",
+        "class_name": "TestTaskFactory",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Class name suggests Command: TestTaskFactory"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/approval/TestApprovalStatusFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/approval/TestApprovalStatusFactory.js",
+        "class_name": "TestApprovalStatusFactory",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-models/test/ref/approval/TestEntityApprovalStatusFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-models/test/ref/approval/TestEntityApprovalStatusFactory.js",
+        "class_name": "TestEntityApprovalStatusFactory",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  }
+]

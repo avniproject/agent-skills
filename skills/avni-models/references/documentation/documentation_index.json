@@ -1,0 +1,144 @@
+{
+  "total_files": 2,
+  "categories": {
+    "overview": [
+      "README.md",
+      "REALM_V12_NOTES.md"
+    ]
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "filename": "README.md",
+      "category": "overview",
+      "size_bytes": 468,
+      "title": "openchs-models",
+      "structure": {
+        "title": "openchs-models",
+        "headers": [
+          {
+            "level": 1,
+            "text": "openchs-models",
+            "line": 1
+          },
+          {
+            "level": 2,
+            "text": "Dev flow",
+            "line": 7
+          },
+          {
+            "level": 3,
+            "text": "Publish",
+            "line": 11
+          }
+        ],
+        "code_blocks": [
+          {
+            "language": "text",
+            "code": "git tag v0.0.7\n  git push origin --tags",
+            "full_length": 39
+          }
+        ],
+        "links": [
+          {
+            "text": "![CircleCI",
+            "url": "https://circleci.com/gh/avni/avni-models.svg?style=svg"
+          }
+        ],
+        "word_count": 63,
+        "line_count": 19
+      },
+      "summary": "**openchs-models**\nSections: Dev flow, Publish\nOpenCHS data model to be used by front end clients\n(63 words, 1 code blocks)",
+      "content": "# openchs-models\n\nOpenCHS data model to be used by front end clients\n\nCI [![CircleCI](https://circleci.com/gh/avni/avni-models.svg?style=svg)](https://circleci.com/gh/avni/avni-models)\n\n## Dev flow\n\n\n\n### Publish\n - Bump up version in package.json and commit/push\n - Create a tag for the version and push the tag. CI will automatically publish the package for you. \n ```\n  git tag v0.0.7\n  git push origin --tags\n ```\n - Use the published package in your repositories\n"
+    },
+    {
+      "path": "REALM_V12_NOTES.md",
+      "filename": "REALM_V12_NOTES.md",
+      "category": "overview",
+      "size_bytes": 1172,
+      "title": "Realm v12 Upgrade Notes",
+      "structure": {
+        "title": "Realm v12 Upgrade Notes",
+        "headers": [
+          {
+            "level": 1,
+            "text": "Realm v12 Upgrade Notes",
+            "line": 1
+          },
+          {
+            "level": 2,
+            "text": "Required Changes",
+            "line": 3
+          },
+          {
+            "level": 3,
+            "text": "1. Dependencies (package.json)",
+            "line": 5
+          },
+          {
+            "level": 3,
+            "text": "2. TypeScript Config (tsconfig.json)",
+            "line": 10
+          },
+          {
+            "level": 3,
+            "text": "3. Node Version (.nvmrc)",
+            "line": 15
+          },
+          {
+            "level": 2,
+            "text": "Validation",
+            "line": 20
+          },
+          {
+            "level": 3,
+            "text": "Schema Validation",
+            "line": 22
+          },
+          {
+            "level": 3,
+            "text": "Tests",
+            "line": 30
+          },
+          {
+            "level": 2,
+            "text": "Impact on Consumers",
+            "line": 35
+          },
+          {
+            "level": 2,
+            "text": "Tested & Verified",
+            "line": 42
+          }
+        ],
+        "code_blocks": [
+          {
+            "language": "json",
+            "code": "\"lib\": [\"es2020\", \"dom\"]  // Changed from es2015 for BigInt, AsyncGenerator support",
+            "full_length": 83
+          },
+          {
+            "language": "text",
+            "code": "v18  // Minimum required for Realm v12",
+            "full_length": 38
+          },
+          {
+            "language": "bash",
+            "code": "npm run validate:schemas",
+            "full_length": 24
+          },
+          {
+            "language": "bash",
+            "code": "npm run test:realm-v12",
+            "full_length": 22
+          }
+        ],
+        "links": [],
+        "word_count": 170,
+        "line_count": 47
+      },
+      "summary": "**Realm v12 Upgrade Notes**\nSections: Required Changes, 1. Dependencies (package.json), 2. TypeScript Config (tsconfig.json), 3. Node Version (.nvmrc), Validation\n- **Realm:** `11.23.0` \u2192 `12.14.2` (moved to devDependencies - consumers manage their own) - **TypeScript:** `3.7.4` \u2192 `5.0.0` (devDependency - for build only) - **Node.js:** `v10` \u2192 `v18+` (for avni-...\n(170 words, 4 code blocks)",
+      "content": "# Realm v12 Upgrade Notes\n\n## Required Changes\n\n### 1. Dependencies (package.json)\n- **Realm:** `11.23.0` \u2192 `12.14.2` (moved to devDependencies - consumers manage their own)\n- **TypeScript:** `3.7.4` \u2192 `5.0.0` (devDependency - for build only)\n- **Node.js:** `v10` \u2192 `v18+` (for avni-models development only)\n\n### 2. TypeScript Config (tsconfig.json)\n```json\n\"lib\": [\"es2020\", \"dom\"]  // Changed from es2015 for BigInt, AsyncGenerator support\n```\n\n### 3. Node Version (.nvmrc)\n```\nv18  // Minimum required for Realm v12\n```\n\n## Validation\n\n### Schema Validation\n```bash\nnpm run validate:schemas\n```\nCritical checks:\n- All `type: 'list'` must have `objectType`\n- No implicit `\"[]\"` shorthand allowed\n\n### Tests\n```bash\nnpm run test:realm-v12\n```\n\n## Impact on Consumers\n\n**No breaking changes for consuming projects:**\n- Realm is devDependency (consumers control their own Realm version)\n- Compiled output remains ES5-compatible\n- Only avni-models development requires Node 18+\n\n## Tested & Verified\n- \u2713 86 schemas compatible with Realm v12\n- \u2713 Custom proxy wrappers work\n- \u2713 1.4M+ observations migrated successfully\n- \u2713 Build/deploy to avni-client successful\n"
+    }
+  ]
+}
