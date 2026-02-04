@@ -1,0 +1,72 @@
+[
+  {
+    "id": "vercel-labs/agent-skills/vercel-react-native-skills",
+    "skillId": "vercel-react-native-skills",
+    "name": "vercel-react-native-skills",
+    "installs": 15426,
+    "source": "vercel-labs/agent-skills"
+  },
+  {
+    "id": "callstackincubator/agent-skills/react-native-best-practices",
+    "skillId": "react-native-best-practices",
+    "name": "react-native-best-practices",
+    "installs": 3895,
+    "source": "callstackincubator/agent-skills"
+  },
+  {
+    "id": "wshobson/agents/react-native-architecture",
+    "skillId": "react-native-architecture",
+    "name": "react-native-architecture",
+    "installs": 1268,
+    "source": "wshobson/agents"
+  },
+  {
+    "id": "wshobson/agents/react-native-design",
+    "skillId": "react-native-design",
+    "name": "react-native-design",
+    "installs": 1230,
+    "source": "wshobson/agents"
+  },
+  {
+    "id": "jezweb/claude-skills/react-native-expo",
+    "skillId": "react-native-expo",
+    "name": "react-native-expo",
+    "installs": 370,
+    "source": "jezweb/claude-skills"
+  },
+  {
+    "id": "jeffallan/claude-skills/react-native-expert",
+    "skillId": "react-native-expert",
+    "name": "react-native-expert",
+    "installs": 143,
+    "source": "jeffallan/claude-skills"
+  },
+  {
+    "id": "alinaqi/claude-bootstrap/react-native",
+    "skillId": "react-native",
+    "name": "react-native",
+    "installs": 65,
+    "source": "alinaqi/claude-bootstrap"
+  },
+  {
+    "id": "pluginagentmarketplace/custom-plugin-react-native/react-native-animations",
+    "skillId": "react-native-animations",
+    "name": "react-native-animations",
+    "installs": 54,
+    "source": "pluginagentmarketplace/custom-plugin-react-native"
+  },
+  {
+    "id": "aj-geddes/useful-ai-prompts/react-native-app",
+    "skillId": "react-native-app",
+    "name": "react-native-app",
+    "installs": 53,
+    "source": "aj-geddes/useful-ai-prompts"
+  },
+  {
+    "id": "shipshitdev/library/react-native-components",
+    "skillId": "react-native-components",
+    "name": "react-native-components",
+    "installs": 35,
+    "source": "shipshitdev/library"
+  }
+]

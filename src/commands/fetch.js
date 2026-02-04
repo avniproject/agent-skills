@@ -11,7 +11,7 @@ async function fetchSkills(options) {
   
   try {
     const response = await axios.get(`https://skills.sh/api/search?q=${query}&limit=${limit}`);
-    const skills = response.data.results || [];
+    const skills = response.data.skills || [];
     
     if (skills.length === 0) {
       console.log(chalk.yellow('No skills found.'));

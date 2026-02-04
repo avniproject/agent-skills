@@ -9,7 +9,7 @@ async function installSkill(skillName) {
   try {
     // Search for the skill
     const searchResponse = await axios.get(`https://skills.sh/api/search?q=${skillName}&limit=10`);
-    const skills = searchResponse.data.results || [];
+    const skills = searchResponse.data.skills || [];
     
     // Find exact or best match
     const skill = skills.find(s => s.skillId === skillName) || skills[0];
