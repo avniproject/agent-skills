@@ -1,0 +1,28 @@
+{
+  "name": "avni-models",
+  "version": "1.33.24",
+  "description": "Domain models and entities for Avni platform - Skill for AI-assisted development",
+  "main": "index.js",
+  "keywords": [
+    "avni",
+    "models",
+    "domain",
+    "entities",
+    "realm",
+    "offline-first"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avniproject/avni-models.git"
+  },
+  "license": "AGPL-3.0",
+  "analysis": {
+    "path": "/Users/himeshr/IdeaProjects/avni-models",
+    "files": 178,
+    "models": 136,
+    "tests": 41,
+    "services": 1,
+    "realm_usage": 20,
+    "observations": 29
+  }
+}
