@@ -1,4 +1,4 @@
-.PHONY: help install analyze-avni-client analyze-avni-models analyze clean
+.PHONY: help install analyze-avni-client analyze-avni-models analyze clean backup restore
 
 # Default target
 help:
@@ -7,6 +7,8 @@ help:
 	@echo "  make analyze-avni-client  - Analyze avni-client repository"
 	@echo "  make analyze-avni-models  - Analyze avni-models repository"
 	@echo "  make analyze REPO=<path>  - Analyze any repository"
+	@echo "  make backup               - Backup Claude skills to this repository"
+	@echo "  make restore              - Restore skills from this repo to Claude"
 	@echo "  make clean                - Remove virtual environment"
 	@echo "  make help                 - Show this help message"
 	@echo ""
@@ -56,6 +58,16 @@ endif
 		--depth full \
 		--verbose
 	@echo "✅ Analysis complete! Check $(or $(OUTPUT),skills/$(notdir $(REPO)))/"
+
+# Backup Claude skills to this repository
+backup:
+	@echo "💾 Backing up Claude skills..."
+	@./scripts/backup_skills.sh
+
+# Restore skills from this repo to Claude
+restore:
+	@echo "🔄 Restoring Claude skills..."
+	@./scripts/restore_from_repo.sh
 
 # Clean virtual environment
 clean:
