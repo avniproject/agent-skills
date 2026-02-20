@@ -1,0 +1,1780 @@
+[
+  {
+    "pattern_type": "Builder",
+    "category": "Creational",
+    "confidence": 1.0,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/rowMappers/tableMappers/Columns.java",
+    "class_name": "Columns",
+    "method_name": null,
+    "line_number": 11,
+    "evidence": [
+      "Has terminal build/create method",
+      "Has 5 configuration methods",
+      "Uses fluent interface (return self)"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/rowMappers/tableMappers/Columns.java"
+  },
+  {
+    "pattern_type": "Builder",
+    "category": "Creational",
+    "confidence": 1.0,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilder.java",
+    "class_name": "MediaSearchQueryBuilder",
+    "method_name": null,
+    "line_number": 14,
+    "evidence": [
+      "Has terminal build/create method",
+      "Has 7 configuration methods",
+      "Uses fluent interface (return self)"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilder.java"
+  },
+  {
+    "pattern_type": "Builder",
+    "category": "Creational",
+    "confidence": 1.0,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/builder/OrganisationIdentityBuilder.java",
+    "class_name": "OrganisationIdentityBuilder",
+    "method_name": null,
+    "line_number": 5,
+    "evidence": [
+      "Has terminal build/create method",
+      "Has 4 configuration methods",
+      "Uses fluent interface (return self)"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/builder/OrganisationIdentityBuilder.java"
+  },
+  {
+    "pattern_type": "Builder",
+    "category": "Creational",
+    "confidence": 1.0,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/builder/domain/metadata/TableMetadataBuilder.java",
+    "class_name": "TableMetadataBuilder",
+    "method_name": null,
+    "line_number": 12,
+    "evidence": [
+      "Has terminal build/create method",
+      "Has 3 configuration methods",
+      "Uses fluent interface (return self)"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/builder/domain/metadata/TableMetadataBuilder.java"
+  },
+  {
+    "pattern_type": "Builder",
+    "category": "Creational",
+    "confidence": 1.0,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/domain/metadata/TableMetadataBuilder.java",
+    "class_name": "TableMetadataBuilder",
+    "method_name": null,
+    "line_number": 3,
+    "evidence": [
+      "Has terminal build/create method",
+      "Has 4 configuration methods",
+      "Uses fluent interface (return self)"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/domain/metadata/TableMetadataBuilder.java"
+  },
+  {
+    "pattern_type": "Observer",
+    "category": "Behavioral",
+    "confidence": 0.95,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/TableMetadata.java",
+    "class_name": "TableMetadata",
+    "method_name": null,
+    "line_number": 15,
+    "evidence": [
+      "Attach method: AddColumn",
+      "Attach method: addColumnMetadata",
+      "Attach method: addIndexMetadata",
+      "Attach method: addIndexMetadata",
+      "Attach method: AddIndex",
+      "Attach method: addIndexMetadata"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/TableMetadata.java"
+  },
+  {
+    "pattern_type": "Observer",
+    "category": "Behavioral",
+    "confidence": 0.95,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/AddressRequest.java",
+    "class_name": "AddressRequest",
+    "method_name": null,
+    "line_number": 5,
+    "evidence": [
+      "Attach method: AddressRequest",
+      "Attach method: AddressRequest",
+      "Attach method: getAddressLevelType",
+      "Attach method: setAddressLevelType",
+      "Attach method: getAddressLevelIds",
+      "Attach method: setAddressLevelIds"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/AddressRequest.java"
+  },
+  {
+    "pattern_type": "Observer",
+    "category": "Behavioral",
+    "confidence": 0.95,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/SchemaMetadataRepository.java",
+    "class_name": "SchemaMetadataRepository",
+    "method_name": null,
+    "line_number": 29,
+    "evidence": [
+      "Attach method: getAddressTable",
+      "Attach method: AddressTable",
+      "Attach method: addDecisionConceptColumns",
+      "Attach method: addSyncAttributeColumns",
+      "Attach method: addSyncAttribute",
+      "Attach method: addHeadOfHouseholdColumns"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/SchemaMetadataRepository.java"
+  },
+  {
+    "pattern_type": "Observer",
+    "category": "Behavioral",
+    "confidence": 0.95,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilder.java",
+    "class_name": "MediaSearchQueryBuilder",
+    "method_name": null,
+    "line_number": 14,
+    "evidence": [
+      "Attach method: addParameters",
+      "Attach method: addParameter",
+      "Attach method: addParameter",
+      "Attach method: addDefaultParameters"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilder.java"
+  },
+  {
+    "pattern_type": "Observer",
+    "category": "Behavioral",
+    "confidence": 0.95,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/DataSyncIntegrationTest.java",
+    "class_name": "DataSyncIntegrationTest",
+    "method_name": null,
+    "line_number": 24,
+    "evidence": [
+      "Attach method: addApprovalStatus",
+      "Attach method: addingNewFormElementAddsNewColumn",
+      "Notify method: editingOlderRecordWillUpdateTheTable",
+      "Attach method: addingNewRecordWillAddOneRow",
+      "Notify method: changingConceptAnswerShouldUpdateTheOldData",
+      "Detach method: changeInDataTypeOfConcept_VoidOldAndRemoveFromForm_NewOneWithDifferentDataType",
+      "Detach method: changeInDataTypeOfConcept_VoidOldAndRemoveFromForm_NewOneWithDifferentDataType_LocationAttributes",
+      "Notify method: changingConceptAnswerShouldUpdateTheOldMultiSelectData",
+      "Attach method: latestApprovalStatusShouldGetAdded",
+      "Attach method: groupFormElementGetsAddedAsColumns",
+      "Attach method: syncAttributeColumnShouldGetAdded",
+      "Attach method: addressLevelColumnsAreCreated",
+      "Notify method: approvalStatusFromChildOrgsShouldUpdateCorrectly",
+      "Attach method: allTablesHaveAddressIdAndIndividualIdColumns",
+      "Notify method: shouldPopulateMediaTableCorrectlyWhenTransactionalDataUpdates",
+      "Notify method: userTableShouldUpdateWithOldUserData",
+      "Notify method: _userTableShouldUpdateWithIsVoided",
+      "Notify method: cancelDateTimeShouldBeUpdatedWhenProgramEncounterIsCancelled",
+      "Notify method: cancelDateTimeShouldBeUpdatedWhenGeneralEncounterIsCancelled"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/DataSyncIntegrationTest.java"
+  },
+  {
+    "pattern_type": "Observer",
+    "category": "Behavioral",
+    "confidence": 0.95,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/domain/metadata/diff/AddColumnTest.java",
+    "class_name": "AddColumnTest",
+    "method_name": null,
+    "line_number": 12,
+    "evidence": [
+      "Attach method: shouldAddColumn",
+      "Attach method: AddColumn",
+      "Attach method: shouldAddColumnWithLargeNameAfterShortening",
+      "Attach method: AddColumn"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/domain/metadata/diff/AddColumnTest.java"
+  },
+  {
+    "pattern_type": "Observer",
+    "category": "Behavioral",
+    "confidence": 0.95,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilderTest.java",
+    "class_name": "MediaSearchQueryBuilderTest",
+    "method_name": null,
+    "line_number": 18,
+    "evidence": [
+      "Attach method: shouldAddOffsetAndLimitIfProvided",
+      "Attach method: shouldAddQueryConditionAndParameterWhenSubjectTypeNamesProvided",
+      "Attach method: shouldNotAddParametersForEmptyArrays",
+      "Attach method: shouldWorkWellForAddresses",
+      "Attach method: AddressRequest"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilderTest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/config/AvniKeycloakConfig.java",
+    "class_name": "AvniKeycloakConfig",
+    "method_name": null,
+    "line_number": 7,
+    "evidence": [
+      "Factory method: getVerifyTokenAudience",
+      "Factory method: getUserEmailVerified",
+      "Factory method: getPreferredUserName",
+      "Factory method: getAuthServerUrl",
+      "Factory method: getCustomUserUUID",
+      "Factory method: getOpenidConnectCertsUrlFormat",
+      "Factory method: getRealmsUrlFormat",
+      "Factory method: getRealm",
+      "Factory method: getClient",
+      "Factory method: getResource",
+      "Multiple factory methods: getVerifyTokenAudience, getUserEmailVerified, getPreferredUserName"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/config/AvniKeycloakConfig.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/config/ScheduledJobConfig.java",
+    "class_name": "ScheduledJobConfig",
+    "method_name": null,
+    "line_number": 15,
+    "evidence": [
+      "Parameterized factory method: getTriggerKey",
+      "Factory method: getSyncRepeatIntervalInMinutes",
+      "Factory method: getMediaAnalysisRepeatIntervalInMinutes",
+      "Parameterized factory method: getJobKey",
+      "Factory method: getEntityId",
+      "Factory method: createJobData",
+      "Multiple factory methods: getTriggerKey, getSyncRepeatIntervalInMinutes, getMediaAnalysisRepeatIntervalInMinutes"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/config/ScheduledJobConfig.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/contract/JobScheduleRequest.java",
+    "class_name": "JobScheduleRequest",
+    "method_name": null,
+    "line_number": 6,
+    "evidence": [
+      "Factory method: getEntityUUID",
+      "Factory method: getJobEntityType",
+      "Factory method: getJobGroup",
+      "Multiple factory methods: getEntityUUID, getJobEntityType, getJobGroup"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/contract/JobScheduleRequest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/contract/backgroundJob/EtlJobHistoryItem.java",
+    "class_name": "EtlJobHistoryItem",
+    "method_name": null,
+    "line_number": 7,
+    "evidence": [
+      "Factory method: getStartedAt",
+      "Factory method: getEndedAt",
+      "Factory method: getErrorMessage",
+      "Factory method: getSuccess",
+      "Multiple factory methods: getStartedAt, getEndedAt, getErrorMessage"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/contract/backgroundJob/EtlJobHistoryItem.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/contract/backgroundJob/EtlJobSummary.java",
+    "class_name": "EtlJobSummary",
+    "method_name": null,
+    "line_number": 5,
+    "evidence": [
+      "Factory method: getLastStartAt",
+      "Factory method: getLastEndedAt",
+      "Factory method: getErrorMessage",
+      "Factory method: getCreatedAt",
+      "Factory method: setCreatedAt",
+      "Multiple factory methods: getLastStartAt, getLastEndedAt, getErrorMessage"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/contract/backgroundJob/EtlJobSummary.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/controller/ReportController.java",
+    "class_name": "ReportController",
+    "method_name": null,
+    "line_number": 15,
+    "evidence": [
+      "Parameterized factory method: getSummaryTable",
+      "Parameterized factory method: getUserActivity",
+      "Parameterized factory method: getUserWiseSyncFailures",
+      "Parameterized factory method: getUserWiseDeviceModels",
+      "Parameterized factory method: getUserWiseAppVersions",
+      "Parameterized factory method: getUserDetails",
+      "Parameterized factory method: getLatestSyncs",
+      "Parameterized factory method: getMedianSync",
+      "Parameterized factory method: getChampionUsers",
+      "Parameterized factory method: getNonPerformingUsers",
+      "Parameterized factory method: getUsersCancellingMostVisits",
+      "Multiple factory methods: getSummaryTable, getUserActivity, getUserWiseSyncFailures"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/controller/ReportController.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/controller/backgroundJob/EtlJobController.java",
+    "class_name": "EtlJobController",
+    "method_name": null,
+    "line_number": 30,
+    "evidence": [
+      "Parameterized factory method: getJob",
+      "Parameterized factory method: getStatuses",
+      "Parameterized factory method: getJobHistory",
+      "Factory method: createJob",
+      "Parameterized factory method: getHigherPriorityTriggerForFirstRun",
+      "Parameterized factory method: getTrigger",
+      "Parameterized factory method: getJobDetail",
+      "Parameterized factory method: getTruncatedDescription",
+      "Multiple factory methods: getJob, getStatuses, getJobHistory"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/controller/backgroundJob/EtlJobController.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/OrgIdentityContextHolder.java",
+    "class_name": "OrgIdentityContextHolder",
+    "method_name": null,
+    "line_number": 10,
+    "evidence": [
+      "Factory method: getOrganisationIdentity",
+      "Factory method: getDbUser",
+      "Factory method: getSchemaUser",
+      "Factory method: getDbSchema",
+      "Multiple factory methods: getOrganisationIdentity, getDbUser, getSchemaUser"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/OrgIdentityContextHolder.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/Organisation.java",
+    "class_name": "Organisation",
+    "method_name": null,
+    "line_number": 6,
+    "evidence": [
+      "Factory method: getOrganisationIdentity",
+      "Factory method: getSchemaMetadata",
+      "Factory method: getSyncStatus",
+      "Factory method: applyNewSchema",
+      "Multiple factory methods: getOrganisationIdentity, getSchemaMetadata, getSyncStatus"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/Organisation.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/OrganisationIdentity.java",
+    "class_name": "OrganisationIdentity",
+    "method_name": null,
+    "line_number": 15,
+    "evidence": [
+      "Parameterized factory method: createForOrganisation",
+      "Parameterized factory method: createForOrganisationGroup",
+      "Factory method: getSchemaName",
+      "Factory method: getDbUser",
+      "Factory method: getSchemaUser",
+      "Factory method: getUsersWithSchemaAccess",
+      "Factory method: getStartTime",
+      "Factory method: getMediaDirectory",
+      "Multiple factory methods: createForOrganisation, createForOrganisationGroup, getSchemaName"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/OrganisationIdentity.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/PostETLConfig.java",
+    "class_name": "PostETLConfig",
+    "method_name": null,
+    "line_number": 6,
+    "evidence": [
+      "Factory method: getDdl",
+      "Factory method: getDml",
+      "Factory method: getOrder",
+      "Factory method: getTable",
+      "Factory method: getSql",
+      "Factory method: getExistsCheck",
+      "Factory method: getOrder",
+      "Factory method: getTable",
+      "Factory method: getSqls",
+      "Factory method: getOrder",
+      "Factory method: getSourceTableName",
+      "Factory method: getInsertSql",
+      "Factory method: getUpdateSqls",
+      "Factory method: getSqlParams",
+      "Multiple factory methods: getDdl, getDml, getOrder"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/PostETLConfig.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/PostETLConfig.java",
+    "class_name": "DDLConfig",
+    "method_name": null,
+    "line_number": 15,
+    "evidence": [
+      "Factory method: getOrder",
+      "Factory method: getTable",
+      "Factory method: getSql",
+      "Factory method: getExistsCheck",
+      "Multiple factory methods: getOrder, getTable, getSql"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/PostETLConfig.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/PostETLConfig.java",
+    "class_name": "DMLConfig",
+    "method_name": null,
+    "line_number": 32,
+    "evidence": [
+      "Factory method: getOrder",
+      "Factory method: getTable",
+      "Factory method: getSqls",
+      "Multiple factory methods: getOrder, getTable, getSqls"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/PostETLConfig.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/PostETLConfig.java",
+    "class_name": "DMLSourceConfig",
+    "method_name": null,
+    "line_number": 45,
+    "evidence": [
+      "Factory method: getOrder",
+      "Factory method: getSourceTableName",
+      "Factory method: getInsertSql",
+      "Factory method: getUpdateSqls",
+      "Factory method: getSqlParams",
+      "Multiple factory methods: getOrder, getSourceTableName, getInsertSql"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/PostETLConfig.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/User.java",
+    "class_name": "User",
+    "method_name": null,
+    "line_number": 5,
+    "evidence": [
+      "Factory method: getUsername",
+      "Factory method: getUuid",
+      "Factory method: getOrganisationId",
+      "Factory method: getId",
+      "Multiple factory methods: getUsername, getUuid, getOrganisationId"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/User.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/Column.java",
+    "class_name": "Column",
+    "method_name": null,
+    "line_number": 3,
+    "evidence": [
+      "Factory method: getName",
+      "Factory method: getTruncatedName",
+      "Factory method: getName",
+      "Factory method: getType",
+      "Factory method: getClonedColumn",
+      "Multiple factory methods: getName, getTruncatedName, getName"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/Column.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/ColumnMetadata.java",
+    "class_name": "ColumnMetadata",
+    "method_name": null,
+    "line_number": 14,
+    "evidence": [
+      "Factory method: getVoidedName",
+      "Factory method: getVoidedName",
+      "Factory method: getVoidedName",
+      "Factory method: getColumnDatatype",
+      "Factory method: getConceptId",
+      "Factory method: getConceptType",
+      "Factory method: getColumn",
+      "Factory method: getName",
+      "Factory method: getType",
+      "Factory method: getConceptUuid",
+      "Factory method: getParentConceptUuid",
+      "Factory method: getParentConceptName",
+      "Factory method: getName",
+      "Factory method: getJsonbExtractor",
+      "Factory method: getTextExtractor",
+      "Factory method: getNewVoidedColumnMetaData",
+      "Multiple factory methods: getVoidedName, getVoidedName, getVoidedName",
+      "Inherits from: Model"
+    ],
+    "related_classes": [
+      "Model"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/ColumnMetadata.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/IndexMetadata.java",
+    "class_name": "IndexMetadata",
+    "method_name": null,
+    "line_number": 10,
+    "evidence": [
+      "Factory method: makeIndexName",
+      "Factory method: getName",
+      "Factory method: createIndex",
+      "Factory method: getColumnId",
+      "Factory method: getColumnName",
+      "Multiple factory methods: makeIndexName, getName, createIndex",
+      "Inherits from: Model"
+    ],
+    "related_classes": [
+      "Model"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/IndexMetadata.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/ReportingViewMetaData.java",
+    "class_name": "ViewConfig",
+    "method_name": null,
+    "line_number": 16,
+    "evidence": [
+      "Factory method: getViewName",
+      "Factory method: getWhereClause",
+      "Factory method: getExtraColumns",
+      "Factory method: getSqlTemplateFile",
+      "Multiple factory methods: getViewName, getWhereClause, getExtraColumns"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/ReportingViewMetaData.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/SchemaMetadata.java",
+    "class_name": "SchemaMetadata",
+    "method_name": null,
+    "line_number": 16,
+    "evidence": [
+      "Factory method: getTableMetadata",
+      "Factory method: getOrderedTableMetadata",
+      "Factory method: getAllSubjectTables",
+      "Factory method: getAllSubjectTableNames",
+      "Factory method: getAllProgramEnrolmentTables",
+      "Factory method: getAllProgramEnrolmentTableNames",
+      "Factory method: getAllProgramEncounterTables",
+      "Factory method: getAllProgramEncounterTableNames",
+      "Factory method: getAllEncounterTables",
+      "Factory method: getAllIndividualAndProgramEncounterTables",
+      "Factory method: getAllEncounterTableNames",
+      "Factory method: getMediaTable",
+      "Factory method: getMediaAnalysisTable",
+      "Factory method: getCountsByType",
+      "Multiple factory methods: getTableMetadata, getOrderedTableMetadata, getAllSubjectTables"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/SchemaMetadata.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/TableMetadata.java",
+    "class_name": "TableMetadata",
+    "method_name": null,
+    "line_number": 15,
+    "evidence": [
+      "Factory method: getNowVoidedColumns",
+      "Factory method: getColumns",
+      "Factory method: getColumnMetadataList",
+      "Factory method: getColumnMetadataList",
+      "Factory method: getName",
+      "Factory method: getType",
+      "Factory method: getParentType",
+      "Factory method: getSubjectTypeUuid",
+      "Factory method: getProgramUuid",
+      "Factory method: getEncounterTypeUuid",
+      "Factory method: getFormUuid",
+      "Factory method: getColumnMetadataList",
+      "Factory method: getNonDefaultColumnMetadataList",
+      "Factory method: getColumnMetadataList",
+      "Factory method: getIndexMetadataList",
+      "Factory method: getGroupSubjectTypeUuid",
+      "Factory method: getMemberSubjectTypeUuid",
+      "Factory method: createNew",
+      "Parameterized factory method: CreateTable",
+      "Factory method: getParentTableType",
+      "Factory method: getColumn",
+      "Factory method: getColumnByConceptUuid",
+      "Factory method: getAllColumnsByConceptUuid",
+      "Factory method: getRepeatableQuestionGroupConceptUuid",
+      "Multiple factory methods: getNowVoidedColumns, getColumns, getColumnMetadataList",
+      "Inherits from: Model"
+    ],
+    "related_classes": [
+      "Model"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/TableMetadata.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/diff/CreateTable.java",
+    "class_name": "CreateTable",
+    "method_name": null,
+    "line_number": 12,
+    "evidence": [
+      "Parameterized factory method: CreateTable",
+      "Factory method: getSql",
+      "Factory method: StringBuilder",
+      "Factory method: StringBuilder",
+      "Factory method: getTableName",
+      "Factory method: StringBuilder",
+      "Multiple factory methods: CreateTable, getSql, StringBuilder",
+      "Inherits from: Diff"
+    ],
+    "related_classes": [
+      "Diff"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/metadata/diff/CreateTable.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/quartz/ScheduledJobRun.java",
+    "class_name": "ScheduledJobRun",
+    "method_name": null,
+    "line_number": 14,
+    "evidence": [
+      "Parameterized factory method: create",
+      "Factory method: getAppException",
+      "Factory method: getAppException",
+      "Factory method: getId",
+      "Factory method: getJobName",
+      "Factory method: getStartedAt",
+      "Factory method: getEndedAt",
+      "Factory method: getErrorMessage",
+      "Multiple factory methods: create, getAppException, getAppException"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/quartz/ScheduledJobRun.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/result/SyncRegistrationConcept.java",
+    "class_name": "SyncRegistrationConcept",
+    "method_name": null,
+    "line_number": 3,
+    "evidence": [
+      "Factory method: getUuid",
+      "Factory method: getName",
+      "Factory method: getColumnName",
+      "Multiple factory methods: getUuid, getName, getColumnName"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/result/SyncRegistrationConcept.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/syncstatus/EntitySyncStatus.java",
+    "class_name": "EntitySyncStatus",
+    "method_name": null,
+    "line_number": 7,
+    "evidence": [
+      "Factory method: getTableMetadataId",
+      "Factory method: getSyncStatus",
+      "Factory method: getLastSyncTime",
+      "Factory method: getDbUser",
+      "Factory method: getSchemaName",
+      "Multiple factory methods: getTableMetadataId, getSyncStatus, getLastSyncTime",
+      "Inherits from: Model"
+    ],
+    "related_classes": [
+      "Model"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/syncstatus/EntitySyncStatus.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/AggregateReportResult.java",
+    "class_name": "AggregateReportResult",
+    "method_name": null,
+    "line_number": 3,
+    "evidence": [
+      "Factory method: getLabel",
+      "Factory method: getValue",
+      "Factory method: getId",
+      "Multiple factory methods: getLabel, getValue, getId"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/AggregateReportResult.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/ConceptDTO.java",
+    "class_name": "ConceptDTO",
+    "method_name": null,
+    "line_number": 5,
+    "evidence": [
+      "Factory method: getDataType",
+      "Factory method: getUuid",
+      "Factory method: getName",
+      "Multiple factory methods: getDataType, getUuid, getName"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/ConceptDTO.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/ConceptFilter.java",
+    "class_name": "ConceptFilter",
+    "method_name": null,
+    "line_number": 6,
+    "evidence": [
+      "Factory method: getConceptUuid",
+      "Factory method: getFormUuid",
+      "Factory method: getValues",
+      "Factory method: getFrom",
+      "Factory method: getTo",
+      "Multiple factory methods: getConceptUuid, getFormUuid, getValues"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/ConceptFilter.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/ConceptFilterSearch.java",
+    "class_name": "ConceptFilterSearch",
+    "method_name": null,
+    "line_number": 5,
+    "evidence": [
+      "Factory method: getTableName",
+      "Factory method: getColumnName",
+      "Factory method: getColumnValues",
+      "Factory method: getFrom",
+      "Factory method: getTo",
+      "Factory method: getAliasIndex",
+      "Multiple factory methods: getTableName, getColumnName, getColumnValues"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/ConceptFilterSearch.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/DownloadAllMediaRequest.java",
+    "class_name": "DownloadAllMediaRequest",
+    "method_name": null,
+    "line_number": 5,
+    "evidence": [
+      "Factory method: getMediaSearchRequest",
+      "Factory method: getUsername",
+      "Factory method: getDescription",
+      "Factory method: getAddressLevelTypes",
+      "Multiple factory methods: getMediaSearchRequest, getUsername, getDescription"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/DownloadAllMediaRequest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/MediaAnalysisVO.java",
+    "class_name": "MediaAnalysisVO",
+    "method_name": null,
+    "line_number": 5,
+    "evidence": [
+      "Factory method: getUuid",
+      "Factory method: getImage_url",
+      "Factory method: getUuid",
+      "Multiple factory methods: getUuid, getImage_url, getUuid"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/MediaAnalysisVO.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/MediaSearchRequest.java",
+    "class_name": "MediaSearchRequest",
+    "method_name": null,
+    "line_number": 7,
+    "evidence": [
+      "Factory method: getAddresses",
+      "Factory method: getAddressLevelTypes",
+      "Factory method: getSubjectTypeNames",
+      "Factory method: getProgramNames",
+      "Factory method: getEncounterTypeNames",
+      "Factory method: getImageConcepts",
+      "Factory method: getSyncValues",
+      "Factory method: getConceptFilters",
+      "Factory method: getFromDate",
+      "Factory method: getToDate",
+      "Factory method: getSubjectName",
+      "Factory method: getSubjectNameTokens",
+      "Factory method: getTotalCount",
+      "Multiple factory methods: getAddresses, getAddressLevelTypes, getSubjectTypeNames"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/MediaSearchRequest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/TableMetadataST.java",
+    "class_name": "TableMetadataST",
+    "method_name": null,
+    "line_number": 3,
+    "evidence": [
+      "Factory method: getName",
+      "Factory method: getType",
+      "Factory method: getSubjectTypeUuid",
+      "Factory method: getIsPerson",
+      "Factory method: getProgramUuid",
+      "Factory method: getEncounterTypeUuid",
+      "Multiple factory methods: getName, getType, getSubjectTypeUuid"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/TableMetadataST.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/UserActivityDTO.java",
+    "class_name": "UserActivityDTO",
+    "method_name": null,
+    "line_number": 5,
+    "evidence": [
+      "Factory method: getTableName",
+      "Factory method: getTableType",
+      "Factory method: getUserName",
+      "Factory method: getId",
+      "Factory method: getRegistrationCount",
+      "Factory method: getProgramEnrolmentCount",
+      "Factory method: getProgramEncounterCount",
+      "Factory method: getGeneralEncounterCount",
+      "Factory method: getCount",
+      "Factory method: getAndroidVersion",
+      "Factory method: getAppVersion",
+      "Factory method: getDeviceModel",
+      "Factory method: getLastSuccessfulSync",
+      "Factory method: getSyncStart",
+      "Factory method: getSyncEnd",
+      "Factory method: getSyncStatus",
+      "Factory method: getSyncSource",
+      "Factory method: getMedianSync",
+      "Multiple factory methods: getTableName, getTableType, getUserName"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/UserActivityDTO.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/AvniMetadataRepository.java",
+    "class_name": "AvniMetadataRepository",
+    "method_name": null,
+    "line_number": 16,
+    "evidence": [
+      "Parameterized factory method: getNameFromUuid",
+      "Parameterized factory method: getNameFromUuid",
+      "Parameterized factory method: getNameFromUuid",
+      "Parameterized factory method: getNameFromUuid",
+      "Parameterized factory method: getNameFromUuid",
+      "Multiple factory methods: getNameFromUuid, getNameFromUuid, getNameFromUuid"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/AvniMetadataRepository.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/MediaTableRepository.java",
+    "class_name": "MediaTableRepository",
+    "method_name": null,
+    "line_number": 26,
+    "evidence": [
+      "Factory method: MediaSearchQueryBuilder",
+      "Factory method: MediaSearchQueryBuilder",
+      "Parameterized factory method: getImageData",
+      "Factory method: getAllMedia",
+      "Factory method: MediaSearchQueryBuilder",
+      "Multiple factory methods: MediaSearchQueryBuilder, MediaSearchQueryBuilder, getImageData"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/MediaTableRepository.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/OrganisationRepository.java",
+    "class_name": "OrganisationRepository",
+    "method_name": null,
+    "line_number": 14,
+    "evidence": [
+      "Factory method: getOrganisation",
+      "Factory method: getOrganisationGroup",
+      "Parameterized factory method: createDBUser",
+      "Parameterized factory method: create_db_user",
+      "Parameterized factory method: createImplementationSchema",
+      "Parameterized factory method: create_implementation_schema",
+      "Factory method: getOrganisationByUser",
+      "Factory method: getOrganisationIds",
+      "Multiple factory methods: getOrganisation, getOrganisationGroup, createDBUser"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/OrganisationRepository.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/ReportingViewRepository.java",
+    "class_name": "ReportingViewRepository",
+    "method_name": null,
+    "line_number": 24,
+    "evidence": [
+      "Factory method: createOrReplaceView",
+      "Factory method: getAddressColumnNames",
+      "Parameterized factory method: createViewAndGrantPermission",
+      "Multiple factory methods: createOrReplaceView, getAddressColumnNames, createViewAndGrantPermission",
+      "Inherits from: ReportingViewMetaData"
+    ],
+    "related_classes": [
+      "ReportingViewMetaData"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/ReportingViewRepository.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/SchemaMetadataRepository.java",
+    "class_name": "SchemaMetadataRepository",
+    "method_name": null,
+    "line_number": 29,
+    "evidence": [
+      "Factory method: getNewSchemaMetadata",
+      "Factory method: getAddressTable",
+      "Factory method: getRepeatableQuestionGroupTables",
+      "Factory method: getTableMetadataForForm",
+      "Factory method: getFormTables",
+      "Factory method: getPlaceholderSubjectTables",
+      "Factory method: getChecklistTables",
+      "Factory method: getTableMetadataForForm",
+      "Factory method: getGroupSubjectTables",
+      "Factory method: getSyncAttributeSql",
+      "Factory method: getExistingSchemaMetadata",
+      "Multiple factory methods: getNewSchemaMetadata, getAddressTable, getRepeatableQuestionGroupTables"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/SchemaMetadataRepository.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/rowMappers/TableMetadataMapper.java",
+    "class_name": "TableMetadataMapper",
+    "method_name": null,
+    "line_number": 14,
+    "evidence": [
+      "Parameterized factory method: createColumnMetaData",
+      "Parameterized factory method: createFromExistingSchemaMetaData",
+      "Parameterized factory method: create",
+      "Parameterized factory method: getTableType",
+      "Parameterized factory method: getTableStructure",
+      "Multiple factory methods: createColumnMetaData, createFromExistingSchemaMetaData, create"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/rowMappers/TableMetadataMapper.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/rowMappers/TableNameGenerator.java",
+    "class_name": "TableNameGenerator",
+    "method_name": null,
+    "line_number": 7,
+    "evidence": [
+      "Factory method: buildProperTableName",
+      "Parameterized factory method: getTrimmedTableName",
+      "Factory method: StringBuilder",
+      "Factory method: buildProperTableName",
+      "Parameterized factory method: getTrimmedName",
+      "Multiple factory methods: buildProperTableName, getTrimmedTableName, StringBuilder"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/rowMappers/TableNameGenerator.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilder.java",
+    "class_name": "MediaSearchQueryBuilder",
+    "method_name": null,
+    "line_number": 14,
+    "evidence": [
+      "Factory method: MediaSearchQueryBuilder",
+      "Factory method: getConceptNames",
+      "Factory method: build",
+      "Factory method: buildCountQuery",
+      "Multiple factory methods: MediaSearchQueryBuilder, getConceptNames, build"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilder.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sql/RepeatableQuestionGroupSyncSqlGenerator.java",
+    "class_name": "RepeatableQuestionGroupSyncSqlGenerator",
+    "method_name": null,
+    "line_number": 13,
+    "evidence": [
+      "Parameterized factory method: getSql",
+      "Parameterized factory method: getSql",
+      "Multiple factory methods: getSql, getSql"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sql/RepeatableQuestionGroupSyncSqlGenerator.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sql/TransactionDataSyncHelper.java",
+    "class_name": "TransactionDataSyncHelper",
+    "method_name": null,
+    "line_number": 13,
+    "evidence": [
+      "Factory method: getConceptMapName",
+      "Factory method: getConceptMaps",
+      "Factory method: getListOfObservations",
+      "Parameterized factory method: buildObservationSelection",
+      "Multiple factory methods: getConceptMapName, getConceptMaps, getListOfObservations"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sql/TransactionDataSyncHelper.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sql/TransactionalSyncSqlGenerator.java",
+    "class_name": "TransactionalSyncSqlGenerator",
+    "method_name": null,
+    "line_number": 13,
+    "evidence": [
+      "Factory method: getSql",
+      "Parameterized factory method: getSql",
+      "Multiple factory methods: getSql, getSql"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sql/TransactionalSyncSqlGenerator.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sync/AnswerConceptSync.java",
+    "class_name": "AnswerConceptSync",
+    "method_name": null,
+    "line_number": 23,
+    "evidence": [
+      "Parameterized factory method: getMultiSelectUpdateQuery",
+      "Parameterized factory method: getSingleSelectUpdateQuery",
+      "Multiple factory methods: getMultiSelectUpdateQuery, getSingleSelectUpdateQuery",
+      "Inherits from: EntitySyncAction"
+    ],
+    "related_classes": [
+      "EntitySyncAction"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sync/AnswerConceptSync.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sync/MultiSelectViewSyncAction.java",
+    "class_name": "MultiSelectViewSyncAction",
+    "method_name": null,
+    "line_number": 19,
+    "evidence": [
+      "Parameterized factory method: createMultiselectViews",
+      "Parameterized factory method: createMultiselectViewForTable",
+      "Multiple factory methods: createMultiselectViews, createMultiselectViewForTable"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sync/MultiSelectViewSyncAction.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/security/UserContext.java",
+    "class_name": "UserContext",
+    "method_name": null,
+    "line_number": 10,
+    "evidence": [
+      "Factory method: getUser",
+      "Factory method: getRoles",
+      "Factory method: getOrganisation",
+      "Multiple factory methods: getUser, getRoles, getOrganisation"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/security/UserContext.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/service/BaseIAMService.java",
+    "class_name": "BaseIAMService",
+    "method_name": null,
+    "line_number": 25,
+    "evidence": [
+      "Parameterized factory method: getValueInToken",
+      "Factory method: getUserFromToken",
+      "Factory method: getUserUuidField",
+      "Factory method: getUsernameField",
+      "Factory method: getAudience",
+      "Factory method: getJwkProviderUrl",
+      "Factory method: getIssuer",
+      "Multiple factory methods: getValueInToken, getUserFromToken, getUserUuidField",
+      "Inherits from: IAMAuthService"
+    ],
+    "related_classes": [
+      "IAMAuthService"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/service/BaseIAMService.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/service/CognitoAuthServiceImpl.java",
+    "class_name": "CognitoAuthServiceImpl",
+    "method_name": null,
+    "line_number": 14,
+    "evidence": [
+      "Factory method: getJwkProviderUrl",
+      "Factory method: getIssuer",
+      "Factory method: getUserUuidField",
+      "Factory method: getUsernameField",
+      "Factory method: getAudience",
+      "Multiple factory methods: getJwkProviderUrl, getIssuer, getUserUuidField",
+      "Inherits from: BaseIAMService"
+    ],
+    "related_classes": [
+      "BaseIAMService"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/service/CognitoAuthServiceImpl.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/service/KeycloakAuthService.java",
+    "class_name": "KeycloakAuthService",
+    "method_name": null,
+    "line_number": 14,
+    "evidence": [
+      "Factory method: getJwkProviderUrl",
+      "Factory method: getIssuer",
+      "Factory method: getUserUuidField",
+      "Factory method: getUsernameField",
+      "Factory method: getAudience",
+      "Multiple factory methods: getJwkProviderUrl, getIssuer, getUserUuidField",
+      "Inherits from: BaseIAMService"
+    ],
+    "related_classes": [
+      "BaseIAMService"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/service/KeycloakAuthService.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/service/backgroundJob/ScheduledJobService.java",
+    "class_name": "ScheduledJobService",
+    "method_name": null,
+    "line_number": 22,
+    "evidence": [
+      "Parameterized factory method: getJobs",
+      "Parameterized factory method: getLatestJobRun",
+      "Parameterized factory method: getJobHistory",
+      "Multiple factory methods: getJobs, getLatestJobRun, getJobHistory"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/service/backgroundJob/ScheduledJobService.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/util/ReportUtil.java",
+    "class_name": "ReportUtil",
+    "method_name": null,
+    "line_number": 10,
+    "evidence": [
+      "Parameterized factory method: getDateDynamicWhere",
+      "Parameterized factory method: getDateSeries",
+      "Parameterized factory method: getDynamicUserWhere",
+      "Multiple factory methods: getDateDynamicWhere, getDateSeries, getDynamicUserWhere"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/util/ReportUtil.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/DataSyncIntegrationTest.java",
+    "class_name": "DataSyncIntegrationTest",
+    "method_name": null,
+    "line_number": 24,
+    "evidence": [
+      "Factory method: getCurrentTime",
+      "Factory method: getCurrentTime",
+      "Factory method: getPersonById",
+      "Factory method: addingNewFormElementAddsNewColumn",
+      "Factory method: addingNewRecordWillAddOneRow",
+      "Factory method: changeInDataTypeOfConcept_VoidOldAndRemoveFromForm_NewOneWithDifferentDataType",
+      "Factory method: changeInDataTypeOfConcept_VoidOldAndRemoveFromForm_NewOneWithDifferentDataType_LocationAttributes",
+      "Factory method: latestApprovalStatusShouldGetAdded",
+      "Factory method: groupFormElementGetsAddedAsColumns",
+      "Factory method: syncAttributeColumnShouldGetAdded",
+      "Factory method: addressLevelColumnsAreCreated",
+      "Factory method: arrayStyleMediaObservationsCreateMultipleRowsInMediaTable",
+      "Multiple factory methods: getCurrentTime, getCurrentTime, getPersonById",
+      "Inherits from: BaseIntegrationTest"
+    ],
+    "related_classes": [
+      "BaseIntegrationTest"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/DataSyncIntegrationTest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/domain/SchemaMetadataTest.java",
+    "class_name": "SchemaMetadataTest",
+    "method_name": null,
+    "line_number": 18,
+    "evidence": [
+      "Factory method: shouldCreateTableForSubjectTypeWhenItDoesNotExist",
+      "Factory method: shouldNotCreateSubjectTableWhenItAlreadyExists",
+      "Factory method: shouldCallAndGetDiffFromTableMetadata",
+      "Multiple factory methods: shouldCreateTableForSubjectTypeWhenItDoesNotExist, shouldNotCreateSubjectTableWhenItAlreadyExists, shouldCallAndGetDiffFromTableMetadata"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/domain/SchemaMetadataTest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/domain/TableMetadataTest.java",
+    "class_name": "TableMetadataTest",
+    "method_name": null,
+    "line_number": 20,
+    "evidence": [
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: findChangesWhenTheNewColumnNameIsLarge",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Multiple factory methods: TableMetadataBuilder, TableMetadataBuilder, TableMetadataBuilder"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/domain/TableMetadataTest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/domain/metadata/ColumnTruncationRegressionTest.java",
+    "class_name": "ColumnTruncationRegressionTest",
+    "method_name": null,
+    "line_number": 16,
+    "evidence": [
+      "Factory method: tableMetadataMustCreateProperlyTruncatedVoidedColumns",
+      "Factory method: getVoidedName",
+      "Factory method: getNewVoidedColumnMetaData",
+      "Multiple factory methods: tableMetadataMustCreateProperlyTruncatedVoidedColumns, getVoidedName, getNewVoidedColumnMetaData"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/domain/metadata/ColumnTruncationRegressionTest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/domain/metadata/TableMetadataTest.java",
+    "class_name": "TableMetadataTest",
+    "method_name": null,
+    "line_number": 5,
+    "evidence": [
+      "Factory method: getParentTableType",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Multiple factory methods: getParentTableType, TableMetadataBuilder, TableMetadataBuilder"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/domain/metadata/TableMetadataTest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/domain/metadata/diff/CreateTableTest.java",
+    "class_name": "CreateTableTest",
+    "method_name": null,
+    "line_number": 13,
+    "evidence": [
+      "Factory method: shouldCreateSqlWithCommonColumns",
+      "Parameterized factory method: CreateTable",
+      "Multiple factory methods: shouldCreateSqlWithCommonColumns, CreateTable"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/domain/metadata/diff/CreateTableTest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/repository/SchemaMetadataRepositoryTest.java",
+    "class_name": "SchemaMetadataRepositoryTest",
+    "method_name": null,
+    "line_number": 20,
+    "evidence": [
+      "Factory method: shouldGetAllTablesForAnOrganisation",
+      "Factory method: shouldGetDecisionConcepts",
+      "Factory method: shouldGetAddressTable",
+      "Factory method: shouldGetMediaTable",
+      "Factory method: shouldGetMediaAnalysisTable",
+      "Factory method: shouldGetSyncTelemetryTable",
+      "Factory method: shouldGetUserTable",
+      "Factory method: shouldGetIndexMetadataWhenItExists",
+      "Factory method: shouldGetIndicesWhenGettingNewSchemaMetadata",
+      "Multiple factory methods: shouldGetAllTablesForAnOrganisation, shouldGetDecisionConcepts, shouldGetAddressTable",
+      "Inherits from: BaseIntegrationTest"
+    ],
+    "related_classes": [
+      "BaseIntegrationTest"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/repository/SchemaMetadataRepositoryTest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilderAliasTest.java",
+    "class_name": "MediaSearchQueryBuilderAliasTest",
+    "method_name": null,
+    "line_number": 15,
+    "evidence": [
+      "Factory method: OrganisationIdentityBuilder",
+      "Factory method: MediaSearchQueryBuilder",
+      "Factory method: MediaSearchQueryBuilder",
+      "Multiple factory methods: OrganisationIdentityBuilder, MediaSearchQueryBuilder, MediaSearchQueryBuilder"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilderAliasTest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilderTest.java",
+    "class_name": "MediaSearchQueryBuilderTest",
+    "method_name": null,
+    "line_number": 18,
+    "evidence": [
+      "Factory method: OrganisationIdentityBuilder",
+      "Factory method: shouldCreateDefaultOffsetAndLimit",
+      "Factory method: MediaSearchQueryBuilder",
+      "Factory method: MediaSearchQueryBuilder",
+      "Factory method: MediaSearchQueryBuilder",
+      "Factory method: MediaSearchQueryBuilder",
+      "Factory method: MediaSearchQueryBuilder",
+      "Factory method: MediaSearchQueryBuilder",
+      "Factory method: MediaSearchQueryBuilder",
+      "Factory method: MediaSearchQueryBuilder",
+      "Factory method: MediaSearchQueryBuilder",
+      "Multiple factory methods: OrganisationIdentityBuilder, shouldCreateDefaultOffsetAndLimit, MediaSearchQueryBuilder"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilderTest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/repository/sql/SqlGeneratorTest.java",
+    "class_name": "SqlGeneratorTest",
+    "method_name": null,
+    "line_number": 16,
+    "evidence": [
+      "Parameterized factory method: createColumnMetaData",
+      "Factory method: OrganisationIdentityBuilder",
+      "Factory method: TableMetadataBuilder",
+      "Multiple factory methods: createColumnMetaData, OrganisationIdentityBuilder, TableMetadataBuilder"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/repository/sql/SqlGeneratorTest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/service/EtlServiceTest.java",
+    "class_name": "EtlServiceTest",
+    "method_name": null,
+    "line_number": 22,
+    "evidence": [
+      "Factory method: OrganisationIdentityBuilder",
+      "Factory method: runForOrganisationShouldCreateOrganisationAndCallEtlServiceForMigration",
+      "Factory method: OrganisationIdentityBuilder",
+      "Multiple factory methods: OrganisationIdentityBuilder, runForOrganisationShouldCreateOrganisationAndCallEtlServiceForMigration, OrganisationIdentityBuilder"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/service/EtlServiceTest.java"
+  },
+  {
+    "pattern_type": "Observer",
+    "category": "Behavioral",
+    "confidence": 0.8999999999999999,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/MediaSearchRequest.java",
+    "class_name": "MediaSearchRequest",
+    "method_name": null,
+    "line_number": 7,
+    "evidence": [
+      "Attach method: getAddresses",
+      "Attach method: setAddresses",
+      "Attach method: getAddressLevelTypes"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/MediaSearchRequest.java"
+  },
+  {
+    "pattern_type": "Observer",
+    "category": "Behavioral",
+    "confidence": 0.8999999999999999,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sync/AddressTableSyncAction.java",
+    "class_name": "AddressTableSyncAction",
+    "method_name": null,
+    "line_number": 20,
+    "evidence": [
+      "Attach method: AddressTableSyncAction",
+      "Attach method: insertLowestLevelAddresses",
+      "Attach method: runAddressQuery"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/sync/AddressTableSyncAction.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.8,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/config/CognitoConfig.java",
+    "class_name": "CognitoConfig",
+    "method_name": null,
+    "line_number": 9,
+    "evidence": [
+      "Factory method: getPoolId",
+      "Factory method: getClientId",
+      "Multiple factory methods: getPoolId, getClientId"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/config/CognitoConfig.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.8,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/AddressRequest.java",
+    "class_name": "AddressRequest",
+    "method_name": null,
+    "line_number": 5,
+    "evidence": [
+      "Factory method: getAddressLevelType",
+      "Factory method: getAddressLevelIds",
+      "Multiple factory methods: getAddressLevelType, getAddressLevelIds"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/AddressRequest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.8,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/SyncValue.java",
+    "class_name": "SyncValue",
+    "method_name": null,
+    "line_number": 5,
+    "evidence": [
+      "Factory method: getSyncConceptName",
+      "Factory method: getSyncConceptValues",
+      "Multiple factory methods: getSyncConceptName, getSyncConceptValues"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/dto/SyncValue.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.8,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/service/IdpServiceFactory.java",
+    "class_name": "IdpServiceFactory",
+    "method_name": null,
+    "line_number": 15,
+    "evidence": [
+      "Factory method: getAuthService",
+      "Factory method: getUserFromToken",
+      "Multiple factory methods: getAuthService, getUserFromToken"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/service/IdpServiceFactory.java"
+  },
+  {
+    "pattern_type": "Builder",
+    "category": "Creational",
+    "confidence": 0.7000000000000001,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/quartz/ScheduledJobRun.java",
+    "class_name": "ScheduledJobRun",
+    "method_name": null,
+    "line_number": 14,
+    "evidence": [
+      "Has terminal build/create method"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/domain/quartz/ScheduledJobRun.java"
+  },
+  {
+    "pattern_type": "Builder",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/rowMappers/MediaAnalysisTableMetadataBuilder.java",
+    "class_name": "MediaAnalysisTableMetadataBuilder",
+    "method_name": null,
+    "line_number": 9,
+    "evidence": [
+      "Class name contains \"Builder\": MediaAnalysisTableMetadataBuilder"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/rowMappers/MediaAnalysisTableMetadataBuilder.java"
+  },
+  {
+    "pattern_type": "Builder",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/rowMappers/MediaTableMetadataBuilder.java",
+    "class_name": "MediaTableMetadataBuilder",
+    "method_name": null,
+    "line_number": 12,
+    "evidence": [
+      "Class name contains \"Builder\": MediaTableMetadataBuilder"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/rowMappers/MediaTableMetadataBuilder.java"
+  },
+  {
+    "pattern_type": "Builder",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/rowMappers/SyncTelemetryTableMetadataBuilder.java",
+    "class_name": "SyncTelemetryTableMetadataBuilder",
+    "method_name": null,
+    "line_number": 9,
+    "evidence": [
+      "Class name contains \"Builder\": SyncTelemetryTableMetadataBuilder"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/rowMappers/SyncTelemetryTableMetadataBuilder.java"
+  },
+  {
+    "pattern_type": "Builder",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/rowMappers/UserTableMetadataBuilder.java",
+    "class_name": "UserTableMetadataBuilder",
+    "method_name": null,
+    "line_number": 9,
+    "evidence": [
+      "Class name contains \"Builder\": UserTableMetadataBuilder"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/repository/rowMappers/UserTableMetadataBuilder.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/service/OrganisationFactory.java",
+    "class_name": "OrganisationFactory",
+    "method_name": null,
+    "line_number": 11,
+    "evidence": [
+      "Class name contains \"Factory\""
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/main/java/org/avniproject/etl/service/OrganisationFactory.java"
+  },
+  {
+    "pattern_type": "Builder",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilderAliasTest.java",
+    "class_name": "MediaSearchQueryBuilderAliasTest",
+    "method_name": null,
+    "line_number": 15,
+    "evidence": [
+      "Class name contains \"Builder\": MediaSearchQueryBuilderAliasTest"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilderAliasTest.java"
+  },
+  {
+    "pattern_type": "Builder",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilderTest.java",
+    "class_name": "MediaSearchQueryBuilderTest",
+    "method_name": null,
+    "line_number": 18,
+    "evidence": [
+      "Class name contains \"Builder\": MediaSearchQueryBuilderTest"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/repository/sql/MediaSearchQueryBuilderTest.java"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/service/OrganisationFactoryTest.java",
+    "class_name": "OrganisationFactoryTest",
+    "method_name": null,
+    "line_number": 17,
+    "evidence": [
+      "Class name contains \"Factory\""
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-etl/src/test/java/org/avniproject/etl/service/OrganisationFactoryTest.java"
+  }
+]

@@ -1,0 +1,209 @@
+# API Reference: ProgramEncounterRepeatableQuestionGroupTable.java
+
+**Language**: Java
+
+**Source**: `src/main/java/org/avniproject/etl/repository/rowMappers/tableMappers/repeatableQuestionGroup/ProgramEncounterRepeatableQuestionGroupTable.java`
+
+---
+
+## Classes
+
+### ProgramEncounterRepeatableQuestionGroupTable
+
+**Inherits from**: Table
+
+#### Methods
+
+##### columns() → List<Column>
+
+**Returns**: `List<Column>`
+
+
+##### Columns() → new
+
+**Returns**: `new`
+
+
+##### Column(unknown: "individual_id", unknown: Column.Type.integer, unknown: Column.ColumnType.index) → new
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| unknown | "individual_id" | - | - |
+| unknown | Column.Type.integer | - | - |
+| unknown | Column.ColumnType.index | - | - |
+
+**Returns**: `new`
+
+
+##### Column(unknown: "address_id", unknown: Column.Type.integer, unknown: Column.ColumnType.index) → new
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| unknown | "address_id" | - | - |
+| unknown | Column.Type.integer | - | - |
+| unknown | Column.ColumnType.index | - | - |
+
+**Returns**: `new`
+
+
+##### Column(unknown: "program_enrolment_id", unknown: Column.Type.integer, unknown: Column.ColumnType.index) → new
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| unknown | "program_enrolment_id" | - | - |
+| unknown | Column.Type.integer | - | - |
+| unknown | Column.ColumnType.index | - | - |
+
+**Returns**: `new`
+
+
+##### Column(unknown: "program_encounter_id", unknown: Column.Type.integer, unknown: Column.ColumnType.index) → new
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| unknown | "program_encounter_id" | - | - |
+| unknown | Column.Type.integer | - | - |
+| unknown | Column.ColumnType.index | - | - |
+
+**Returns**: `new`
+
+
+##### name(unknown: Map<String, tableDetails: Object>) → String
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| unknown | Map<String | - | - |
+| tableDetails | Object> | - | - |
+
+**Returns**: `String`
+
+
+##### generateTableName(unknown: ProgramEncounterRepeatableQuestionGroup, unknown: null, unknown: tableDetails, unknown: "subject_type_name", unknown: "program_name", unknown: "encounter_type_name", unknown: "parent_concept_name") → return
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| unknown | ProgramEncounterRepeatableQuestionGroup | - | - |
+| unknown | null | - | - |
+| unknown | tableDetails | - | - |
+| unknown | "subject_type_name" | - | - |
+| unknown | "program_name" | - | - |
+| unknown | "encounter_type_name" | - | - |
+| unknown | "parent_concept_name" | - | - |
+
+**Returns**: `return`
+
+
+
+
+## Functions
+
+### columns() → List<Column>
+
+**Returns**: `List<Column>`
+
+
+
+### Columns() → new
+
+**Returns**: `new`
+
+
+
+### Column(unknown: "individual_id", unknown: Column.Type.integer, unknown: Column.ColumnType.index) → new
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| unknown | "individual_id" | - | - |
+| unknown | Column.Type.integer | - | - |
+| unknown | Column.ColumnType.index | - | - |
+
+**Returns**: `new`
+
+
+
+### Column(unknown: "address_id", unknown: Column.Type.integer, unknown: Column.ColumnType.index) → new
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| unknown | "address_id" | - | - |
+| unknown | Column.Type.integer | - | - |
+| unknown | Column.ColumnType.index | - | - |
+
+**Returns**: `new`
+
+
+
+### Column(unknown: "program_enrolment_id", unknown: Column.Type.integer, unknown: Column.ColumnType.index) → new
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| unknown | "program_enrolment_id" | - | - |
+| unknown | Column.Type.integer | - | - |
+| unknown | Column.ColumnType.index | - | - |
+
+**Returns**: `new`
+
+
+
+### Column(unknown: "program_encounter_id", unknown: Column.Type.integer, unknown: Column.ColumnType.index) → new
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| unknown | "program_encounter_id" | - | - |
+| unknown | Column.Type.integer | - | - |
+| unknown | Column.ColumnType.index | - | - |
+
+**Returns**: `new`
+
+
+
+### name(unknown: Map<String, tableDetails: Object>) → String
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| unknown | Map<String | - | - |
+| tableDetails | Object> | - | - |
+
+**Returns**: `String`
+
+
+
+### generateTableName(unknown: ProgramEncounterRepeatableQuestionGroup, unknown: null, unknown: tableDetails, unknown: "subject_type_name", unknown: "program_name", unknown: "encounter_type_name", unknown: "parent_concept_name") → return
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| unknown | ProgramEncounterRepeatableQuestionGroup | - | - |
+| unknown | null | - | - |
+| unknown | tableDetails | - | - |
+| unknown | "subject_type_name" | - | - |
+| unknown | "program_name" | - | - |
+| unknown | "encounter_type_name" | - | - |
+| unknown | "parent_concept_name" | - | - |
+
+**Returns**: `return`
+
+

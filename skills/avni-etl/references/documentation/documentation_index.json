@@ -1,0 +1,213 @@
+{
+  "total_files": 2,
+  "categories": {
+    "overview": [
+      "README.md",
+      "post-etl-sync-setup-readme.md"
+    ]
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "filename": "README.md",
+      "category": "overview",
+      "size_bytes": 1359,
+      "title": "README",
+      "structure": {
+        "title": null,
+        "headers": [
+          {
+            "level": 3,
+            "text": "Description",
+            "line": 1
+          },
+          {
+            "level": 3,
+            "text": "Developer setup",
+            "line": 10
+          }
+        ],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "![CircleCI",
+            "url": "https://circleci.com/gh/avniproject/avni-etl/tree/main.svg?style=svg"
+          }
+        ],
+        "word_count": 189,
+        "line_count": 18
+      },
+      "summary": "Sections: Description, Developer setup\nThe ETL service is responsible for creation, maintenance and distribution of ETL schemas for the Avni database.\n(189 words, 0 code blocks)",
+      "content": "### Description\nThe ETL service is responsible for creation, maintenance and distribution of ETL schemas for the Avni database. \n\nBecause of RLS, heavy usage of jsonb columns and hierarchical nature of the address tables, the public schema is not especially suited for analytical queries. This service converts this data structure into a more flat structure with all jsonb keys converted to columns. A scheduled job runs to keep populating data updated from the last run. \n\n```Organisation and organisation_group``` tables have fields ```schema_name``` that are used by ETL to figure out if an org has ETL enabled, and the schema where data should be transferred to. \nSince form fields can change, ETL adjusts tables to match the new application structure. The schema is stored in the ```table_metadata, column_metadata and index_metadata ``` tables on the public schema. \n```public.entity_sync_status``` stores the current sync status of each table.\n\n### Developer setup\n- Use jenv to match java version (Add whatever java version is mentioned)\n- Clone avni-server and run ```make build_db build_test_db``` to have all required tables in your system\n- ```make start``` to start server\n- ```make test``` to run tests\n\n\n[![CircleCI](https://circleci.com/gh/avniproject/avni-etl/tree/main.svg?style=svg)](https://circleci.com/gh/avniproject/avni-etl/tree/main)\n"
+    },
+    {
+      "path": "post-etl-sync-setup-readme.md",
+      "filename": "post-etl-sync-setup-readme.md",
+      "category": "overview",
+      "size_bytes": 7120,
+      "title": "Post-ETL Sync Processing",
+      "structure": {
+        "title": "Post-ETL Sync Processing",
+        "headers": [
+          {
+            "level": 1,
+            "text": "Post-ETL Sync Processing",
+            "line": 1
+          },
+          {
+            "level": 2,
+            "text": "Overview",
+            "line": 3
+          },
+          {
+            "level": 2,
+            "text": "Key Features",
+            "line": 7
+          },
+          {
+            "level": 2,
+            "text": "Implementation Details",
+            "line": 15
+          },
+          {
+            "level": 3,
+            "text": "Key Components",
+            "line": 17
+          },
+          {
+            "level": 3,
+            "text": "Execution Flow",
+            "line": 24
+          },
+          {
+            "level": 2,
+            "text": "Configuration and Usage Guidelines",
+            "line": 32
+          },
+          {
+            "level": 3,
+            "text": "Configuration Structure",
+            "line": 34
+          },
+          {
+            "level": 3,
+            "text": "Configuration Requirements",
+            "line": 72
+          },
+          {
+            "level": 3,
+            "text": "SQL Scripts",
+            "line": 90
+          },
+          {
+            "level": 3,
+            "text": "Parameter Substitution",
+            "line": 100
+          },
+          {
+            "level": 2,
+            "text": "Best Practices",
+            "line": 108
+          },
+          {
+            "level": 3,
+            "text": "Schema Name Usage",
+            "line": 110
+          },
+          {
+            "level": 3,
+            "text": "Timestamp Filtering",
+            "line": 124
+          },
+          {
+            "level": 3,
+            "text": "SQL Script Practices",
+            "line": 143
+          },
+          {
+            "level": 3,
+            "text": "Example SQL Script",
+            "line": 153
+          },
+          {
+            "level": 2,
+            "text": "Adding New Transformations",
+            "line": 167
+          },
+          {
+            "level": 2,
+            "text": "Current Implementations",
+            "line": 175
+          },
+          {
+            "level": 2,
+            "text": "Troubleshooting and Security",
+            "line": 182
+          },
+          {
+            "level": 3,
+            "text": "Delete previous version of specific post_etl_sync_processing_config database table. An example is shown below",
+            "line": 184
+          },
+          {
+            "level": 3,
+            "text": "Troubleshooting",
+            "line": 191
+          },
+          {
+            "level": 3,
+            "text": "Security Considerations",
+            "line": 198
+          }
+        ],
+        "code_blocks": [
+          {
+            "language": "json",
+            "code": "{\n  \"ddl\": [\n    {\n      \"order\": 1,\n      \"table\": \"table_name\",\n      \"sql\": \"create-table-script.sql\",\n      \"exists_check\": \"optional_custom_check_query\"\n    }\n  ],\n  \"dml\": [\n    {\n      \"order\": 1,\n      \"table\": \"target_table_name\",\n      \"sqls\": [\n        {\n          \"order\": 1,\n          \"sourceTableName\": \"source_table\",\n          \"insert-sql\": \"insert-script.sql\",\n          \"update-sqls\": [\n            \"update-script-1.sql\",\n            \"update-script-2.sql\"\n          ],\n          \"sq",
+            "full_length": 615
+          },
+          {
+            "language": "sql",
+            "code": "apfodisha.individual_child_growth_monitoring_report",
+            "full_length": 51
+          },
+          {
+            "language": "sql",
+            "code": "set role apfodisha;",
+            "full_length": 19
+          },
+          {
+            "language": "sql",
+            "code": "WHERE (column_datetime > :previousCutoffDateTime AND column_datetime <= :newCutoffDateTime)",
+            "full_length": 91
+          },
+          {
+            "language": "sql",
+            "code": "WHERE (created_date_time > :previousCutoffDateTime AND created_date_time <= :newCutoffDateTime)\n      OR (last_modified_date_time > :previousCutoffDateTime AND last_modified_date_time <= :newCutoffDateTime)",
+            "full_length": 206
+          },
+          {
+            "language": "sql",
+            "code": "AND follow_up.last_modified_date_time > :previousCutoffDateTime \n   AND follow_up.last_modified_date_time <= :newCutoffDateTime",
+            "full_length": 127
+          },
+          {
+            "language": "sql",
+            "code": "-- Insert script\nINSERT INTO schemaname.custom_report_table (field1, field2, field3)\nSELECT \n    s.field1,\n    s.field2,\n    s.field3\nFROM schemaname.source_table s\nWHERE (s.created_date_time > :previousCutoffDateTime AND s.created_date_time <= :newCutoffDateTime)\n   OR (s.last_modified_date_time > :previousCutoffDateTime AND s.last_modified_date_time <= :newCutoffDateTime);",
+            "full_length": 377
+          },
+          {
+            "language": "sql",
+            "code": "DELETE FROM public.post_etl_sync_status WHERE db_user = 'apfodisha';\nDROP TABLE apfodisha.individual_child_growth_monitoring_report;",
+            "full_length": 132
+          }
+        ],
+        "links": [],
+        "word_count": 856,
+        "line_count": 203
+      },
+      "summary": "**Post-ETL Sync Processing**\nSections: Overview, Key Features, Implementation Details, Key Components, Execution Flow\nThe Post-ETL Sync Processing feature enables custom data transformations after the standard ETL process is completed. This functionality allows organizations to create derived tables, perform complex ...\n(856 words, 8 code blocks)",
+      "content": "# Post-ETL Sync Processing\n\n## Overview\n\nThe Post-ETL Sync Processing feature enables custom data transformations after the standard ETL process is completed. This functionality allows organizations to create derived tables, perform complex data aggregations, and implement custom business logic on the ETL data.\n\n## Key Features\n\n- **Configurable Transformations**: Define custom SQL transformations through JSON configuration files\n- **Incremental Processing**: Only process data that has changed since the last sync\n- **Ordered Execution**: Execute DDL and DML operations in a specified order\n- **Schema-specific Configurations**: Support for organization-specific transformations\n- **Transaction Management**: Ensures data integrity during the transformation process\n\n## Implementation Details\n\n### Key Components\n\n1. **PostETLConfig**: Domain model for the configuration structure\n2. **PostETLSyncService**: Service that orchestrates the execution of post-ETL sync scripts\n3. **PostETLSyncStatusRepository**: Manages the sync state and cutoff timestamps\n4. **EtlService**: Integration point to trigger post-ETL sync after the main ETL process\n\n### Execution Flow\n\n1. The ETL process completes\n2. PostETLSyncService loads the organization-specific configuration\n3. DDL scripts are executed in order (if tables don't exist)\n4. DML scripts are executed in order, with inserts followed by updates\n5. The cutoff timestamp is updated for the next run\n\n## Configuration and Usage Guidelines\n\n### Configuration Structure\n\nThe Post-ETL Sync process is driven by a JSON configuration file named `post-etl-sync-processing-config.json` located in the organization-specific directory under `src/main/resources/post-etl/{organization}/`.\n\n```json\n{\n  \"ddl\": [\n    {\n      \"order\": 1,\n      \"table\": \"table_name\",\n      \"sql\": \"create-table-script.sql\",\n      \"exists_check\": \"optional_custom_check_query\"\n    }\n  ],\n  \"dml\": [\n    {\n      \"order\": 1,\n      \"table\": \"target_table_name\",\n      \"sqls\": [\n        {\n          \"order\": 1,\n          \"sourceTableName\": \"source_table\",\n          \"insert-sql\": \"insert-script.sql\",\n          \"update-sqls\": [\n            \"update-script-1.sql\",\n            \"update-script-2.sql\"\n          ],\n          \"sql-params\": [\n            \"optional_param1\",\n            \"optional_param2\"\n          ]\n        }\n      ]\n    }\n  ]\n}\n```\n\n### Configuration Requirements\n\n1. **DDL Configuration**:\n   - `order`: Numeric execution order (starts with 1)\n   - `table`: Target table name\n   - `sql`: SQL script filename for table creation\n   - Optional: `exists_check` for custom table existence verification\n\n2. **DML Configuration**:\n   - `order`: Numeric execution order\n   - `table`: Target table name\n   - `sqls`: Array of source table operations with:\n     - `order`: Execution order within the DML operation\n     - `sourceTableName`: Source table for data\n     - `insert-sql`: Script filename for insert operations (can be empty if only updates)\n     - `update-sqls`: Array of update script filenames (can be empty if only inserts)\n     - Optional: `sql-params` for additional parameters\n\n### SQL Scripts\n\nSQL scripts are stored in the organization-specific directory and referenced in the configuration file:\n\n1. **DDL Scripts**: Create tables, indexes, and other database objects. These run first and only if the table doesn't already exist.\n\n2. **DML Scripts**: Insert and update data in the tables:\n   - **Insert SQL**: Adds new records to the target table\n   - **Update SQLs**: Updates existing records in the target table\n\n### Parameter Substitution\n\nThe system automatically replaces the following parameters in SQL scripts:\n\n- `:previousCutoffDateTime`: Timestamp of the last successful sync\n- `:newCutoffDateTime`: Current timestamp for this sync\n- `:param1`, `:param2`, etc.: Custom parameters specified in the `sql-params` array\n\n## Best Practices\n\n### Schema Name Usage\n\n1. **Always qualify table names** with the schema name in all SQL scripts:\n   ```sql\n   apfodisha.individual_child_growth_monitoring_report\n   ```\n\n2. **Begin DDL scripts with role setting** to ensure proper permissions:\n   ```sql\n   set role apfodisha;\n   ```\n\n3. **Use consistent schema names** throughout all related SQL scripts, matching the directory name under `post-etl/`\n\n### Timestamp Filtering\n\n1. **Always use both timestamp parameters** in SQL scripts that modify data:\n   ```sql\n   WHERE (column_datetime > :previousCutoffDateTime AND column_datetime <= :newCutoffDateTime)\n   ```\n\n2. **Apply filters to multiple timestamp columns** when applicable:\n   ```sql\n   WHERE (created_date_time > :previousCutoffDateTime AND created_date_time <= :newCutoffDateTime)\n      OR (last_modified_date_time > :previousCutoffDateTime AND last_modified_date_time <= :newCutoffDateTime)\n   ```\n\n3. **Include timestamp filters in all subqueries and CTEs**:\n   ```sql\n   AND follow_up.last_modified_date_time > :previousCutoffDateTime \n   AND follow_up.last_modified_date_time <= :newCutoffDateTime\n   ```\n\n### SQL Script Practices\n\n1. **Use descriptive prefixes** related to the target table (e.g., `icgmr-` for individual_child_growth_monitoring_report)\n\n2. **Use CTEs for complex updates** and include explicit JOINs with proper conditions\n\n3. **Always include `is_voided = false` checks** when applicable\n\n4. **Specify data types and nullability** explicitly in CREATE TABLE statements\n\n### Example SQL Script\n\n```sql\n-- Insert script\nINSERT INTO schemaname.custom_report_table (field1, field2, field3)\nSELECT \n    s.field1,\n    s.field2,\n    s.field3\nFROM schemaname.source_table s\nWHERE (s.created_date_time > :previousCutoffDateTime AND s.created_date_time <= :newCutoffDateTime)\n   OR (s.last_modified_date_time > :previousCutoffDateTime AND s.last_modified_date_time <= :newCutoffDateTime);\n```\n\n## Adding New Transformations\n\nTo add new post-ETL transformations:\n\n1. Create SQL scripts for table creation and data manipulation\n2. Update the organization's `post-etl-sync-processing-config.json` file\n3. Place all files in the organization-specific directory under `src/main/resources/post-etl/{organization}/`\n\n## Current Implementations\n\nThe system currently implements transformations for:\n\n- **APF Odisha**: Child growth monitoring reports with derived fields for nutrition status\n- **RWB**: Custom reporting tables\n\n## Troubleshooting and Security\n\n### Delete previous version of specific post_etl_sync_processing_config database table. An example is shown below\n\n```sql\nDELETE FROM public.post_etl_sync_status WHERE db_user = 'apfodisha';\nDROP TABLE apfodisha.individual_child_growth_monitoring_report;\n```\n\n### Troubleshooting\n\n- Check application logs for detailed execution information\n- Verify SQL scripts use the correct schema and table names\n- Ensure parameter placeholders match the expected format\n- Confirm the configuration file follows the correct JSON structure\n\n### Security Considerations\n\n- SQL scripts run with the organization's database role\n- Each organization's transformations are isolated to their own schema\n- The search path is reset after execution to prevent cross-schema access\n"
+    }
+  ]
+}
