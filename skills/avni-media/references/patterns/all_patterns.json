@@ -1,0 +1,105 @@
+[
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-media/server/src/media-viewer/media-viewer.controller.ts",
+    "language": "TypeScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-media/server/src/media-viewer/media-viewer.controller.ts",
+        "class_name": "MediaViewerController",
+        "method_name": null,
+        "line_number": 15,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-media/server/src/media-viewer/media-viewer.service.ts",
+    "language": "TypeScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-media/server/src/media-viewer/media-viewer.service.ts",
+        "class_name": "MediaViewerService",
+        "method_name": null,
+        "line_number": 15,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-media/server/src/s3/s3.Service.ts",
+    "language": "TypeScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-media/server/src/s3/s3.Service.ts",
+        "class_name": "S3Service",
+        "method_name": null,
+        "line_number": 7,
+        "evidence": [
+          "Factory method: constructor",
+          "Factory method: get",
+          "Factory method: get",
+          "Multiple factory methods: constructor, get, get"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-media/server/src/tasks/download.task.ts",
+    "language": "TypeScript",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-media/server/src/tasks/download.task.ts",
+        "class_name": "DownloadMediaTask",
+        "method_name": null,
+        "line_number": 7,
+        "evidence": [
+          "Class name suggests Command: DownloadMediaTask"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Command": 1
+    }
+  }
+]

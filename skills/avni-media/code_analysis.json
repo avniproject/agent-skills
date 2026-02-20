@@ -1,0 +1,3338 @@
+{
+  "files": [
+    {
+      "file": "client/components/CheckButton.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "CheckButton",
+          "parameters": [
+            {
+              "name": "{name",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "id",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "onSelectImage",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "checkedImage",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "onSelectImageCarousel",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "flag",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "image_url",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "unSignedUrl",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "imageDescription}",
+              "type_hint": "prop",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 17,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getImageNameOrDescription",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 32,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleChecked",
+          "parameters": [
+            {
+              "name": "e",
+              "type_hint": "any",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 18,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "@ant-design",
+        "@"
+      ]
+    },
+    {
+      "file": "client/components/DownloadComponent/Button.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "Button",
+          "parameters": [
+            {
+              "name": "{ name",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "onClick }",
+              "type_hint": "ButtonProps",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 9,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "react"
+      ]
+    },
+    {
+      "file": "client/components/DownloadComponent/DownloadList.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "Download",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 5,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "fetchData",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 9,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "react",
+        "@",
+        "axios"
+      ]
+    },
+    {
+      "file": "client/components/FilterComponent/CodedConceptFilter.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "CodedConceptFilter",
+          "parameters": [
+            {
+              "name": "{ concepts",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "conceptCoded }",
+              "type_hint": "Prop",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 11,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleOptionClick",
+          "parameters": [
+            {
+              "name": "option",
+              "type_hint": "any",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 18,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "answerConceptData",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 27,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleClickOutside",
+          "parameters": [
+            {
+              "name": "event",
+              "type_hint": "{ target: any }",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 51,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 40,
+          "text": "Memoized callback to prevent infinite loops",
+          "type": "inline"
+        },
+        {
+          "line": 44,
+          "text": "Only call if selectedOptions actually changed",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "@heroicons",
+        "lodash",
+        "react",
+        "@headlessui"
+      ]
+    },
+    {
+      "file": "client/components/FilterComponent/Concepts.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "classNames",
+          "parameters": [
+            {
+              "name": "...classes",
+              "type_hint": "string[]",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 15,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "Concepts",
+          "parameters": [
+            {
+              "name": "{setConceptsFunction",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "concepts",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "title",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "multiSelect",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "searchable",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "selectedValue}",
+              "type_hint": "Prop",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 19,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleOptionClick",
+          "parameters": [
+            {
+              "name": "option",
+              "type_hint": "any",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 43,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleSearchChange",
+          "parameters": [
+            {
+              "name": "event",
+              "type_hint": "React.ChangeEvent<HTMLInputElement>",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 55,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 32,
+          "text": "Memoized callback to prevent infinite loops",
+          "type": "inline"
+        },
+        {
+          "line": 36,
+          "text": "Only call if selectedOptions actually changed",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "@heroicons",
+        "lodash",
+        "react",
+        "@headlessui"
+      ]
+    },
+    {
+      "file": "client/components/FilterComponent/DateConceptFilter.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "DateConceptFilter",
+          "parameters": [
+            {
+              "name": "{ getDateConcept",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "conceptDates }",
+              "type_hint": "Props",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 19,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 24,
+          "text": "Memoized callback to prevent infinite loops",
+          "type": "inline"
+        },
+        {
+          "line": 28,
+          "text": "Only call if date actually changed",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "lodash",
+        "antd",
+        "dayjs",
+        "react-date-range",
+        "@headlessui",
+        "react"
+      ]
+    },
+    {
+      "file": "client/components/FilterComponent/Daterange.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "DateRangeComp",
+          "parameters": [
+            {
+              "name": "{ dateRange }",
+              "type_hint": "Props",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 18,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 22,
+          "text": "Memoized callback to prevent infinite loops",
+          "type": "inline"
+        },
+        {
+          "line": 26,
+          "text": "Only call if date actually changed",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "lodash",
+        "antd",
+        "dayjs",
+        "react-date-range",
+        "@headlessui",
+        "react"
+      ]
+    },
+    {
+      "file": "client/components/FilterComponent/EncounterType.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "EncounterType",
+          "parameters": [
+            {
+              "name": "{\n  encounterType",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "showAllEncounter",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "showEncounter",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "selectedEncounters",
+              "type_hint": null,
+              "default": "[]\n}: Prop"
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 19,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleOptionClick",
+          "parameters": [
+            {
+              "name": "option",
+              "type_hint": "Option",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 59,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleClickOutside",
+          "parameters": [
+            {
+              "name": "event",
+              "type_hint": "{ target: any }",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 72,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 16,
+          "text": "Add prop to receive current selection from parent",
+          "type": "inline"
+        },
+        {
+          "line": 34,
+          "text": "Reset internal state when parent resets",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "@heroicons",
+        "react",
+        "@headlessui",
+        "rc-select"
+      ]
+    },
+    {
+      "file": "client/components/FilterComponent/ImageSize.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "NumberDropdown",
+          "parameters": [
+            {
+              "name": "{ label",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "min",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "max",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "step",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "onChange }",
+              "type_hint": "Prop",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 10,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleChange",
+          "parameters": [
+            {
+              "name": "event",
+              "type_hint": "{ target: { value: string } }",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 13,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "react"
+      ]
+    },
+    {
+      "file": "client/components/FilterComponent/LocationHierarchy.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "classNames",
+          "parameters": [
+            {
+              "name": "...classes",
+              "type_hint": "string[]",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 36,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "LocationHierarchy",
+          "parameters": [
+            {
+              "name": "{\n  locationIndex",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "location",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "getLocation",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "getOtherLocation",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "getTopLevel",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "getSecondLevel",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "maxLevel",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "otherLocation",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "minLevel",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "index",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "getTypeId",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "locationFilter",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "getDiffArray",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "locationReset\n}",
+              "type_hint": "Prop",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 40,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleOptionSelect",
+          "parameters": [
+            {
+              "name": "option",
+              "type_hint": "Option",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 78,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleOptionClick",
+          "parameters": [
+            {
+              "name": "option",
+              "type_hint": "Option",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 209,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "typeIdData",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 137,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleClickOutside",
+          "parameters": [
+            {
+              "name": "event",
+              "type_hint": "{ target: any }",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 225,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 66,
+          "text": "Reset internal state when locationResetTimestamp changes",
+          "type": "inline"
+        },
+        {
+          "line": 99,
+          "text": "eslint-disable-next-line react-hooks/exhaustive-deps",
+          "type": "inline"
+        },
+        {
+          "line": 100,
+          "text": "Removed getTopLevel to prevent infinite loops",
+          "type": "inline"
+        },
+        {
+          "line": 108,
+          "text": "eslint-disable-next-line react-hooks/exhaustive-deps",
+          "type": "inline"
+        },
+        {
+          "line": 109,
+          "text": "Intentionally excluding selectedOptions to prevent circular updates",
+          "type": "inline"
+        },
+        {
+          "line": 133,
+          "text": "eslint-disable-next-line react-hooks/exhaustive-deps",
+          "type": "inline"
+        },
+        {
+          "line": 134,
+          "text": "Added missing data dependencies, excluded selectedOptions to prevent circular updates",
+          "type": "inline"
+        },
+        {
+          "line": 207,
+          "text": "eslint-disable-next-line react-hooks/exhaustive-deps",
+          "type": "inline"
+        },
+        {
+          "line": 208,
+          "text": "Removed all function dependencies to prevent infinite loops",
+          "type": "inline"
+        },
+        {
+          "line": 222,
+          "text": "eslint-disable-next-line react-hooks/exhaustive-deps",
+          "type": "inline"
+        },
+        {
+          "line": 223,
+          "text": "Removed getSecondLevel to prevent infinite loops",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "@heroicons",
+        "lodash",
+        "axios",
+        "@headlessui",
+        "react"
+      ]
+    },
+    {
+      "file": "client/components/FilterComponent/NumericConceptFilter.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "NumericConceptFilter",
+          "parameters": [
+            {
+              "name": "{ getNumericConcept",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "numericConcept }",
+              "type_hint": "Prop",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 8,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 15,
+          "text": "Proper debounced function",
+          "type": "inline"
+        },
+        {
+          "line": 18,
+          "text": "Clear existing timeout",
+          "type": "inline"
+        },
+        {
+          "line": 23,
+          "text": "Set new timeout",
+          "type": "inline"
+        },
+        {
+          "line": 32,
+          "text": "Both empty - call getNumericConcept with null values to clear filter",
+          "type": "inline"
+        },
+        {
+          "line": 39,
+          "text": "Parse values - allow empty strings to be treated as null",
+          "type": "inline"
+        },
+        {
+          "line": 43,
+          "text": "Validate range only if both values exist",
+          "type": "inline"
+        },
+        {
+          "line": 55,
+          "text": "Only call if valid and at least one value exists",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "react"
+      ]
+    },
+    {
+      "file": "client/components/FilterComponent/Program.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "Program",
+          "parameters": [
+            {
+              "name": "{ programType",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "programFilter",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "selectedPrograms",
+              "type_hint": null,
+              "default": "[] }: Props"
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 16,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleOptionClick",
+          "parameters": [
+            {
+              "name": "option",
+              "type_hint": "{\n    uuid: Option; name: Option; \n}",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 52,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleClickOutside",
+          "parameters": [
+            {
+              "name": "event",
+              "type_hint": "{ target: any }",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 69,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 13,
+          "text": "Add prop to receive current selection from parent",
+          "type": "inline"
+        },
+        {
+          "line": 22,
+          "text": "Reset internal state when parent resets",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "@heroicons",
+        "lodash",
+        "react",
+        "@headlessui"
+      ]
+    },
+    {
+      "file": "client/components/FilterComponent/SubjectType.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "SubjectType",
+          "parameters": [
+            {
+              "name": "{ subjectType",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "subjectFilter",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "selectedSubjects",
+              "type_hint": null,
+              "default": "[] }: Prop"
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 17,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleOptionClick",
+          "parameters": [
+            {
+              "name": "option",
+              "type_hint": "Option",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 35,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleClickOutside",
+          "parameters": [
+            {
+              "name": "event",
+              "type_hint": "{ target: any }",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 48,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 14,
+          "text": "Add prop to receive current selection from parent",
+          "type": "inline"
+        },
+        {
+          "line": 23,
+          "text": "Reset internal state when parent resets",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "@heroicons",
+        "react",
+        "@headlessui"
+      ]
+    },
+    {
+      "file": "client/components/FilterComponent/TextConceptFilter.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "TextConceptFilter",
+          "parameters": [
+            {
+              "name": "{ getConcepts",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "textConcepts }",
+              "type_hint": "Prop",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 8,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 14,
+          "text": "Memoized callback to prevent infinite loops",
+          "type": "inline"
+        },
+        {
+          "line": 18,
+          "text": "Clear previous timeout",
+          "type": "inline"
+        },
+        {
+          "line": 23,
+          "text": "Set new timeout to debounce the getConcepts call",
+          "type": "inline"
+        },
+        {
+          "line": 26,
+          "text": "500ms delay",
+          "type": "inline"
+        },
+        {
+          "line": 28,
+          "text": "Cleanup timeout on unmount",
+          "type": "inline"
+        },
+        {
+          "line": 36,
+          "text": "Only clear input when textConcepts is explicitly cleared (e.g., reset filters)",
+          "type": "inline"
+        },
+        {
+          "line": 37,
+          "text": "Don't clear during normal filtering operations",
+          "type": "inline"
+        },
+        {
+          "line": 39,
+          "text": "Only clear if we had concepts before and now we don't (explicit clear)",
+          "type": "inline"
+        },
+        {
+          "line": 40,
+          "text": "Don't clear if it starts empty or during normal state updates",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "react"
+      ]
+    },
+    {
+      "file": "client/components/FilterComponent/TimeStampConceptFilter.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "TimeStampConceptFilter",
+          "parameters": [
+            {
+              "name": "{ getTimeStampConcept",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "dateTimeConcept }",
+              "type_hint": "Props",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 19,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 24,
+          "text": "Memoized callback to prevent infinite loops",
+          "type": "inline"
+        },
+        {
+          "line": 28,
+          "text": "Only call if date actually changed",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "lodash",
+        "antd",
+        "dayjs",
+        "react-date-range",
+        "@headlessui",
+        "react"
+      ]
+    },
+    {
+      "file": "client/components/ImageCarousel.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "buildSubjectDashboardURLForUUID",
+          "parameters": [
+            {
+              "name": "uuid",
+              "type_hint": "string",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 46,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "ImageCarousel",
+          "parameters": [
+            {
+              "name": "{\n                           imageList",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "carouselImage",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "onClose",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "onSelectImage",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "checkedImage",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "minLevelName",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "setCarouselImage\n                       }",
+              "type_hint": "Props",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 28,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "onSelectImageCarousel",
+          "parameters": [
+            {
+              "name": "value",
+              "type_hint": "string",
+              "default": null
+            },
+            {
+              "name": "checked",
+              "type_hint": "boolean",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 42,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "redirectToSubjectDashboardURL",
+          "parameters": [
+            {
+              "name": "imgMetadata",
+              "type_hint": "imageMetadata",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 50,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "customClickHandler",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 103,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "customClickHandler",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 119,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 84,
+          "text": "www.w3.org/2000/svg\"",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "axios",
+        "react-responsive-carousel",
+        "@",
+        "react",
+        "@mui"
+      ]
+    },
+    {
+      "file": "client/components/ImageDescriptionModal.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "UserInputModal",
+          "parameters": [
+            {
+              "name": "{ showModal",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "onClose",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "onSubmit",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "date",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "subject",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "}",
+              "type_hint": "prop",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 14,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleSubmit",
+          "parameters": [
+            {
+              "name": "event",
+              "type_hint": "{ preventDefault: (",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 16,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 5,
+          "text": "Fix for TypeScript error: 'Modal' cannot be used as a JSX component",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "react-modal",
+        "react"
+      ]
+    },
+    {
+      "file": "client/components/ImageList.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "ImageList",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 28,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "filterData",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 88,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getConceptData",
+          "parameters": [
+            {
+              "name": "formUUID",
+              "type_hint": "any",
+              "default": null
+            },
+            {
+              "name": "filteredConcept",
+              "type_hint": "any[]",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 113,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "data",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 169,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "fetchImages",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 304,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "onSelectImage",
+          "parameters": [
+            {
+              "name": "value",
+              "type_hint": "string",
+              "default": null
+            },
+            {
+              "name": "checked",
+              "type_hint": "boolean",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 332,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "toggleCheckAllImagesInCurrentPage",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 361,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "pageChange",
+          "parameters": [
+            {
+              "name": "page",
+              "type_hint": "number",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 390,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleSendSelectedImages",
+          "parameters": [
+            {
+              "name": "inputValue",
+              "type_hint": "any",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 402,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleOpenModal",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 419,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleCloseModal",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 423,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleSubmit",
+          "parameters": [
+            {
+              "name": "inputValue",
+              "type_hint": "any",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 427,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "updateConceptFilter",
+          "parameters": [
+            {
+              "name": "filterKey",
+              "type_hint": "string",
+              "default": null
+            },
+            {
+              "name": "newFilter",
+              "type_hint": "any",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 437,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "addFieldFilter",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 466,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "removeFieldFilter",
+          "parameters": [
+            {
+              "name": "index",
+              "type_hint": "number",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 470,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "renderFilterComponent",
+          "parameters": [
+            {
+              "name": "selectedFieldConcept",
+              "type_hint": "any",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 507,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getDateConcept",
+          "parameters": [
+            {
+              "name": "data",
+              "type_hint": "any[] | null",
+              "default": null
+            },
+            {
+              "name": "conceptUuid",
+              "type_hint": "string",
+              "default": null
+            },
+            {
+              "name": "formUuid",
+              "type_hint": "string",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 563,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getTimeStampConcept",
+          "parameters": [
+            {
+              "name": "data",
+              "type_hint": "any[] | null",
+              "default": null
+            },
+            {
+              "name": "conceptUuid",
+              "type_hint": "string",
+              "default": null
+            },
+            {
+              "name": "formUuid",
+              "type_hint": "string",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 577,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getNumericConcept",
+          "parameters": [
+            {
+              "name": "fromNumber",
+              "type_hint": "number | null",
+              "default": null
+            },
+            {
+              "name": "toNumber",
+              "type_hint": "number | null",
+              "default": null
+            },
+            {
+              "name": "conceptUuid",
+              "type_hint": "string",
+              "default": null
+            },
+            {
+              "name": "formUuid",
+              "type_hint": "string",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 591,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "conceptCoded",
+          "parameters": [
+            {
+              "name": "data",
+              "type_hint": "any",
+              "default": null
+            },
+            {
+              "name": "conceptUuid",
+              "type_hint": "string",
+              "default": null
+            },
+            {
+              "name": "formUuid",
+              "type_hint": "string",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 607,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getNoteConcept",
+          "parameters": [
+            {
+              "name": "data",
+              "type_hint": "string",
+              "default": null
+            },
+            {
+              "name": "conceptUuid",
+              "type_hint": "string",
+              "default": null
+            },
+            {
+              "name": "formUuid",
+              "type_hint": "string",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 621,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getTextConcept",
+          "parameters": [
+            {
+              "name": "data",
+              "type_hint": "string",
+              "default": null
+            },
+            {
+              "name": "conceptUuid",
+              "type_hint": "string",
+              "default": null
+            },
+            {
+              "name": "formUuid",
+              "type_hint": "string",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 634,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "programType",
+          "parameters": [
+            {
+              "name": "data",
+              "type_hint": "any[]",
+              "default": null
+            },
+            {
+              "name": "programUuid",
+              "type_hint": "string[]",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 647,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "dateRange",
+          "parameters": [
+            {
+              "name": "data",
+              "type_hint": "any[] | null",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 652,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "encounterType",
+          "parameters": [
+            {
+              "name": "data",
+              "type_hint": "any[]",
+              "default": null
+            },
+            {
+              "name": "encounterTypeUUID",
+              "type_hint": "any[]",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 660,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "subjectType",
+          "parameters": [
+            {
+              "name": "data",
+              "type_hint": "any[]",
+              "default": null
+            },
+            {
+              "name": "subjectUuid",
+              "type_hint": "string[]",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 765,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "filtersData",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 806,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleNumberChange",
+          "parameters": [
+            {
+              "name": "value",
+              "type_hint": "number",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 910,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "resetFilters",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 914,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "toggleSelectAllPages",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 966,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "resetSelections",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 977,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 439,
+          "text": "Remove any existing filter with the same conceptUuid OR the same filterKey",
+          "type": "inline"
+        },
+        {
+          "line": 441,
+          "text": "Remove if same conceptUuid (for regular filters) OR same filterKey (for indexed filters)",
+          "type": "inline"
+        },
+        {
+          "line": 445,
+          "text": "Check if the new filter is actually different from existing ones",
+          "type": "inline"
+        },
+        {
+          "line": 448,
+          "text": "Compare filter contents to avoid unnecessary updates",
+          "type": "inline"
+        },
+        {
+          "line": 451,
+          "text": "No change needed",
+          "type": "inline"
+        },
+        {
+          "line": 461,
+          "text": "Remove all filters for this conceptUuid (including indexed ones)",
+          "type": "inline"
+        },
+        {
+          "line": 476,
+          "text": "Set to null to preserve other filter positions",
+          "type": "inline"
+        },
+        {
+          "line": 484,
+          "text": "Prevent infinite loops by checking if the field is actually changing",
+          "type": "inline"
+        },
+        {
+          "line": 487,
+          "text": "Don't update if:",
+          "type": "inline"
+        },
+        {
+          "line": 488,
+          "text": "1. newField is undefined/null and current is already null",
+          "type": "inline"
+        },
+        {
+          "line": 489,
+          "text": "2. newField is the same as current field",
+          "type": "inline"
+        },
+        {
+          "line": 502,
+          "text": "Ensure we set null instead of undefined",
+          "type": "inline"
+        },
+        {
+          "line": 592,
+          "text": "Don't create filter if both values are null/empty",
+          "type": "inline"
+        },
+        {
+          "line": 609,
+          "text": "For coded concepts, use a single filter with multiple values (IN clause)",
+          "type": "inline"
+        },
+        {
+          "line": 613,
+          "text": "Multiple values for IN clause",
+          "type": "inline"
+        },
+        {
+          "line": 626,
+          "text": "Keep the entire text as a single value, trimmed",
+          "type": "inline"
+        },
+        {
+          "line": 639,
+          "text": "Keep the entire text as a single value, trimmed",
+          "type": "inline"
+        },
+        {
+          "line": 815,
+          "text": "Clean up conceptFilters by removing internal _filterKey property and filtering out empty values",
+          "type": "inline"
+        },
+        {
+          "line": 822,
+          "text": "Remove filters with empty values",
+          "type": "inline"
+        },
+        {
+          "line": 824,
+          "text": "For array values (Text, Notes, Coded)",
+          "type": "inline"
+        },
+        {
+          "line": 828,
+          "text": "For numeric/date range filters",
+          "type": "inline"
+        },
+        {
+          "line": 832,
+          "text": "Keep other filter types",
+          "type": "inline"
+        },
+        {
+          "line": 848,
+          "text": "Enhanced empty value filtering for all filter types",
+          "type": "inline"
+        },
+        {
+          "line": 850,
+          "text": "For arrays (subject, program, encounter, addresses, etc.)",
+          "type": "inline"
+        },
+        {
+          "line": 856,
+          "text": "For objects (like conceptFilters)",
+          "type": "inline"
+        },
+        {
+          "line": 858,
+          "text": "Already filtered above",
+          "type": "inline"
+        },
+        {
+          "line": 862,
+          "text": "For primitive values (strings, numbers, booleans)",
+          "type": "inline"
+        },
+        {
+          "line": 890,
+          "text": "Handle reload after reset when dataBody has been updated",
+          "type": "inline"
+        },
+        {
+          "line": 893,
+          "text": "Check if dataBody is effectively empty (only has includeTotalCount or is empty)",
+          "type": "inline"
+        },
+        {
+          "line": 915,
+          "text": "Clear all filter states instead of reloading",
+          "type": "inline"
+        },
+        {
+          "line": 926,
+          "text": "Keep one empty filter",
+          "type": "inline"
+        },
+        {
+          "line": 930,
+          "text": "Clear location-related filters",
+          "type": "inline"
+        },
+        {
+          "line": 941,
+          "text": "Clear date filters",
+          "type": "inline"
+        },
+        {
+          "line": 945,
+          "text": "Clear program/encounter display states",
+          "type": "inline"
+        },
+        {
+          "line": 950,
+          "text": "Reset pagination and selection",
+          "type": "inline"
+        },
+        {
+          "line": 956,
+          "text": "Reset concept data",
+          "type": "inline"
+        },
+        {
+          "line": 960,
+          "text": "Set flag to trigger reload after dataBody is updated",
+          "type": "inline"
+        },
+        {
+          "line": 1116,
+          "text": "Only update if we have valid data or if we're clearing a selection",
+          "type": "inline"
+        },
+        {
+          "line": 1120,
+          "text": "Only clear if there was actually a selection before",
+          "type": "inline"
+        },
+        {
+          "line": 1123,
+          "text": "Otherwise, ignore empty/undefined data to prevent loops",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "lodash",
+        "axios",
+        "@",
+        "next",
+        "react",
+        "@mui"
+      ]
+    },
+    {
+      "file": "client/components/MediaViewItem.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "MediaViewItem",
+          "parameters": [
+            {
+              "name": "{image",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "setCarouselImage",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "minLevelName",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "onSelectImage",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "checkedImage}",
+              "type_hint": "Props",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 12,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "@"
+      ]
+    },
+    {
+      "file": "client/components/Navbar.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "HomeIcon",
+          "parameters": [
+            {
+              "name": "props",
+              "type_hint": "SvgIconProps",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 7,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "Navbar",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 15,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "next",
+        "@",
+        "@headlessui",
+        "@mui"
+      ]
+    },
+    {
+      "file": "client/components/Pagination.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "Pagination",
+          "parameters": [
+            {
+              "name": "{ showperpage",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "pagechange",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "enableNextPage",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "totalCount",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "currentPageLength",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "currentPage }",
+              "type_hint": "Props",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 12,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "onButtonclick",
+          "parameters": [
+            {
+              "name": "type",
+              "type_hint": "string",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 20,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 49,
+          "text": "{\n        new Array(Math.ceil(total / showperpage)).fill(\"\").map((page, index) => (\n          <div key={index} className=\"pagination\" onClick={() => setCounter(index + 1)} >\n            <a\n              className={`page-link ${index + 1 === counter ? \"active active-page\" : \"\"}`}\n              href=\"#\"\n            >\n              {index + 1}\n            </a>\n          </div>\n        ))\n      }",
+          "type": "block"
+        }
+      ],
+      "imports": [
+        "@heroicons",
+        "react"
+      ]
+    },
+    {
+      "file": "client/components/loading.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "Loading",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 8,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 5,
+          "text": "Fix for TypeScript error: 'Modal' cannot be used as a JSX component",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "react-modal",
+        "@mui"
+      ]
+    },
+    {
+      "file": "client/middleware.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "middleware",
+          "parameters": [
+            {
+              "name": "request",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 7,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "next"
+      ]
+    },
+    {
+      "file": "client/model/ImageType.ts",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "hasQuestionGroupConceptName",
+          "parameters": [
+            {
+              "name": "image",
+              "type_hint": "imageType",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 34,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "hasRepeatableQuestionGroupIndex",
+          "parameters": [
+            {
+              "name": "image",
+              "type_hint": "imageType",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 38,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "lodash"
+      ]
+    },
+    {
+      "file": "client/pages/_app.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "App",
+          "parameters": [
+            {
+              "name": "{ Component",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "pageProps }",
+              "type_hint": "AppProps",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 4,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "@",
+        "next"
+      ]
+    },
+    {
+      "file": "client/pages/_document.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "Document",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 3,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "next"
+      ]
+    },
+    {
+      "file": "client/pages/downloadList.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "downloadList",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 5,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "@"
+      ]
+    },
+    {
+      "file": "client/pages/index.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "Home",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 10,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 15,
+          "text": "useSearchParams doesn't seem to work",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "@",
+        "next",
+        "react"
+      ]
+    },
+    {
+      "file": "client/service/MediaSearchService.ts",
+      "language": "TypeScript",
+      "classes": [
+        {
+          "name": "MediaSearchService",
+          "base_classes": [],
+          "methods": [
+            {
+              "name": "searchMedia",
+              "parameters": [
+                {
+                  "name": "searchData",
+                  "type_hint": "any",
+                  "default": null
+                },
+                {
+                  "name": "pageNumber",
+                  "type_hint": "any",
+                  "default": null
+                },
+                {
+                  "name": "pageSize",
+                  "type_hint": "any",
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": true,
+              "is_method": true,
+              "decorators": []
+            },
+            {
+              "name": "fetchAuthHeaders",
+              "parameters": [],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            }
+          ],
+          "docstring": null,
+          "line_number": 6
+        }
+      ],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "lodash",
+        "@",
+        "axios"
+      ]
+    },
+    {
+      "file": "client/tailwind.config.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [],
+      "comments": [
+        {
+          "line": 1,
+          "text": "* @type {import('tailwindcss').Config}",
+          "type": "block"
+        },
+        {
+          "line": 4,
+          "text": "*/*.{js,jsx,ts,tsx}',\n    './components/*",
+          "type": "block"
+        }
+      ],
+      "imports": [
+        "@tailwindcss"
+      ]
+    },
+    {
+      "file": "client/utils/ConfigUtil.ts",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "getAppHomeUrl",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 1,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getUserName",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 5,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "isDevMode",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 9,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "isDevModeWithoutIDP",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 14,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": []
+    },
+    {
+      "file": "client/utils/helpers.tsx",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "storeToken",
+          "parameters": [
+            {
+              "name": "authToken",
+              "type_hint": "any",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 26,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "fetchAuthHeaders",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 44,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "isAudioOrVideo",
+          "parameters": [
+            {
+              "name": "fileExtension",
+              "type_hint": "string",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 119,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "isImage",
+          "parameters": [
+            {
+              "name": "fileExtension",
+              "type_hint": "string",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 124,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "matchesFileExtension",
+          "parameters": [
+            {
+              "name": "fileExtension",
+              "type_hint": "string",
+              "default": null
+            },
+            {
+              "name": "supportedExtensions",
+              "type_hint": "string[]",
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 129,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "validateAccessToken",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 8,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getUserUuidFromToken",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 62,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "operationalModuleData",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 69,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 45,
+          "text": "Check if we have a stored token first (for IDP mode)",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "@",
+        "jwt-decode",
+        "axios"
+      ]
+    },
+    {
+      "file": "server/src/app.controller.spec.ts",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "@nestjs"
+      ]
+    },
+    {
+      "file": "server/src/app.controller.ts",
+      "language": "TypeScript",
+      "classes": [
+        {
+          "name": "AppController",
+          "base_classes": [],
+          "methods": [
+            {
+              "name": "constructor",
+              "parameters": [
+                {
+                  "name": "private readonly appService",
+                  "type_hint": "AppService",
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            }
+          ],
+          "docstring": null,
+          "line_number": 5
+        }
+      ],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "@nestjs"
+      ]
+    },
+    {
+      "file": "server/src/app.module.ts",
+      "language": "TypeScript",
+      "classes": [
+        {
+          "name": "AppModule",
+          "base_classes": [],
+          "methods": [],
+          "docstring": null,
+          "line_number": 30
+        }
+      ],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "@nestjs"
+      ]
+    },
+    {
+      "file": "server/src/app.service.ts",
+      "language": "TypeScript",
+      "classes": [
+        {
+          "name": "AppService",
+          "base_classes": [],
+          "methods": [],
+          "docstring": null,
+          "line_number": 4
+        }
+      ],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "@nestjs"
+      ]
+    },
+    {
+      "file": "server/src/dotenv.config.ts",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "dotenvConfig",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 4,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "fs",
+        "dotenv"
+      ]
+    },
+    {
+      "file": "server/src/entity/media.entity.ts",
+      "language": "TypeScript",
+      "classes": [
+        {
+          "name": "DownloadJobs",
+          "base_classes": [],
+          "methods": [
+            {
+              "name": "PrimaryGeneratedColumn",
+              "parameters": [],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            },
+            {
+              "name": "Column",
+              "parameters": [],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            },
+            {
+              "name": "Column",
+              "parameters": [
+                {
+                  "name": "{ type",
+                  "type_hint": "'timestamp'",
+                  "default": null
+                },
+                {
+                  "name": "default",
+                  "type_hint": "(",
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            }
+          ],
+          "docstring": null,
+          "line_number": 6
+        }
+      ],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "typeorm",
+        "aws-sdk"
+      ]
+    },
+    {
+      "file": "server/src/main.ts",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "bootstrap",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 7,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "cors",
+        "@nestjs",
+        "express"
+      ]
+    },
+    {
+      "file": "server/src/media-viewer/media-viewer.controller.spec.ts",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "@nestjs"
+      ]
+    },
+    {
+      "file": "server/src/media-viewer/media-viewer.controller.ts",
+      "language": "TypeScript",
+      "classes": [
+        {
+          "name": "MediaViewerController",
+          "base_classes": [],
+          "methods": [
+            {
+              "name": "Logger",
+              "parameters": [
+                {
+                  "name": "MediaViewerController.name",
+                  "type_hint": null,
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            },
+            {
+              "name": "constructor",
+              "parameters": [
+                {
+                  "name": "private readonly mediaService",
+                  "type_hint": "MediaViewerService",
+                  "default": null
+                },
+                {
+                  "name": "private readonly s3Service",
+                  "type_hint": "S3Service",
+                  "default": null
+                },
+                {
+                  "name": "// @InjectQueue(\"downloadMedia\"",
+                  "type_hint": null,
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            }
+          ],
+          "docstring": null,
+          "line_number": 15
+        }
+      ],
+      "functions": [],
+      "comments": [
+        {
+          "line": 19,
+          "text": "@InjectQueue(\"downloadMedia\") private readonly donwloadMediaQueue: Queue",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "src"
+      ]
+    },
+    {
+      "file": "server/src/media-viewer/media-viewer.module.ts",
+      "language": "TypeScript",
+      "classes": [
+        {
+          "name": "MediaViewerModule",
+          "base_classes": [],
+          "methods": [],
+          "docstring": null,
+          "line_number": 34
+        }
+      ],
+      "functions": [],
+      "comments": [
+        {
+          "line": 26,
+          "text": "Use SSL for remote databases",
+          "type": "inline"
+        },
+        {
+          "line": 27,
+          "text": "No SSL for localhost",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "src",
+        "@nestjs"
+      ]
+    },
+    {
+      "file": "server/src/media-viewer/media-viewer.service.spec.ts",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "@nestjs"
+      ]
+    },
+    {
+      "file": "server/src/media-viewer/media-viewer.service.ts",
+      "language": "TypeScript",
+      "classes": [
+        {
+          "name": "MediaViewerService",
+          "base_classes": [],
+          "methods": [
+            {
+              "name": "Logger",
+              "parameters": [
+                {
+                  "name": "MediaViewerService.name",
+                  "type_hint": null,
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            },
+            {
+              "name": "constructor",
+              "parameters": [
+                {
+                  "name": "private readonly s3Service",
+                  "type_hint": "S3Service",
+                  "default": null
+                },
+                {
+                  "name": "private readonly fileUtility",
+                  "type_hint": "FileUtility",
+                  "default": null
+                },
+                {
+                  "name": "@InjectRepository(DownloadJobs",
+                  "type_hint": null,
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            }
+          ],
+          "docstring": null,
+          "line_number": 15
+        }
+      ],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "zip-a-folder",
+        "axios",
+        "src",
+        "@nestjs",
+        "fs-extra",
+        "typeorm",
+        "fs"
+      ]
+    },
+    {
+      "file": "server/src/s3/s3.Service.ts",
+      "language": "TypeScript",
+      "classes": [
+        {
+          "name": "S3Service",
+          "base_classes": [],
+          "methods": [
+            {
+              "name": "constructor",
+              "parameters": [
+                {
+                  "name": "private readonly configService",
+                  "type_hint": "ConfigService",
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            },
+            {
+              "name": "S3",
+              "parameters": [
+                {
+                  "name": "{\n      signatureVersion",
+                  "type_hint": "'v4'",
+                  "default": null
+                },
+                {
+                  "name": "accessKeyId",
+                  "type_hint": "this.configService.get('AVNI_MEDIA_AWS_ACCESS_KEY_ID'",
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            },
+            {
+              "name": "get",
+              "parameters": [
+                {
+                  "name": "'AVNI_MEDIA_AWS_SECRET_ACCESS_KEY'",
+                  "type_hint": null,
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            },
+            {
+              "name": "get",
+              "parameters": [
+                {
+                  "name": "'AVNI_MEDIA_AWS_REGION'",
+                  "type_hint": null,
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            }
+          ],
+          "docstring": null,
+          "line_number": 7
+        }
+      ],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "fs",
+        "aws-sdk",
+        "@nestjs"
+      ]
+    },
+    {
+      "file": "server/src/tasks/download.task.ts",
+      "language": "TypeScript",
+      "classes": [
+        {
+          "name": "DownloadMediaTask",
+          "base_classes": [],
+          "methods": [
+            {
+              "name": "Logger",
+              "parameters": [
+                {
+                  "name": "DownloadMediaTask.name",
+                  "type_hint": null,
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            },
+            {
+              "name": "constructor",
+              "parameters": [
+                {
+                  "name": "private readonly mediaViewerService",
+                  "type_hint": "MediaViewerService",
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            }
+          ],
+          "docstring": null,
+          "line_number": 7
+        }
+      ],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "@nestjs",
+        "async-mutex"
+      ]
+    },
+    {
+      "file": "server/src/utils/file-utility.ts",
+      "language": "TypeScript",
+      "classes": [
+        {
+          "name": "FileUtility",
+          "base_classes": [],
+          "methods": [
+            {
+              "name": "getFileSizeText",
+              "parameters": [
+                {
+                  "name": "fileSizeInBytes",
+                  "type_hint": "number",
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            },
+            {
+              "name": "Error",
+              "parameters": [
+                {
+                  "name": "'Invalid file size'",
+                  "type_hint": null,
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            }
+          ],
+          "docstring": null,
+          "line_number": 6
+        }
+      ],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "fs",
+        "@nestjs"
+      ]
+    },
+    {
+      "file": "server/test/app.e2e-spec.ts",
+      "language": "TypeScript",
+      "classes": [],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "supertest",
+        "@nestjs"
+      ]
+    }
+  ]
+}

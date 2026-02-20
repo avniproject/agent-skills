@@ -1,0 +1,241 @@
+{
+  "nodes": [
+    {
+      "file": "client/babel.config.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "client/components/CheckButton.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/DownloadComponent/Button.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/DownloadComponent/DownloadList.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/FilterComponent/CodedConceptFilter.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/FilterComponent/Concepts.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/FilterComponent/DateConceptFilter.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/FilterComponent/Daterange.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/FilterComponent/EncounterType.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/FilterComponent/ImageSize.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/FilterComponent/LocationHierarchy.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/FilterComponent/NumericConceptFilter.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/FilterComponent/Program.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/FilterComponent/SubjectType.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/FilterComponent/TextConceptFilter.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/FilterComponent/TimeStampConceptFilter.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/ImageCarousel.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/ImageDescriptionModal.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/ImageList.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/MediaViewItem.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/Navbar.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/Pagination.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/fileThumbnail.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "client/components/loading.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/components/playMediaThumbnail.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "client/jest.config.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "client/middleware.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "client/model/ImageType.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/next-env.d.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/next.config.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "client/pages/_app.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/pages/_document.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/pages/downloadList.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/pages/index.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/postcss.config.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "client/service/MediaSearchService.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/tailwind.config.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "client/test/ImageTypeTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "client/utils/ConfigUtil.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "client/utils/helpers.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/.eslintrc.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "server/src/app.controller.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/app.controller.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/app.module.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/app.service.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/dotenv.config.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/entity/media.entity.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/main.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/media-viewer/media-viewer.controller.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/media-viewer/media-viewer.controller.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/media-viewer/media-viewer.module.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/media-viewer/media-viewer.service.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/media-viewer/media-viewer.service.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/media-viewer/status.enum.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/s3/s3.Service.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/tasks/download.task.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/utils/file-utility.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/src/utils/file-utility.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "server/test/app.e2e-spec.ts",
+      "language": "TypeScript"
+    }
+  ],
+  "edges": []
+}

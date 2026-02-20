@@ -1,0 +1,19 @@
+[
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-media/server/src/s3/s3.Service.ts",
+    "class_name": "S3Service",
+    "method_name": null,
+    "line_number": 7,
+    "evidence": [
+      "Factory method: constructor",
+      "Factory method: get",
+      "Factory method: get",
+      "Multiple factory methods: constructor, get, get"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-media/server/src/s3/s3.Service.ts"
+  }
+]

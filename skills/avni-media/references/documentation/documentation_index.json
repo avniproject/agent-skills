@@ -1,0 +1,406 @@
+{
+  "total_files": 6,
+  "categories": {
+    "templates": [
+      ".github/ISSUE_TEMPLATE/bug_report.md",
+      ".github/ISSUE_TEMPLATE/feature_request.md"
+    ],
+    "overview": [
+      "README.md"
+    ],
+    "other": [
+      "client/README.md",
+      "scripts/README.md",
+      "server/README.md"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "filename": "bug_report.md",
+      "category": "templates",
+      "size_bytes": 834,
+      "title": "bug_report",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 131,
+        "line_count": 39
+      },
+      "summary": "--- name: Bug report about: Create a report to help us improve title: '' labels: '' assignees: ''\n(131 words, 0 code blocks)",
+      "content": "---\nname: Bug report\nabout: Create a report to help us improve\ntitle: ''\nlabels: ''\nassignees: ''\n\n---\n\n**Describe the bug**\nA clear and concise description of what the bug is.\n\n**To Reproduce**\nSteps to reproduce the behavior:\n1. Go to '...'\n2. Click on '....'\n3. Scroll down to '....'\n4. See error\n\n**Expected behavior**\nA clear and concise description of what you expected to happen.\n\n**Screenshots**\nIf applicable, add screenshots to help explain your problem.\n\n**Desktop (please complete the following information):**\n - OS: [e.g. iOS]\n - Browser [e.g. chrome, safari]\n - Version [e.g. 22]\n\n**Smartphone (please complete the following information):**\n - Device: [e.g. iPhone6]\n - OS: [e.g. iOS8.1]\n - Browser [e.g. stock browser, safari]\n - Version [e.g. 22]\n\n**Additional context**\nAdd any other context about the problem here.\n"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "filename": "feature_request.md",
+      "category": "templates",
+      "size_bytes": 595,
+      "title": "feature_request",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 90,
+        "line_count": 21
+      },
+      "summary": "--- name: Feature request about: Suggest an idea for this project title: '' labels: '' assignees: ''\n(90 words, 0 code blocks)",
+      "content": "---\nname: Feature request\nabout: Suggest an idea for this project\ntitle: ''\nlabels: ''\nassignees: ''\n\n---\n\n**Is your feature request related to a problem? Please describe.**\nA clear and concise description of what the problem is. Ex. I'm always frustrated when [...]\n\n**Describe the solution you'd like**\nA clear and concise description of what you want to happen.\n\n**Describe alternatives you've considered**\nA clear and concise description of any alternative solutions or features you've considered.\n\n**Additional context**\nAdd any other context or screenshots about the feature request here.\n"
+    },
+    {
+      "path": "README.md",
+      "filename": "README.md",
+      "category": "overview",
+      "size_bytes": 1862,
+      "title": "README",
+      "structure": {
+        "title": null,
+        "headers": [
+          {
+            "level": 2,
+            "text": "Local Development",
+            "line": 1
+          },
+          {
+            "level": 3,
+            "text": "Other Avni Components",
+            "line": 7
+          },
+          {
+            "level": 4,
+            "text": "Environment Variables",
+            "line": 9
+          },
+          {
+            "level": 2,
+            "text": "Init below fields in env variables",
+            "line": 29
+          },
+          {
+            "level": 3,
+            "text": "Avni Media",
+            "line": 39
+          },
+          {
+            "level": 4,
+            "text": "Server",
+            "line": 42
+          },
+          {
+            "level": 4,
+            "text": "Client",
+            "line": 49
+          }
+        ],
+        "code_blocks": [
+          {
+            "language": "text",
+            "code": "AVNI_IDP_TYPE\nOPENCHS_CLIENT_ID\nOPENCHS_IAM_USER_ACCESS_KEY\nOPENCHS_IAM_USER_SECRET_ACCESS_KEY\nOPENCHS_BUCKET_NAME\nOPENCHS_USER_POOL",
+            "full_length": 132
+          },
+          {
+            "language": "text",
+            "code": "OPENCHS_KEYCLOAK_SERVER\nOPENCHS_KEYCLOAK_CLIENT_SECRET\nOPENCHS_KEYCLOAK_ENABLED",
+            "full_length": 79
+          },
+          {
+            "language": "text",
+            "code": "## Init below fields in env variables\nOPENCHS_STAGING_APP_CLIENT_ID\nOPENCHS_STAGING_USER_POOL_ID\nOPENCHS_STAGING_IAM_USER\nOPENCHS_STAGING_IAM_USER_ACCESS_KEY\nOPENCHS_STAGING_IAM_USER_SECRET_ACCESS_KEY\n\nmake start_server_staging OPENCHS_DATABASE_NAME=<your_db_name>",
+            "full_length": 264
+          },
+          {
+            "language": "text",
+            "code": "cd server\nnvm use\nmake deps\nmake start-local-staging",
+            "full_length": 52
+          },
+          {
+            "language": "text",
+            "code": "cd client\nnvm use\nmake deps\nmake start-local-staging",
+            "full_length": 52
+          }
+        ],
+        "links": [
+          {
+            "text": "username based authentication",
+            "url": "https://avni.readme.io/docs/developer-environment-setup-ubuntu#conceptual-note"
+          }
+        ],
+        "word_count": 215,
+        "line_count": 56
+      },
+      "summary": "Sections: Local Development, Other Avni Components, Init below fields in env variables, Avni Media\n`avni-media` client and server do not support [username based authentication](https://avni.readme.io/docs/developer-environment-setup-ubuntu#conceptual-note) which is currently supported on `avni-serv...\n(215 words, 5 code blocks)",
+      "content": "## Local Development\n`avni-media` client and server do not support [username based authentication](https://avni.readme.io/docs/developer-environment-setup-ubuntu#conceptual-note) which is currently supported on `avni-server` for local development.\nConnecting local avni-media to server/etl on another environment like staging leads to CORS errors.\n\nThus, for local development on avni-media, other avni components like `avni-server` and `avni-etl` need to be running locally with an IDP enabled i.e. Cognito or Keycloak.\n\n### Other Avni Components\n\n#### Environment Variables\nI. Ensure that local `avni-server` and `avni-etl` have the following environment variables set\n```\nAVNI_IDP_TYPE\nOPENCHS_CLIENT_ID\nOPENCHS_IAM_USER_ACCESS_KEY\nOPENCHS_IAM_USER_SECRET_ACCESS_KEY\nOPENCHS_BUCKET_NAME\nOPENCHS_USER_POOL\n```\nIf using keycloak, also set the following on avni-server\n```\nOPENCHS_KEYCLOAK_SERVER\nOPENCHS_KEYCLOAK_CLIENT_SECRET\nOPENCHS_KEYCLOAK_ENABLED\n```\n\nII. Alternately, to work with Staging env IDP and Storage, you may use the following Make command in both avni-server and avni-etl. If required, override the DB and other details, Ex: OPENCHS_DATABASE_NAME=avni_org\n\n```\n## Init below fields in env variables\nOPENCHS_STAGING_APP_CLIENT_ID\nOPENCHS_STAGING_USER_POOL_ID\nOPENCHS_STAGING_IAM_USER\nOPENCHS_STAGING_IAM_USER_ACCESS_KEY\nOPENCHS_STAGING_IAM_USER_SECRET_ACCESS_KEY\n\nmake start_server_staging OPENCHS_DATABASE_NAME=<your_db_name>\n```\n\n### Avni Media\nThere is a `local.staging` environment template configured for `client` and `server` that help with running `avni-media` locally.\nLook at `client/middleware.js` which takes care of routing the request to local `avni-server` and `avni-etl` in this mode.\n#### Server\n```\ncd server\nnvm use\nmake deps\nmake start-local-staging\n```\n#### Client\n```\ncd client\nnvm use\nmake deps\nmake start-local-staging\n```\n"
+    },
+    {
+      "path": "client/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1751,
+      "title": "or",
+      "structure": {
+        "title": "or",
+        "headers": [
+          {
+            "level": 2,
+            "text": "Getting Started",
+            "line": 3
+          },
+          {
+            "level": 1,
+            "text": "or",
+            "line": 9
+          },
+          {
+            "level": 1,
+            "text": "or",
+            "line": 11
+          },
+          {
+            "level": 2,
+            "text": "Learn More",
+            "line": 25
+          },
+          {
+            "level": 2,
+            "text": "Deploy on Vercel",
+            "line": 34
+          }
+        ],
+        "code_blocks": [
+          {
+            "language": "bash",
+            "code": "npm run dev\n# or\nyarn dev\n# or\npnpm dev",
+            "full_length": 39
+          }
+        ],
+        "links": [
+          {
+            "text": "Next.js",
+            "url": "https://nextjs.org/"
+          },
+          {
+            "text": "`create-next-app`",
+            "url": "https://github.com/vercel/next.js/tree/canary/packages/create-next-app"
+          },
+          {
+            "text": "http://localhost:3000",
+            "url": "http://localhost:3000"
+          },
+          {
+            "text": "API routes",
+            "url": "https://nextjs.org/docs/api-routes/introduction"
+          },
+          {
+            "text": "http://localhost:3000/api/hello",
+            "url": "http://localhost:3000/api/hello"
+          },
+          {
+            "text": "API routes",
+            "url": "https://nextjs.org/docs/api-routes/introduction"
+          },
+          {
+            "text": "`next/font`",
+            "url": "https://nextjs.org/docs/basic-features/font-optimization"
+          },
+          {
+            "text": "Next.js Documentation",
+            "url": "https://nextjs.org/docs"
+          },
+          {
+            "text": "Learn Next.js",
+            "url": "https://nextjs.org/learn"
+          },
+          {
+            "text": "the Next.js GitHub repository",
+            "url": "https://github.com/vercel/next.js/"
+          },
+          {
+            "text": "Vercel Platform",
+            "url": "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+          },
+          {
+            "text": "Next.js deployment documentation",
+            "url": "https://nextjs.org/docs/deployment"
+          }
+        ],
+        "word_count": 183,
+        "line_count": 39
+      },
+      "summary": "**or**\nSections: Getting Started, Learn More, Deploy on Vercel\nThis is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).\n(183 words, 1 code blocks)",
+      "content": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.\n\n[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.\n\nThe `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.\n\nThis project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.\n\nCheck out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.\n"
+    },
+    {
+      "path": "scripts/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 468,
+      "title": "README",
+      "structure": {
+        "title": null,
+        "headers": [
+          {
+            "level": 3,
+            "text": "Lambda functions deployment steps",
+            "line": 1
+          },
+          {
+            "level": 4,
+            "text": "Prerequisite.",
+            "line": 3
+          },
+          {
+            "level": 4,
+            "text": "1. S3ThumbnailCreator",
+            "line": 11
+          }
+        ],
+        "code_blocks": [
+          {
+            "language": "text",
+            "code": "./deploy-lambda-functions.sh bucket-name",
+            "full_length": 40
+          }
+        ],
+        "links": [],
+        "word_count": 67,
+        "line_count": 20
+      },
+      "summary": "Sections: Lambda functions deployment steps\n- AWS CLI should be installed on the user's machine.\n(67 words, 1 code blocks)",
+      "content": "### Lambda functions deployment steps\n\n#### Prerequisite.\n\n- AWS CLI should be installed on the user's machine.\n\nThere ~~are two~~ is a lambda function inside the scripts directory.\n\n1. S3ThumbnailCreator\n\n#### 1. S3ThumbnailCreator\n\nThis lambda function generates the thumbnail instantly when an image is uploaded to the S3 bucket.\n\nThe lambda functions will be deployed in a single go. Run the following command:\n\n```\n   ./deploy-lambda-functions.sh bucket-name\n```\n"
+    },
+    {
+      "path": "server/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3359,
+      "title": "development",
+      "structure": {
+        "title": "development",
+        "headers": [
+          {
+            "level": 2,
+            "text": "Description",
+            "line": 25
+          },
+          {
+            "level": 2,
+            "text": "Installation",
+            "line": 29
+          },
+          {
+            "level": 2,
+            "text": "Running the app",
+            "line": 35
+          },
+          {
+            "level": 1,
+            "text": "development",
+            "line": 38
+          },
+          {
+            "level": 1,
+            "text": "watch mode",
+            "line": 41
+          },
+          {
+            "level": 1,
+            "text": "production mode",
+            "line": 44
+          },
+          {
+            "level": 2,
+            "text": "Test",
+            "line": 48
+          },
+          {
+            "level": 1,
+            "text": "unit tests",
+            "line": 51
+          },
+          {
+            "level": 1,
+            "text": "e2e tests",
+            "line": 54
+          },
+          {
+            "level": 1,
+            "text": "test coverage",
+            "line": 57
+          },
+          {
+            "level": 2,
+            "text": "Support",
+            "line": 61
+          },
+          {
+            "level": 2,
+            "text": "Stay in touch",
+            "line": 65
+          },
+          {
+            "level": 2,
+            "text": "License",
+            "line": 71
+          }
+        ],
+        "code_blocks": [
+          {
+            "language": "bash",
+            "code": "$ npm install --legacy-peer-deps",
+            "full_length": 32
+          },
+          {
+            "language": "bash",
+            "code": "# development\n$ npm run start\n\n# watch mode\n$ npm run start:dev\n\n# production mode\n$ npm run start:prod",
+            "full_length": 103
+          },
+          {
+            "language": "bash",
+            "code": "# unit tests\n$ npm run test\n\n# e2e tests\n$ npm run test:e2e\n\n# test coverage\n$ npm run test:cov",
+            "full_length": 95
+          }
+        ],
+        "links": [
+          {
+            "text": "![Backers on Open Collective",
+            "url": "https://opencollective.com/nest/backers/badge.svg"
+          },
+          {
+            "text": "![Sponsors on Open Collective",
+            "url": "https://opencollective.com/nest/sponsors/badge.svg"
+          },
+          {
+            "text": "Nest",
+            "url": "https://github.com/nestjs/nest"
+          },
+          {
+            "text": "read more here",
+            "url": "https://docs.nestjs.com/support"
+          },
+          {
+            "text": "Kamil My\u015bliwiec",
+            "url": "https://kamilmysliwiec.com"
+          },
+          {
+            "text": "https://nestjs.com",
+            "url": "https://nestjs.com/"
+          },
+          {
+            "text": "@nestframework",
+            "url": "https://twitter.com/nestframework"
+          },
+          {
+            "text": "MIT licensed",
+            "url": "LICENSE"
+          }
+        ],
+        "word_count": 231,
+        "line_count": 74
+      },
+      "summary": "**development**\nSections: Description, Installation, Running the app, Test, Support\n<p align=\"center\"> <a href=\"http://nestjs.com/\" target=\"blank\"><img src=\"https://nestjs.com/img/logo-small.svg\" width=\"200\" alt=\"Nest Logo\" /></a> </p>\n(231 words, 3 code blocks)",
+      "content": "<p align=\"center\">\n  <a href=\"http://nestjs.com/\" target=\"blank\"><img src=\"https://nestjs.com/img/logo-small.svg\" width=\"200\" alt=\"Nest Logo\" /></a>\n</p>\n\n[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456\n[circleci-url]: https://circleci.com/gh/nestjs/nest\n\n  <p align=\"center\">A progressive <a href=\"http://nodejs.org\" target=\"_blank\">Node.js</a> framework for building efficient and scalable server-side applications.</p>\n    <p align=\"center\">\n<a href=\"https://www.npmjs.com/~nestjscore\" target=\"_blank\"><img src=\"https://img.shields.io/npm/v/@nestjs/core.svg\" alt=\"NPM Version\" /></a>\n<a href=\"https://www.npmjs.com/~nestjscore\" target=\"_blank\"><img src=\"https://img.shields.io/npm/l/@nestjs/core.svg\" alt=\"Package License\" /></a>\n<a href=\"https://www.npmjs.com/~nestjscore\" target=\"_blank\"><img src=\"https://img.shields.io/npm/dm/@nestjs/common.svg\" alt=\"NPM Downloads\" /></a>\n<a href=\"https://circleci.com/gh/nestjs/nest\" target=\"_blank\"><img src=\"https://img.shields.io/circleci/build/github/nestjs/nest/master\" alt=\"CircleCI\" /></a>\n<a href=\"https://coveralls.io/github/nestjs/nest?branch=master\" target=\"_blank\"><img src=\"https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9\" alt=\"Coverage\" /></a>\n<a href=\"https://discord.gg/G7Qnnhy\" target=\"_blank\"><img src=\"https://img.shields.io/badge/discord-online-brightgreen.svg\" alt=\"Discord\"/></a>\n<a href=\"https://opencollective.com/nest#backer\" target=\"_blank\"><img src=\"https://opencollective.com/nest/backers/badge.svg\" alt=\"Backers on Open Collective\" /></a>\n<a href=\"https://opencollective.com/nest#sponsor\" target=\"_blank\"><img src=\"https://opencollective.com/nest/sponsors/badge.svg\" alt=\"Sponsors on Open Collective\" /></a>\n  <a href=\"https://paypal.me/kamilmysliwiec\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Donate-PayPal-ff3f59.svg\"/></a>\n    <a href=\"https://opencollective.com/nest#sponsor\"  target=\"_blank\"><img src=\"https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg\" alt=\"Support us\"></a>\n  <a href=\"https://twitter.com/nestframework\" target=\"_blank\"><img src=\"https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow\"></a>\n</p>\n  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)\n  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->\n\n## Description\n\n[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.\n\n## Installation\n\n```bash\n$ npm install --legacy-peer-deps\n```\n\n## Running the app\n\n```bash\n# development\n$ npm run start\n\n# watch mode\n$ npm run start:dev\n\n# production mode\n$ npm run start:prod\n```\n\n## Test\n\n```bash\n# unit tests\n$ npm run test\n\n# e2e tests\n$ npm run test:e2e\n\n# test coverage\n$ npm run test:cov\n```\n\n## Support\n\nNest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).\n\n## Stay in touch\n\n- Author - [Kamil My\u015bliwiec](https://kamilmysliwiec.com)\n- Website - [https://nestjs.com](https://nestjs.com/)\n- Twitter - [@nestframework](https://twitter.com/nestframework)\n\n## License\n\nNest is [MIT licensed](LICENSE).\n"
+    }
+  ]
+}
