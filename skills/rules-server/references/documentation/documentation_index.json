@@ -1,0 +1,49 @@
+{
+  "total_files": 1,
+  "categories": {
+    "overview": [
+      "README.md"
+    ]
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "filename": "README.md",
+      "category": "overview",
+      "size_bytes": 83,
+      "title": "README",
+      "structure": {
+        "title": null,
+        "headers": [
+          {
+            "level": 2,
+            "text": "Installation",
+            "line": 3
+          },
+          {
+            "level": 2,
+            "text": "Starting the server",
+            "line": 8
+          }
+        ],
+        "code_blocks": [
+          {
+            "language": "text",
+            "code": "make deps",
+            "full_length": 9
+          },
+          {
+            "language": "text",
+            "code": "make start",
+            "full_length": 10
+          }
+        ],
+        "links": [],
+        "word_count": 14,
+        "line_count": 16
+      },
+      "summary": "Sections: Installation, Starting the server\nmake deps\n(14 words, 2 code blocks)",
+      "content": "\n\n## Installation\n```\nmake deps\n```\n\n## Starting the server\n```\nmake start\n```\n\n\n\n\n"
+    }
+  ]
+}

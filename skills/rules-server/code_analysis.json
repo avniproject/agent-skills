@@ -1,0 +1,1914 @@
+{
+  "files": [
+    {
+      "file": "app.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "express",
+        "@babel",
+        "body-parser"
+      ]
+    },
+    {
+      "file": "routes/index.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "express"
+      ]
+    },
+    {
+      "file": "src/RuleExecutor.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "transformVisitScheduleDates",
+          "parameters": [
+            {
+              "name": "visitSchedules",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 18,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "executeRule",
+          "parameters": [
+            {
+              "name": "requestBody",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 57,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "executeSummaryRule",
+          "parameters": [
+            {
+              "name": "requestBody",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 69,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "executeEligibilityCheckRule",
+          "parameters": [
+            {
+              "name": "requestBody",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 80,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "executeMessagingRule",
+          "parameters": [
+            {
+              "name": "requestBody",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 87,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "lodash"
+      ]
+    },
+    {
+      "file": "src/controllers/rulesController.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "catchRuleError",
+          "parameters": [
+            {
+              "name": "err",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "res",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 26,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "delegateTo",
+          "parameters": [
+            {
+              "name": "fn",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 14,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "cleanRulesCache",
+          "parameters": [
+            {
+              "name": "req",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "res",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "next",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 38,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "setGlobalAxiosHeaders",
+          "parameters": [
+            {
+              "name": "req",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 44,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "buildObservationAndRunRules",
+          "parameters": [
+            {
+              "name": "req",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "res",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "next",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 59,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "lodash",
+        "axios"
+      ]
+    },
+    {
+      "file": "src/models/FormModel.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "mapFormElementGroup",
+          "parameters": [
+            {
+              "name": "formElementGroupJson",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "form",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 27,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapFormElement",
+          "parameters": [
+            {
+              "name": "formElementJson",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "formElementGroup",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 41,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapConcept",
+          "parameters": [
+            {
+              "name": "concept",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 63,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapConceptAnswer",
+          "parameters": [
+            {
+              "name": "conceptAnswers",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 72,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "lodash"
+      ]
+    },
+    {
+      "file": "src/models/encounterModel.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "mapEncounter",
+          "parameters": [
+            {
+              "name": "request",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 11,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapProgramEnrolment",
+          "parameters": [
+            {
+              "name": "request",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 32,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapEncounters",
+          "parameters": [
+            {
+              "name": "request",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 38,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapBasicProgramEnrolment",
+          "parameters": [
+            {
+              "name": "request",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 44,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapBasicEncounter",
+          "parameters": [
+            {
+              "name": "request",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 53,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "createEncounterType",
+          "parameters": [
+            {
+              "name": "encounterTypeParam",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 62,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": []
+    },
+    {
+      "file": "src/models/entityApprovalStatusModel.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "mapEntityApprovalStatuses",
+          "parameters": [
+            {
+              "name": "list",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 8,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapEntityApprovalStatus",
+          "parameters": [
+            {
+              "name": "resource",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 12,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapApprovalStatus",
+          "parameters": [
+            {
+              "name": "resource",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 23,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "lodash"
+      ]
+    },
+    {
+      "file": "src/models/individualModel.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "mapBasicSubject",
+          "parameters": [
+            {
+              "name": "individualDetails",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 8,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "lodash",
+        "openchs-models"
+      ]
+    },
+    {
+      "file": "src/models/observationModel.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "mapQuestionGroupObservation",
+          "parameters": [
+            {
+              "name": "concept",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 34,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapNonRepeatableQuestionGroupObservation",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 45,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapRepeatableQuestionGroupObservation",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 51,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapObservations",
+          "parameters": [
+            {
+              "name": "objservationList",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 9,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapConceptAnswer",
+          "parameters": [
+            {
+              "name": "conceptAnswers",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 17,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapConcept",
+          "parameters": [
+            {
+              "name": "concept",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 25,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapObservation",
+          "parameters": [
+            {
+              "name": "observationJson",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 33,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "constructQuestionGroupObservation",
+          "parameters": [
+            {
+              "name": "groupObservations",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 35,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "lodash"
+      ]
+    },
+    {
+      "file": "src/models/programEncounterModel.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "mapProgramEncounter",
+          "parameters": [
+            {
+              "name": "request",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 6,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "mapEncounterType",
+          "parameters": [
+            {
+              "name": "encounterTypeParam",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 28,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "openchs-models"
+      ]
+    },
+    {
+      "file": "src/models/programEncounterModel.test.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "moment",
+        "openchs-models",
+        "chai"
+      ]
+    },
+    {
+      "file": "src/models/programEnrolmentModel.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "mapProgramEnrolment",
+          "parameters": [
+            {
+              "name": "request",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 10,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": []
+    },
+    {
+      "file": "src/models/programModel.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "createProgram",
+          "parameters": [
+            {
+              "name": "programParam",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 3,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "openchs-models"
+      ]
+    },
+    {
+      "file": "src/models/userModel.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "lodash",
+        "openchs-models"
+      ]
+    },
+    {
+      "file": "src/observationBuilder/BuildObservations.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "addObservationValue",
+          "parameters": [
+            {
+              "name": "observationsHolder",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "concept",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "fe",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "row",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "errors",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "allFormElements",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 198,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "BuildObservations",
+          "parameters": [
+            {
+              "name": "{row",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "form",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "entity}",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 41,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleValidationResults",
+          "parameters": [
+            {
+              "name": "validationResults",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 47,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "handleValidationResult",
+          "parameters": [
+            {
+              "name": "validationResult",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 50,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "pushErrorMessages",
+          "parameters": [
+            {
+              "name": "form",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "allValidationResults",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "errors",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 99,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "updateGroupQuestionObservations",
+          "parameters": [
+            {
+              "name": "formElement",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "allFormElements",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "row",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "observationsHolder",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "errors",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 111,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "updateCodedObs",
+          "parameters": [
+            {
+              "name": "childFormElement",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "answerValue",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "errors",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "updateObs",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 126,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "updateRepeatableGroupQuestionValue",
+          "parameters": [
+            {
+              "name": "parentFormElement",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "childFormElement",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "row",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "errors",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "observationsHolder",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "questionGroupIndex",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 151,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "updateGroupQuestionValue",
+          "parameters": [
+            {
+              "name": "parentFormElement",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "childFormElement",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "row",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "errors",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "observationsHolder",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "questionGroupIndex",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 162,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getAnswerValue",
+          "parameters": [
+            {
+              "name": "formElement",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "row",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "parentFormElement",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "questionGroupIndex",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 172,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "addOrUpdateObs",
+          "parameters": [
+            {
+              "name": "fe",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "value",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "observationsHolder",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 181,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "isNonEmptyQuestionGroup",
+          "parameters": [
+            {
+              "name": "formElement",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "allFormElements",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "row",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 185,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getFormElementByUUID",
+          "parameters": [
+            {
+              "name": "form",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "formElementUUID",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 297,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getFormElementStatuses",
+          "parameters": [
+            {
+              "name": "entity",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "formElementGroup",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "observationsHolder",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 309,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "checkValidationResult",
+          "parameters": [
+            {
+              "name": "ruleValidationErrors",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "validationResult",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 343,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "addPreviousValidationErrors",
+          "parameters": [
+            {
+              "name": "ruleValidationErrors",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "validationResult",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "previousErrors",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 351,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "validate",
+          "parameters": [
+            {
+              "name": "formElement",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "value",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "observations",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "validationResults",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "formElementStatuses",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 361,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 85,
+          "text": "return fast and don't run rules",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "moment",
+        "openchs-models"
+      ]
+    },
+    {
+      "file": "src/services/AuthService.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "getCurrentSession",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 44,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "setupCognitoDetails",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 7,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "setUploadUser",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 18,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "setupUploadUser",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 26,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getUploadUserToken",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 51,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 6,
+          "text": "During CSV upload token sent by the java server might expire so we use upload-user for",
+          "type": "inline"
+        },
+        {
+          "line": 17,
+          "text": "communicating the java server",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "lodash",
+        "aws-amplify"
+      ]
+    },
+    {
+      "file": "src/services/CognitoDetails.js",
+      "language": "JavaScript",
+      "classes": [
+        {
+          "name": "CognitoDetails",
+          "base_classes": [],
+          "methods": [
+            {
+              "name": "constructor",
+              "parameters": [
+                {
+                  "name": "props",
+                  "type_hint": null,
+                  "default": null
+                }
+              ],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            }
+          ],
+          "docstring": null,
+          "line_number": 3
+        }
+      ],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "lodash"
+      ]
+    },
+    {
+      "file": "src/services/IndividualService.js",
+      "language": "JavaScript",
+      "classes": [
+        {
+          "name": "IndividualService",
+          "base_classes": [],
+          "methods": [
+            {
+              "name": "constructor",
+              "parameters": [],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            }
+          ],
+          "docstring": null,
+          "line_number": 7
+        }
+      ],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "lodash"
+      ]
+    },
+    {
+      "file": "src/services/RuleEvalService.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "isEmptyValues",
+          "parameters": [
+            {
+              "name": "value",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 12,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getImports",
+          "parameters": [],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 28,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "removeStrictFromRuleCode",
+          "parameters": [
+            {
+              "name": "rule",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 10,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "trimDecisionsMap",
+          "parameters": [
+            {
+              "name": "decisionsMap",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 16,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "decisionRule",
+          "parameters": [
+            {
+              "name": "rule",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "entity",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 32,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "visitScheduleRule",
+          "parameters": [
+            {
+              "name": "rule",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "entity",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "scheduledVisits",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 57,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "checkListRule",
+          "parameters": [
+            {
+              "name": "rule",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "entity",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "checklistDetails",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 80,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "programSummaryRule",
+          "parameters": [
+            {
+              "name": "rule",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "entity",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 98,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "subjectSummaryRule",
+          "parameters": [
+            {
+              "name": "rule",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "entity",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 115,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "isEligibleForEntityType",
+          "parameters": [
+            {
+              "name": "individual",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "entityType",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "bundleRuleParams",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 127,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "messagingRule",
+          "parameters": [
+            {
+              "name": "rule",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "entity",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 146,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getAllRuleItemsFor",
+          "parameters": [
+            {
+              "name": "entityUuid",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "type",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "entityType",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 156,
+          "is_async": true,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "runRuleAndSaveFailure",
+          "parameters": [
+            {
+              "name": "rule",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "entityName",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "entity",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "ruleTypeValue",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "config",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "context",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 162,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "runFormElementGroupRule",
+          "parameters": [
+            {
+              "name": "formElementGroup",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "entity",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 178,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getTheChildFormElementStatues",
+          "parameters": [
+            {
+              "name": "childFormElement",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "entity",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 197,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "getFormElementsStatuses",
+          "parameters": [
+            {
+              "name": "entity",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "formElementGroup",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 212,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        },
+        {
+          "name": "runFormElementStatusRule",
+          "parameters": [
+            {
+              "name": "formElement",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "entity",
+              "type_hint": null,
+              "default": null
+            },
+            {
+              "name": "questionGroupIndex",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 238,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [
+        {
+          "line": 157,
+          "text": "Core module rules",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "lodash",
+        "openchs-models",
+        "avni-health-modules",
+        "moment",
+        "rules-config"
+      ]
+    },
+    {
+      "file": "src/services/RuleService.js",
+      "language": "JavaScript",
+      "classes": [
+        {
+          "name": "RuleService",
+          "base_classes": [],
+          "methods": [
+            {
+              "name": "constructor",
+              "parameters": [],
+              "return_type": null,
+              "docstring": null,
+              "line_number": null,
+              "is_async": false,
+              "is_method": true,
+              "decorators": []
+            }
+          ],
+          "docstring": null,
+          "line_number": 10
+        }
+      ],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "lodash",
+        "avni-health-modules",
+        "openchs-models",
+        "axios"
+      ]
+    },
+    {
+      "file": "src/services/api.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [],
+      "comments": [
+        {
+          "line": 4,
+          "text": "localhost:8021\";",
+          "type": "inline"
+        }
+      ],
+      "imports": [
+        "lodash",
+        "axios"
+      ]
+    },
+    {
+      "file": "src/services/evalRule.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [
+        {
+          "name": "evalRule",
+          "parameters": [
+            {
+              "name": "code",
+              "type_hint": null,
+              "default": null
+            }
+          ],
+          "return_type": null,
+          "docstring": null,
+          "line_number": 15,
+          "is_async": false,
+          "is_method": false,
+          "decorators": []
+        }
+      ],
+      "comments": [],
+      "imports": [
+        "avni-health-modules",
+        "safe-eval",
+        "openchs-models",
+        "lodash"
+      ]
+    },
+    {
+      "file": "src/services/evalRule.test.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "fs"
+      ]
+    },
+    {
+      "file": "test/controllers/rulesController.test.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "@jest-mock"
+      ]
+    },
+    {
+      "file": "test/models/encounterModel.test.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "chai"
+      ]
+    },
+    {
+      "file": "test/services/RuleEvalService.test.js",
+      "language": "JavaScript",
+      "classes": [],
+      "functions": [],
+      "comments": [],
+      "imports": [
+        "lodash"
+      ]
+    }
+  ]
+}
