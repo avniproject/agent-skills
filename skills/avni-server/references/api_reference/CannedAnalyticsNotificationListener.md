@@ -1,0 +1,65 @@
+# API Reference: CannedAnalyticsNotificationListener.java
+
+**Language**: Java
+
+**Source**: `avni-server-api/src/main/java/org/avni/server/importer/batch/metabase/CannedAnalyticsNotificationListener.java`
+
+---
+
+## Classes
+
+### CannedAnalyticsNotificationListener
+
+**Inherits from**: JobExecutionListener
+
+#### Methods
+
+##### afterJob(jobExecution: JobExecution) → void
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| jobExecution | JobExecution | - | - |
+
+**Returns**: `void`
+
+
+##### beforeJob(jobExecution: JobExecution) → void
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| jobExecution | JobExecution | - | - |
+
+**Returns**: `void`
+
+
+
+
+## Functions
+
+### afterJob(jobExecution: JobExecution) → void
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| jobExecution | JobExecution | - | - |
+
+**Returns**: `void`
+
+
+
+### beforeJob(jobExecution: JobExecution) → void
+
+**Parameters**:
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| jobExecution | JobExecution | - | - |
+
+**Returns**: `void`
+
+

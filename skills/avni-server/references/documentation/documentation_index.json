@@ -1,0 +1,678 @@
+{
+  "total_files": 9,
+  "categories": {
+    "templates": [
+      ".github/ISSUE_TEMPLATE/bug_report.md",
+      ".github/ISSUE_TEMPLATE/bug_snag_issue.md",
+      ".github/ISSUE_TEMPLATE/story.md"
+    ],
+    "architecture": [
+      "ArchitectureDocumentRecord.md"
+    ],
+    "overview": [
+      "CLAUDE.md",
+      "README.md"
+    ],
+    "other": [
+      "avni-rule-server/readme.md",
+      "perf/gatling/Gatling-perf.md"
+    ],
+    "api": [
+      "avni-server-api/src/main/resources/usefulCommands.md"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "filename": "bug_report.md",
+      "category": "templates",
+      "size_bytes": 1041,
+      "title": "bug_report",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 164,
+        "line_count": 44
+      },
+      "summary": "--- name: Bug report about: Create a report to help us improve title: '' labels: '' assignees: ''\n(164 words, 0 code blocks)",
+      "content": "---\nname: Bug report\nabout: Create a report to help us improve\ntitle: ''\nlabels: ''\nassignees: ''\n\n---\n\n**Describe the bug**\nA clear and concise description of what the bug is.\n\n**To Reproduce**\nSteps to reproduce the behavior:\n1. Go to '...'\n2. Click on '....'\n3. Scroll down to '....'\n4. See error\n\n**Expected behavior**\nA clear and concise description of what you expected to happen.\n\n**Screenshots**\nIf applicable, add screenshots to help explain your problem.\n\n**Desktop (please complete the following information):**\n - OS: [e.g. iOS]\n - Browser [e.g. chrome, safari]\n - Version [e.g. 22]\n\n**Smartphone (please complete the following information):**\n - Device: [e.g. iPhone6]\n - OS: [e.g. iOS8.1]\n - Browser [e.g. stock browser, safari]\n - Version [e.g. 22]\n\n**Additional context**\nAdd any other context about the problem here.\n\n**Developer Checklist**\nDeveloper fixing the bug should fill this checklist.\n- [ ] Does the fix require extensive regression testing?\n- [ ] Are you mentioning the required scenarios that could be affected?\n"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_snag_issue.md",
+      "filename": "bug_snag_issue.md",
+      "category": "templates",
+      "size_bytes": 239,
+      "title": "bug_snag_issue",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 28,
+        "line_count": 15
+      },
+      "summary": "--- name: Bugsnag Error about: Report an error reported on BugSnag title: 'BugSnag Error' labels: 'bugsnag' assignees: ''\n(28 words, 0 code blocks)",
+      "content": "---\nname: Bugsnag Error\nabout: Report an error reported on BugSnag\ntitle: 'BugSnag Error'\nlabels: 'bugsnag'\nassignees: ''\n\n---\n\n**BugSnag Error**\n\n\n**Management of BugSnag error and BugSnag**\nhttps://avni.readme.io/docs/how-to-use-bugsnag\n"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/story.md",
+      "filename": "story.md",
+      "category": "templates",
+      "size_bytes": 242,
+      "title": "story",
+      "structure": {
+        "title": null,
+        "headers": [
+          {
+            "level": 3,
+            "text": "Motivation",
+            "line": 10
+          },
+          {
+            "level": 3,
+            "text": "Acceptance Criteria",
+            "line": 12
+          },
+          {
+            "level": 3,
+            "text": "Request",
+            "line": 14
+          },
+          {
+            "level": 3,
+            "text": "Happy path Response",
+            "line": 16
+          },
+          {
+            "level": 3,
+            "text": "Exception path Response",
+            "line": 18
+          },
+          {
+            "level": 3,
+            "text": "Tech Approach",
+            "line": 20
+          },
+          {
+            "level": 3,
+            "text": "Visual Design",
+            "line": 22
+          }
+        ],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 36,
+        "line_count": 23
+      },
+      "summary": "Sections: Motivation, Acceptance Criteria, Request, Happy path Response, Exception path Response\n--- name: Story about: Template for avni-server stories title: '' labels: '' assignees: ''\n(36 words, 0 code blocks)",
+      "content": "---\nname: Story\nabout: Template for avni-server stories\ntitle: ''\nlabels: ''\nassignees: ''\n\n---\n\n### Motivation\n\n### Acceptance Criteria\n\n### Request\n\n### Happy path Response\n\n### Exception path Response\n\n### Tech Approach\n\n### Visual Design\n"
+    },
+    {
+      "path": "ArchitectureDocumentRecord.md",
+      "filename": "ArchitectureDocumentRecord.md",
+      "category": "architecture",
+      "size_bytes": 1634,
+      "title": "ArchitectureDocumentRecord",
+      "structure": {
+        "title": null,
+        "headers": [
+          {
+            "level": 3,
+            "text": "Concurrent sync issues and their resolution",
+            "line": 15
+          },
+          {
+            "level": 4,
+            "text": "Issue",
+            "line": 17
+          },
+          {
+            "level": 4,
+            "text": "Resolution",
+            "line": 26
+          }
+        ],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 279,
+        "line_count": 30
+      },
+      "summary": "Sections: Concurrent sync issues and their resolution\nThere are two things needed for sync. - No records should be missed out during the process - Next sync starts from the place it left off in the previous sync\n(279 words, 0 code blocks)",
+      "content": "There are two things needed for sync.\n- No records should be missed out during the process\n- Next sync starts from the place it left off in the previous sync\n\nAll the records in the system could be ordered based on last modified datetime in ascending order. The problem is when two timestamps are same then database cannot guarantee the order of the records. This becomes a problem when one is paginating the results. Hence in order to help database we add additional order by id. \n\nPerformance wise there are following concerns\n1. The device should not go out of memory during the sync\n2. The device shouldn't have to make too many round trips\n3. The device shouldn't timeout too much when loading the data\n\nThe page size designed keeping all the three concerns above. Too small page size will cause 2 and too large page size could cause 1 & 3.\n\n\n### Concurrent sync issues and their resolution\n\n#### Issue\nWhen multiple users belonging to the same organisation, and responsible for the same \nset of address levels sync, at that time there can be a discrepancy between the \ndata pulled by one device from a given last_modified_date_time, the actual data \nwhich belongs in that bracket, because of delay of flush of certain entities with applicable timestamp\nbeing pushed into the database by the other device. This will cause those entities to \nremain unsynced forever on the other device forever.\n\n\n#### Resolution\nThe pull of data is bounded from the parameterised last_modified_date_time passed\nand the current time minus 10 seconds. The practical assumption here is that any flush \nwill be completed in a period of 10 seconds.  \n"
+    },
+    {
+      "path": "CLAUDE.md",
+      "filename": "CLAUDE.md",
+      "category": "overview",
+      "size_bytes": 9056,
+      "title": "CLAUDE.md",
+      "structure": {
+        "title": "CLAUDE.md",
+        "headers": [
+          {
+            "level": 1,
+            "text": "CLAUDE.md",
+            "line": 1
+          },
+          {
+            "level": 2,
+            "text": "Project Overview",
+            "line": 5
+          },
+          {
+            "level": 2,
+            "text": "Build Commands",
+            "line": 9
+          },
+          {
+            "level": 3,
+            "text": "Building",
+            "line": 11
+          },
+          {
+            "level": 1,
+            "text": "Build without tests",
+            "line": 13
+          },
+          {
+            "level": 1,
+            "text": "Or use Makefile",
+            "line": 15
+          },
+          {
+            "level": 1,
+            "text": "Create executable JAR",
+            "line": 18
+          },
+          {
+            "level": 1,
+            "text": "Output: avni-server-api/build/libs/avni-server-0.0.1-SNAPSHOT.jar",
+            "line": 20
+          },
+          {
+            "level": 3,
+            "text": "Testing",
+            "line": 23
+          },
+          {
+            "level": 1,
+            "text": "Full test suite (rebuilds test database)",
+            "line": 25
+          },
+          {
+            "level": 1,
+            "text": "Quick test run (no DB rebuild)",
+            "line": 28
+          },
+          {
+            "level": 1,
+            "text": "Run external tests only",
+            "line": 31
+          },
+          {
+            "level": 1,
+            "text": "Open test results in browser",
+            "line": 34
+          },
+          {
+            "level": 3,
+            "text": "Running",
+            "line": 38
+          },
+          {
+            "level": 1,
+            "text": "Run with local database",
+            "line": 40
+          },
+          {
+            "level": 1,
+            "text": "Run with debugging enabled (port 5005)",
+            "line": 43
+          },
+          {
+            "level": 1,
+            "text": "Run with Gradle",
+            "line": 46
+          },
+          {
+            "level": 1,
+            "text": "Run with remote database",
+            "line": 49
+          },
+          {
+            "level": 3,
+            "text": "Database Management",
+            "line": 53
+          },
+          {
+            "level": 1,
+            "text": "Create fresh database",
+            "line": 55
+          },
+          {
+            "level": 1,
+            "text": "Run Flyway migrations",
+            "line": 58
+          },
+          {
+            "level": 1,
+            "text": "Create test database",
+            "line": 61
+          },
+          {
+            "level": 2,
+            "text": "Project Structure",
+            "line": 65
+          },
+          {
+            "level": 3,
+            "text": "Module Organization",
+            "line": 67
+          },
+          {
+            "level": 3,
+            "text": "Key Directories",
+            "line": 72
+          },
+          {
+            "level": 2,
+            "text": "Architecture",
+            "line": 86
+          },
+          {
+            "level": 3,
+            "text": "Request Flow",
+            "line": 88
+          },
+          {
+            "level": 3,
+            "text": "Component Responsibilities",
+            "line": 95
+          },
+          {
+            "level": 3,
+            "text": "Base Classes",
+            "line": 102
+          },
+          {
+            "level": 3,
+            "text": "Multi-tenancy",
+            "line": 108
+          },
+          {
+            "level": 2,
+            "text": "Data Sync Architecture",
+            "line": 113
+          },
+          {
+            "level": 3,
+            "text": "Key Principles",
+            "line": 115
+          },
+          {
+            "level": 3,
+            "text": "Sync Services",
+            "line": 121
+          },
+          {
+            "level": 3,
+            "text": "Key Controllers",
+            "line": 126
+          },
+          {
+            "level": 2,
+            "text": "Code Organization Rules",
+            "line": 131
+          },
+          {
+            "level": 3,
+            "text": "Where Code Goes",
+            "line": 133
+          },
+          {
+            "level": 3,
+            "text": "Controller Usage",
+            "line": 138
+          },
+          {
+            "level": 3,
+            "text": "Method Placement",
+            "line": 143
+          },
+          {
+            "level": 3,
+            "text": "Base Repository Usage",
+            "line": 146
+          },
+          {
+            "level": 2,
+            "text": "Testing",
+            "line": 150
+          },
+          {
+            "level": 3,
+            "text": "Test Types",
+            "line": 152
+          },
+          {
+            "level": 3,
+            "text": "Running Single Test",
+            "line": 157
+          },
+          {
+            "level": 1,
+            "text": "Run specific test class",
+            "line": 159
+          },
+          {
+            "level": 1,
+            "text": "Run specific test method",
+            "line": 162
+          },
+          {
+            "level": 3,
+            "text": "Test Database",
+            "line": 166
+          },
+          {
+            "level": 2,
+            "text": "Key Technologies",
+            "line": 171
+          },
+          {
+            "level": 3,
+            "text": "Core Stack",
+            "line": 173
+          },
+          {
+            "level": 3,
+            "text": "Libraries",
+            "line": 181
+          },
+          {
+            "level": 3,
+            "text": "Build",
+            "line": 189
+          },
+          {
+            "level": 2,
+            "text": "Development Conventions",
+            "line": 194
+          },
+          {
+            "level": 3,
+            "text": "Code Style",
+            "line": 196
+          },
+          {
+            "level": 3,
+            "text": "Database Migrations",
+            "line": 202
+          },
+          {
+            "level": 3,
+            "text": "Authentication",
+            "line": 207
+          },
+          {
+            "level": 2,
+            "text": "Common Tasks",
+            "line": 212
+          },
+          {
+            "level": 3,
+            "text": "Adding New Entity",
+            "line": 214
+          },
+          {
+            "level": 3,
+            "text": "Adding API Endpoint",
+            "line": 224
+          },
+          {
+            "level": 3,
+            "text": "Debugging Sync Issues",
+            "line": 231
+          },
+          {
+            "level": 2,
+            "text": "Environment Variables",
+            "line": 238
+          },
+          {
+            "level": 3,
+            "text": "Required",
+            "line": 240
+          },
+          {
+            "level": 3,
+            "text": "Optional",
+            "line": 244
+          },
+          {
+            "level": 2,
+            "text": "Makefile Targets",
+            "line": 251
+          },
+          {
+            "level": 2,
+            "text": "Repository Patterns",
+            "line": 262
+          },
+          {
+            "level": 3,
+            "text": "CHSRepository Methods",
+            "line": 264
+          },
+          {
+            "level": 3,
+            "text": "SyncableRepository Methods",
+            "line": 274
+          },
+          {
+            "level": 2,
+            "text": "Important Files",
+            "line": 283
+          }
+        ],
+        "code_blocks": [
+          {
+            "language": "bash",
+            "code": "# Build without tests\n./gradlew clean build -x test\n# Or use Makefile\nmake build_server\n\n# Create executable JAR\n./gradlew clean bootJar\n# Output: avni-server-api/build/libs/avni-server-0.0.1-SNAPSHOT.jar",
+            "full_length": 204
+          },
+          {
+            "language": "bash",
+            "code": "# Full test suite (rebuilds test database)\nmake test_server\n\n# Quick test run (no DB rebuild)\n./gradlew test\n\n# Run external tests only\n./gradlew externalTest\n\n# Open test results in browser\nmake open_test_results",
+            "full_length": 213
+          },
+          {
+            "language": "bash",
+            "code": "# Run with local database\nmake start_server\n\n# Run with debugging enabled (port 5005)\nmake debug_server\n\n# Run with Gradle\nOPENCHS_DATABASE=openchs ./gradlew bootRun\n\n# Run with remote database\nmake start_server_remote_db REM_DBSERVER=host REM_DBPORT=5432",
+            "full_length": 255
+          },
+          {
+            "language": "bash",
+            "code": "# Create fresh database\nmake rebuild_db\n\n# Run Flyway migrations\nmake deploy_schema\n\n# Create test database\nmake rebuild_testdb",
+            "full_length": 127
+          },
+          {
+            "language": "text",
+            "code": "Controller \u2192 Service \u2192 Repository \u2192 Database\n     \u2193          \u2193\n   DTO     Mapper (DTO \u2194 Entity)",
+            "full_length": 95
+          },
+          {
+            "language": "bash",
+            "code": "# Run specific test class\n./gradlew test --tests \"org.avni.server.service.SomeTest\"\n\n# Run specific test method\n./gradlew test --tests \"org.avni.server.service.SomeTest.testMethodName\"",
+            "full_length": 184
+          },
+          {
+            "language": "java",
+            "code": "public interface CHSRepository<T extends CHSEntity> {\n    List<T> findAllByIsVoidedFalse();\n    T findByUuid(String uuid);\n    T findByName(String name);\n    // Plus standard Spring Data JPA methods\n}",
+            "full_length": 200
+          },
+          {
+            "language": "java",
+            "code": "public interface SyncableRepository<T> {\n    Slice<T> getSyncResultsAsSlice(...);\n    Page<T> getSyncResults(...);\n    boolean isEntityChanged(SyncParameters params);\n}",
+            "full_length": 168
+          }
+        ],
+        "links": [],
+        "word_count": 1151,
+        "line_count": 290
+      },
+      "summary": "**CLAUDE.md**\nSections: Project Overview, Build Commands, Building, Testing, Running\nThis file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n(1151 words, 8 code blocks)",
+      "content": "# CLAUDE.md\n\nThis file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n\n## Project Overview\n\nAvni-server is a Spring Boot 3.3.5 application for health/social data collection and synchronization. It's a multi-module Gradle project (Java 21) with PostgreSQL database, designed for offline-first mobile applications with periodic data sync.\n\n## Build Commands\n\n### Building\n```bash\n# Build without tests\n./gradlew clean build -x test\n# Or use Makefile\nmake build_server\n\n# Create executable JAR\n./gradlew clean bootJar\n# Output: avni-server-api/build/libs/avni-server-0.0.1-SNAPSHOT.jar\n```\n\n### Testing\n```bash\n# Full test suite (rebuilds test database)\nmake test_server\n\n# Quick test run (no DB rebuild)\n./gradlew test\n\n# Run external tests only\n./gradlew externalTest\n\n# Open test results in browser\nmake open_test_results\n```\n\n### Running\n```bash\n# Run with local database\nmake start_server\n\n# Run with debugging enabled (port 5005)\nmake debug_server\n\n# Run with Gradle\nOPENCHS_DATABASE=openchs ./gradlew bootRun\n\n# Run with remote database\nmake start_server_remote_db REM_DBSERVER=host REM_DBPORT=5432\n```\n\n### Database Management\n```bash\n# Create fresh database\nmake rebuild_db\n\n# Run Flyway migrations\nmake deploy_schema\n\n# Create test database\nmake rebuild_testdb\n```\n\n## Project Structure\n\n### Module Organization\n- **avni-server-api**: REST controllers, services, DTOs, mappers, and Flyway migrations\n- **avni-server-data**: Domain entities and repositories (shared data layer)\n- **avni-rule-server**: JavaScript rule execution engine (GraalVM)\n\n### Key Directories\n- `avni-server-api/src/main/java/org/avni/server/`\n  - `web/` - REST controllers\n  - `service/` - Business logic\n  - `mapper/` - DTO \u2194 entity mapping\n  - `builder/` - Builder pattern implementations\n- `avni-server-data/src/main/java/org/avni/server/`\n  - `domain/` - JPA entities\n  - `dao/` - Repository interfaces\n  - `projection/` - Query projections\n- `avni-server-api/src/main/resources/`\n  - `db/migration/` - Flyway SQL migrations\n  - `application.properties` - Configuration\n\n## Architecture\n\n### Request Flow\n```\nController \u2192 Service \u2192 Repository \u2192 Database\n     \u2193          \u2193\n   DTO     Mapper (DTO \u2194 Entity)\n```\n\n### Component Responsibilities\n- **Controller**: HTTP endpoint handling, request validation, response formatting\n- **Service**: Business logic, transaction management, orchestration\n- **Mapper**: Transform between domain objects and DTOs (uses Repository, not Service)\n- **Repository**: Database operations via JPA, external service calls (S3, Metabase)\n- **DTO**: Three types - Request (input), Response (output), Contract (shared)\n\n### Base Classes\n- `CHSEntity`: Audit fields (createdBy, lastModifiedBy, createdDateTime, lastModifiedDateTime)\n- `CHSRepository<T>`: Base repository with sync support\n- `SyncableRepository<T>`: Sync-specific operations\n- `AbstractController<T>`: Common controller functionality\n\n### Multi-tenancy\n- Organisation-based isolation via JDBC interceptor\n- Flyway sets organisation context per request\n- All queries automatically scoped to current organisation\n\n## Data Sync Architecture\n\n### Key Principles\n1. **Pagination**: Results ordered by `lastModifiedDateTime ASC, id ASC` to ensure consistency\n2. **Concurrent Sync**: Sync window bounded to `(lastModifiedDateTime, now - 10 seconds)` to handle flush delays\n3. **Scope-Based**: Data filtered by catchment (geographic) and subject type\n4. **Incremental**: Uses `lastModifiedDateTime` to fetch only changed records\n\n### Sync Services\n- `ScopeBasedSyncService<T>`: For catchment/subject-type filtered data\n- `NonScopeAwareService`: For reference data (no filtering needed)\n- `DeviceAwareService`: Device-specific sync handling\n\n### Key Controllers\n- `SyncController` - Central sync coordination\n- `SyncSubjectController` - Individual subject sync\n- `ResetSyncController` - Sync reset operations\n\n## Code Organization Rules\n\n### Where Code Goes\n- **Domain & Repository**: Always in avni-server-data module\n- **Controller, Service, Mapper, DTO**: Always in avni-server-api module\n- **Flyway migrations**: avni-server-api/src/main/resources/db/migration/\n\n### Controller Usage\n- Controller can use Service or Repository depending on complexity\n- Mapper should use Repository (not Service)\n- Service contains all business logic and can use Mapper, Repository, or other Services\n\n### Method Placement\n- Always add new methods at the end of the file\n\n### Base Repository Usage\n- Use `BaseRepository` and call `getPrisma()` method\n- Response classes named `*Response`\n\n## Testing\n\n### Test Types\n- `*Test.java` - Unit tests (JUnit 4, Mockito)\n- `*IntegrationTest.java` or `*IT.java` - Integration tests (require database)\n- `*ET.java` - External tests (external systems like Metabase)\n\n### Running Single Test\n```bash\n# Run specific test class\n./gradlew test --tests \"org.avni.server.service.SomeTest\"\n\n# Run specific test method\n./gradlew test --tests \"org.avni.server.service.SomeTest.testMethodName\"\n```\n\n### Test Database\n- Automatically managed by `make test_server`\n- Database: `openchs_test`\n- Uses `@Sql` annotations for setup/teardown\n\n## Key Technologies\n\n### Core Stack\n- Spring Boot 3.3.5\n- Spring Data JPA (Hibernate 6.5.2)\n- Spring Security (Keycloak or AWS Cognito)\n- Spring Batch\n- PostgreSQL with extensions: uuid-ossp, ltree, hstore\n- Flyway 10.20.1\n\n### Libraries\n- **Date/Time**: Joda Time (org.joda.time) - NOT java.time\n- **Caching**: EHCache 3.10.8\n- **AWS**: S3, Cognito\n- **Auth**: Keycloak 24.0.4 or AWS Cognito (JWT)\n- **Excel**: Apache POI\n- **Validation**: Commons Validator, Passay\n\n### Build\n- Gradle with Java 21 toolchain\n- Main class: `org.avni.Avni`\n- Netflix nebula for OS packaging\n\n## Development Conventions\n\n### Code Style\n- **Indentation**: 4 spaces\n- **Comments**: Only add when explicitly requested\n- **Null checks**: Only add when explicitly requested\n- **JavaDocs**: Avoid in favor of self-documenting code\n\n### Database Migrations\n- All migrations in `avni-server-api/src/main/resources/db/migration/`\n- Naming: `V{version}__{description}.sql` (e.g., `V1_99__AddUserTable.sql`)\n- Run with `make deploy_schema`\n\n### Authentication\n- Two modes: Keycloak (on-premise) or AWS Cognito (cloud)\n- Set via `AVNI_IDP_TYPE` environment variable\n- JWT-based with role-based authorization\n\n## Common Tasks\n\n### Adding New Entity\n1. Create entity in `avni-server-data/src/main/java/org/avni/server/domain/`\n2. Extend `CHSEntity` for audit support\n3. Create repository in `avni-server-data/src/main/java/org/avni/server/dao/`\n4. Extend `CHSRepository` or `SyncableRepository`\n5. Add Flyway migration in `avni-server-api/src/main/resources/db/migration/`\n6. Create service in `avni-server-api/src/main/java/org/avni/server/service/`\n7. Create DTOs and mappers in avni-server-api\n8. Create controller in `avni-server-api/src/main/java/org/avni/server/web/`\n\n### Adding API Endpoint\n1. Add method to existing controller or create new controller\n2. Use `@PreAuthorize` for role-based access control\n3. Use request DTO for input, response DTO for output\n4. Delegate business logic to service layer\n5. Add integration test\n\n### Debugging Sync Issues\n1. Check `SyncController` for sync coordination logic\n2. Review `SyncParameters` construction\n3. Verify repository implements `SyncableRepository`\n4. Check service implements `ScopeBasedSyncService` or `NonScopeAwareService`\n5. Verify entity extends `CHSEntity` with proper audit fields\n\n## Environment Variables\n\n### Required\n- `OPENCHS_DATABASE` - Database name (default: openchs)\n- `AVNI_IDP_TYPE` - Identity provider: keycloak, cognito, or none\n\n### Optional\n- `OPENCHS_DATABASE_HOST` - Database host (default: localhost)\n- `OPENCHS_DATABASE_PORT` - Database port (default: 5432)\n- `OPENCHS_MODE` - Deployment mode: live, on-premise\n- `OPENCHS_CLIENT_ID` - Cognito client ID (cloud mode)\n- `OPENCHS_USER_POOL` - Cognito user pool ID (cloud mode)\n\n## Makefile Targets\n\nKey targets from Makefile:\n- `make help` - Show all available targets\n- `make rebuild_db` - Clean and rebuild database\n- `make build_server` - Build JAR without tests\n- `make test_server` - Run full test suite\n- `make start_server` - Run server locally\n- `make debug_server` - Run with debugger on port 5005\n- `make deploy_schema` - Run Flyway migrations\n\n## Repository Patterns\n\n### CHSRepository Methods\n```java\npublic interface CHSRepository<T extends CHSEntity> {\n    List<T> findAllByIsVoidedFalse();\n    T findByUuid(String uuid);\n    T findByName(String name);\n    // Plus standard Spring Data JPA methods\n}\n```\n\n### SyncableRepository Methods\n```java\npublic interface SyncableRepository<T> {\n    Slice<T> getSyncResultsAsSlice(...);\n    Page<T> getSyncResults(...);\n    boolean isEntityChanged(SyncParameters params);\n}\n```\n\n## Important Files\n\n- `.java-version` - Java version (21)\n- `.nvmrc` - Node version for rule-server\n- `Makefile` - Build automation\n- `ArchitectureDocumentRecord.md` - Sync architecture details\n- `.windsurfrules` - Additional coding guidelines\n"
+    },
+    {
+      "path": "README.md",
+      "filename": "README.md",
+      "category": "overview",
+      "size_bytes": 374,
+      "title": "avni-server",
+      "structure": {
+        "title": "avni-server",
+        "headers": [
+          {
+            "level": 1,
+            "text": "avni-server",
+            "line": 1
+          },
+          {
+            "level": 3,
+            "text": "Developer machine setup",
+            "line": 4
+          },
+          {
+            "level": 2,
+            "text": "Build Status",
+            "line": 8
+          }
+        ],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "![CircleCI",
+            "url": "https://dl.circleci.com/status-badge/img/gh/avniproject/avni-server/tree/master.svg?style=svg"
+          }
+        ],
+        "word_count": 15,
+        "line_count": 11
+      },
+      "summary": "**avni-server**\nSections: Developer machine setup, Build Status\nSee instructions available at https://avni.readme.io/docs/developer-environment-setup-ubuntu#server-side-components\n(15 words, 0 code blocks)",
+      "content": "# avni-server\n\n\n### Developer machine setup\nSee instructions available at https://avni.readme.io/docs/developer-environment-setup-ubuntu#server-side-components\n\n\n## Build Status\n\n[![CircleCI](https://dl.circleci.com/status-badge/img/gh/avniproject/avni-server/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/avniproject/avni-server/tree/master)\n"
+    },
+    {
+      "path": "avni-rule-server/readme.md",
+      "filename": "readme.md",
+      "category": "other",
+      "size_bytes": 2041,
+      "title": "readme",
+      "structure": {
+        "title": null,
+        "headers": [
+          {
+            "level": 2,
+            "text": "Code",
+            "line": 3
+          },
+          {
+            "level": 3,
+            "text": "Setup",
+            "line": 7
+          },
+          {
+            "level": 3,
+            "text": "Execution flow",
+            "line": 10
+          }
+        ],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 314,
+        "line_count": 20
+      },
+      "summary": "Sections: Code, Setup, Execution flow\nThe execution of prototype happens on startup of the avni-rule-server jar. Before the execution we need the following setup for this prototype.\n(314 words, 0 code blocks)",
+      "content": "The execution of prototype happens on startup of the avni-rule-server jar. Before the execution we need the following setup for this prototype.\n\n## Code\nIn avni-rule-server main there is js folder alongside java folder. This is an npm project with only one file `ruleInvoker.js`. There is a `package.json` and `webpack.config.js` to build the project. main.js is not required. As makefile `rule-server.mk` is used to build the project.\navni-rule-server is a graal vm application supported via `graal-sdk:23.0.0` and `org.graalvm.js:js`. Check the build.gradle for avni-rule-server for more details.\n\n### Setup\n1. In makefile run `make deps build-rule-invoker` to create npm module.\n\n### Execution flow\n1. org.avni.Main.java is the main class for avni-rule-server. It is the entry point for the application.\n2. Main.java calls org.avni.ruleServer.RuleService.init() which loads the npm module in Java\n3. It loads the rule that needs to be executed. Currently, a sample rule is loaded from the file system - `ruleSample.js`. \n4. It calls the exported entry point and then calls `callRule` method with the rule code as String and programEnrolment object loaded from repository.\n5. The `ruleInvoker.js` has JS dependency on \"rules-config\" (and later any other JS libraries like lodash, moment).\n6. `ruleInvoker.js` evals the rule code passed as string to it. It constructs the shape of the object expected by the rule. In this it uses the program enrolment object received from Java code.\n7. The `sampleRule` uses complication builder which calls `findObservation` method (like it does on avni-model). When this method is called then it ends up calling newly added method org.avni.server.domain.ProgramEnrolment.findObservation in Java (passing parameters).\n8. The `findObservation` method in Java code returns the results to the JS code.\n9. The JS code then return string `[{name: \"High Risk Conditions\", value: []}]}` to Java code. We can use it as it is and send it back to caller (like web app) or use it in Java code by using ObjectMapper.\n"
+    },
+    {
+      "path": "avni-server-api/src/main/resources/usefulCommands.md",
+      "filename": "usefulCommands.md",
+      "category": "api",
+      "size_bytes": 459,
+      "title": "Excluding Hidden Files from ZIP Archives on Mac",
+      "structure": {
+        "title": "Excluding Hidden Files from ZIP Archives on Mac",
+        "headers": [
+          {
+            "level": 1,
+            "text": "Excluding Hidden Files from ZIP Archives on Mac",
+            "line": 1
+          },
+          {
+            "level": 2,
+            "text": "Creating ZIP Archives Without Hidden Files",
+            "line": 3
+          },
+          {
+            "level": 3,
+            "text": "Remove All Hidden Files",
+            "line": 5
+          },
+          {
+            "level": 3,
+            "text": "Remove Only macOS Hidden Files",
+            "line": 11
+          }
+        ],
+        "code_blocks": [
+          {
+            "language": "bash",
+            "code": "zip -r data.zip . -x \".*\" -x \"__MACOSX\"",
+            "full_length": 39
+          },
+          {
+            "language": "bash",
+            "code": "zip -r data.zip . -x \".DS_Store\" -x \"__MACOSX\"",
+            "full_length": 46
+          }
+        ],
+        "links": [],
+        "word_count": 72,
+        "line_count": 18
+      },
+      "summary": "**Excluding Hidden Files from ZIP Archives on Mac**\nSections: Creating ZIP Archives Without Hidden Files, Remove All Hidden Files, Remove Only macOS Hidden Files\nzip -r data.zip . -x \".*\" -x \"__MACOSX\"\n(72 words, 2 code blocks)",
+      "content": "# Excluding Hidden Files from ZIP Archives on Mac\n\n## Creating ZIP Archives Without Hidden Files\n\n### Remove All Hidden Files\n```bash\nzip -r data.zip . -x \".*\" -x \"__MACOSX\"\n```\n> **Warning**: Removes all dot-hidden files, including `.htaccess` and other useful files.\n\n### Remove Only macOS Hidden Files\n```bash\nzip -r data.zip . -x \".DS_Store\" -x \"__MACOSX\"\n```\n\nBoth commands create `data.zip` in the current directory without the specified hidden files.\n\n"
+    },
+    {
+      "path": "perf/gatling/Gatling-perf.md",
+      "filename": "Gatling-perf.md",
+      "category": "other",
+      "size_bytes": 4092,
+      "title": "Refer https://medium.com/@markostapfner/load-testing-using-gatling-io-3-0-for-beginners-75a9b3f93f62 for information on initial setup of Gatling.",
+      "structure": {
+        "title": "Refer https://medium.com/@markostapfner/load-testing-using-gatling-io-3-0-for-beginners-75a9b3f93f62 for information on initial setup of Gatling.",
+        "headers": [
+          {
+            "level": 1,
+            "text": "Refer https://medium.com/@markostapfner/load-testing-using-gatling-io-3-0-for-beginners-75a9b3f93f62 for information on initial setup of Gatling.",
+            "line": 1
+          },
+          {
+            "level": 1,
+            "text": "Excerpts from the Article for backup reference are as follows:",
+            "line": 5
+          }
+        ],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 540,
+        "line_count": 95
+      },
+      "summary": "**Refer https://medium.com/@markostapfner/load-testing-using-gatling-io-3-0-for-beginners-75a9b3f93f62 for information on initial setup of Gatling.**\nThe first step in load-testing is to download Gatling 3.0 from the official Gatling Website: https://gatling.io/download/ . This tutorial is created using version 3.0.1.1.\n(540 words, 0 code blocks)",
+      "content": "# Refer https://medium.com/@markostapfner/load-testing-using-gatling-io-3-0-for-beginners-75a9b3f93f62 for information on initial setup of Gatling.\n\n\n\n# Excerpts from the Article for backup reference are as follows:\n\nThe first step in load-testing is to download Gatling 3.0 from the official Gatling Website: https://gatling.io/download/ . This tutorial is created using version 3.0.1.1.\n\nNow extract the .zip archive in the desired folder.\n\n\nGatling.IO extracted\nInside the /bin folder, there are executables for Linux, macOS and Windows. To run gatling on macOS, switch to the folder just type into the terminal: ./gatling.sh Then you have to wait some seconds, while gatling is searching for simulations in the user-files directory.\n\nNow let\u2019s create our first user simulation: medium-test.scala\n\nInside the gatling folder, we switch in the folder: cd /user-files/simulations/computerdatabase In this folder, there are currently 5 test simulations shipped by default. We create a new file called medium-test.scala using a normal text editor or just using vim or nano .\n\nWe paste the following code in this file:\n\npackage computerdatabase\n\nimport io.gatling.core.Predef._\nimport io.gatling.http.Predef._\nimport scala.concurrent.duration._\n\nclass medium-test extends Simulation {\n\n}\nIn the first line, we specify the package of this simulation. Next, we import the dependencies to use Scala. Then, we create a class (this is also the name of our simulation) that extends the Simulation class from Gatling.\n\nInside the class, we specify the Protocol that we want to test:\n\nval httpProtocol = http\n.baseUrl(\"http://medium.com\")\n.acceptHeader(\"application/json\")\n.acceptLanguageHeader(\"en;q=1.0,de-AT;q=0.9\")\n.acceptEncodingHeader(\"gzip;q=1.0,compress;q=0.5\")\n.userAgentHeader(\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36\")\nThe most important concept in gatling is that we write scenarios and they get executed by a specified amount of independent user.\n\nNext, we have to create such a scenario for our users.\n\nval scn = scenario(\"Simple Get Request\")\n.exec(http(\"Get HTTP\")\n.get(\"/\"))\nLet\u2019s have a deeper look:\n\nscenario(\"Simple Get Request\")\nThis creates a new Scenario named \u201cSimple Get Request\u201d.\n\n.exec(http(\"Get HTTP\")\nExec lets the users execute a request, in this case, it is an HTTP request. In the end, the .get(\"/\")) indicates that we access the index file in the given baseUrl path.\n\nNow the important part:\n\nsetUp(scn.inject(atOnceUsers(100)).protocols(httpProtocol))\nHere, we set up users for our scenarios. We inject a special specified amount of users, here at once 100 concurrent users. After that, we link our created protocol to the users.\n\nSo here again the complete code snippet:\n\npackage computerdatabase\n\nimport io.gatling.core.Predef._\nimport io.gatling.http.Predef._\nimport scala.concurrent.duration._\nimport scala.util.Random\n\nclass mediumtest extends Simulation {\nval httpProtocol = http\n.baseUrl(\"http://medium.com\")\n.acceptHeader(\"application/json\")\n.acceptLanguageHeader(\"en;q=1.0,de-AT;q=0.9\")\n.acceptEncodingHeader(\"gzip;q=1.0,compress;q=0.5\")\n.userAgentHeader(\"Safari\")\n\nval scn = scenario(\"Simple Get Request\")\n.exec(http(\"Get HTTP\")\n.get(\"/\"))\n\nsetUp(scn.inject(atOnceUsers(100)).protocols(httpProtocol))\n}\nLet\u2019s step into the terminal and execute ./gatling.sh inside the bin folder.\n\n\nHere we can see our simulations, in my case, this is the first one [0]. Just type the number, hit enter and give it an optional description. Then, the simulation will be running.\n\nAfter that, you will receive an overview of the simulation inside directly inside your terminal:\n\n\nOf course, you will also receive a well-formatted HTML-Page with the results and statistics of the simulation in the generated report. Just click on the index.html file in the given report-folder in the terminal. You will see this:\n\n\nGatling.IO Simulation Results\nSo now, you successfully started a first simulation of users. Gatling provides many more ways to run simulations and to simulate typical users."
+    }
+  ]
+}
