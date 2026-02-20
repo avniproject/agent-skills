@@ -1,0 +1,3037 @@
+{
+  "nodes": [
+    {
+      "file": "__mocks__/fileMock.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "__mocks__/react-hotkeys-hook.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/constants.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/integration/formWizard/EncounterFlowTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/integration/formWizard/GeneralEncounterCancelFlowTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/integration/formWizard/ProgramEncounterCancelFlow.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/integration/formWizard/non-individualRegistrationFlowTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/integration/formWizard/programEncounterFlowTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/integration/formWizard/programEnrolmentExitFlowTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/integration/formWizard/programEnrolmentFlowTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/integration/formWizard/registrationFlowTest.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/pages/dashboardPage.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/pages/loginPage.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/pages/setup.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/pages/wizardPage.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/plugins/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/support/commands.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "cypress/support/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "jest.config.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "scripts/token.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/ApplicationContext.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/MainApp.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/Account.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/AccountOrgAdminUser.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/AppDesignerLayout.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/AppDesignerMenu.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/AppDesignerSubmenu.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/ApplicationMenu/AdminMenuItem.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/ApplicationMenu/ApplicationMenuEdit.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/ApplicationMenu/ApplicationMenuEditFields.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/ApplicationMenu/ApplicationMenuList.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/ApplicationMenu/ApplicationMenuShow.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/Constant.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/CustomFilters.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/DeploymentManager.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/EncounterType/EditEncounterTypeFields.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/EncounterType/EncounterTypeCreate.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/EncounterType/EncounterTypeEdit.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/EncounterType/EncounterTypeErrors.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/EncounterType/EncounterTypeList.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/EncounterType/EncounterTypeShow.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/IdentifierSource.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/IdentifierUserAssignment.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/OrgManager.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/OrgManagerAppDesigner.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/OrgManagerContext.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/Organisation.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/OrganisationConfig.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/OrganisationDetail.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/OrganisationGroup.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/Program/EditProgramFields.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/Program/ProgramCreate.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/Program/ProgramEdit.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/Program/ProgramList.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/Program/ProgramShow.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/Reducers/ApplicationMenuReducer.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/Reducers.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/AddressLevelSetting.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/AdvancedSettingShow.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/AdvancedSettings.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/ConceptSyncAttributeShow.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/EditSubjectTypeFields.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/GroupHandlers.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/GroupRoleShow.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/GroupRoles.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/OptionSelect.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/SelectForm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/SubjectTypeCreate.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/SubjectTypeEdit.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/SubjectTypeShow.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/SubjectTypesList.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/Types.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/ValidFormat.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/SubjectType/effects.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/ToggleAnalyticsButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/UserHelper.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/Util/EntityEditUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/Util/MRTPagination.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/adminApp/Util/PrettyPagination.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/adminApp/Util/Styles.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/WorkFlow/ShowSubjectType.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/WorklistUpdationRule.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/addressLevelType.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/catchment.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/AlertModal.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/AuditUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/AvniBooleanInput.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/AvniFormDataConsumer.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/AvniMaterialTable.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/AvniPasswordInput.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/AvniReferenceInput.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/AvniSelectInput.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/AvniTextInput.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/CatchmentSelectInput.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/CreateEditFilters.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/CreateEditFiltersHOC.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/CreateEditFiltersV2.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/CreateEditLanguages.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/CustomisedExpansionPanelSummary.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/DeleteData.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/EnableDisableButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/LocationSaveButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/OpenOrganisation.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/OrgSettings.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/PasswordDialog.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/ResetPasswordButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/RuleDisplay.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/Title.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/components/TitleChip.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/domain/OrganisationCategory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/domain/formMapping.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/locations.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/react-admin-config/LogoutButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/react-admin-config/SpringResponse.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/react-admin-config/authProvider.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/react-admin-config/dataProvider.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/react-admin-config/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/react-admin-config/requestUtils.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/react-admin-config/requestUtils.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/react-admin-config/resourceSpecificProviders/OrganisationAndOrgGroupDataProvider.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/service/ApplicationMenuService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/service/CompareMetadataService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/service/MediaService.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/service/MessageService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/service/ProgramService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/service/etl/EtlJobService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/adminApp/user.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/Assignment.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/api/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/components/AssignmentToolBar.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/components/SelectFilter.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/components/SubjectAssignmentAction.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/components/TaskAssignmentAction.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/components/TaskAssignmentFilter.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/components/TextFilter.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/reducers/SubjectAssignmentReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/reducers/TaskAssignmentReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/subjectAssignment/SubjectAssignment.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/subjectAssignment/SubjectAssignmentColumns.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/subjectAssignment/SubjectAssignmentData.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/subjectAssignment/SubjectAssignmentFilter.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/subjectAssignment/SubjectAssignmentMultiSelect.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/taskAssignment/FetchTasks.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/taskAssignment/TableColumns.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/taskAssignment/TaskAssignment.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/util/DateFilterOptions.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/util/FilterStyles.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/assignment/util/util.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/avni-models.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/AvniRouter.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/WelcomeModal.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/adapters.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/adapters.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/ActivityIndicatorModal.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/AddressLevelsByType.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/AdminAppBar.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/AdminLayout.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/AppBar.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/AvniAlert.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/AvniFormControl.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/AvniFormLabel.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/AvniMediaUpload.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/AvniRadioButtonGroupInput.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/AvniSelect.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/AvniSelectForm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/AvniSwitch.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/AvniTextField.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/Body.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/BooleanStatusInShow.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/CommonAppBarStyles.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/ConceptSelect.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/CreateComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/CustomUserMenu.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/DifyChatbot.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/DocumentationContainer.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/DropDown.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/EncounterTypeSelect.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/ErrorMessage.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/FileDownloadButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/FileUpload.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/Footer.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/FormMetaDataSelect.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/HelpText.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/Icon.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/JSEditor.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/OrganisationOptions.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/PlatformDocumentation.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/PopoverColorPicker.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/ProgramSelect.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/SaveComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/ScreenWithAppBar.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/SingleSelectSearch.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/SubjectTypeSelect.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/TextFieldInShow.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/TextFormatFieldInShow.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/ToolTip.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/ToolTipContainer.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/UserError.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/ValueTextUnitSelect.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/chatbot/ChatMessage.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/common/components/chatbot/Chatbot.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/common/components/chatbot/ChatbotWrapper.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/common/components/chatbot/MessageInput.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/common/components/chatbot/SuggestionCards.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/common/components/chatbot/WelcomeScreen.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/common/components/chatbot/constants.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/common/components/chatbot/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/common/components/chatbot/types.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/common/components/chatbot/useChatbot.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/common/components/messages/GroupSentMessagesTable.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/messages/MessagesView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/messages/SentMessagesTable.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/messages/YetToBeSentMessagesTable.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/subject/SelectSubject.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/subject/SelectUser.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/components/utils.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/constants.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/hooks/useMRTPagination.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/mapper/BaseEncounterMapper.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/mapper/ConceptMapper.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/common/mapper/EncounterMapper.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/mapper/ProgramEncounterMapper.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/material-table/MaterialTableIcons.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/material-table/MaterialTableToolBar.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/material-table/fetch.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/GroupModel.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/GroupPrivilegesModel.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/NamedSelectableEntities.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/OperationalModules.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/SubjectTypeFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/UserInfo.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/UserInfo.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/WebConcept.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/common/model/WebConcept.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/common/model/WebEncounterType.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/WebForm.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/WebFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/WebFormElementGroup.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/WebProgram.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/WebReportCard.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/WebStandardReportCardType.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/WebSubjectType.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/WebSubjectType.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/reports/WebDashboard.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/reports/WebDashboardSection.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/reports/WebDashboardSection.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/reports/WebDashboardSectionCardMapping.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/model/reports/WebReportCardFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/service/ConceptService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/service/CurrentUserService.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/common/service/DashboardService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/service/DashboardService.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/service/EntityService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/service/MessageService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/service/OrganisationService.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/service/UserService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/service/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/services/difyFormValidationService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/store/commonReduxStoreReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/store/createStore.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/store/getters.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/store/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/stories/JSEditor.stories.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/subjectModelMapper.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/CollectionUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/CollectionUtil.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/ErrorMessageUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/General.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/LocalStorageLocator.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/MuiComponentHelper.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/ReactSelectHelper.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/S3Client.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/StringUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/files.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/httpClient.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/httpClient.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/keyValues.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/routeUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/common/utils/storageMigration.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/custom-hooks/useDifyFormValidation.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/custom-hooks/useGetData.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/Colors.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/DataEntry.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/ErrorFallback.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/api/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/AppBar.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/AttendanceFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/AudioPlayer.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/Breadcrumbs.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/Checkbox.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/Checkbox.stories.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/CodedConceptFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/CodedFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/CodedFormElement.stories.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/ConfirmDialog.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/CustomizedBackdrop.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/CustomizedSnackbar.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/DateFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/DateOfBirth.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/DeleteButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/Dialog.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/DurationFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/FilePreview.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/FormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/FormElementGroup.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/GridCardView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/GroupMembershipAddEdit.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/GroupMembershipCardView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/GroupSubjectMemberCardView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/GroupSubjectMemberCardView.stories.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/HierarchicalLocationSelect.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/LandingSubjectFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/Loading.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/LocationFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/LocationSelect.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/MediaFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/MediaObservations.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/MediaUploader.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/MessageDialog.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/MultiSelectFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/NotesFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/NumericFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/Observations.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/PhoneNumberFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/PrimaryButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/QuestionGroupFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/Radio.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/RadioButtonsGroup.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/RepeatableQuestionGroupElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/ScheduledVisitsTable.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/SingleSelectFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/SubjectCardView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/SubjectCardView.stories.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/SubjectFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/SubjectProfilePicture.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/SubjectTypeIcon.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/SubjectVoided.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/TableHeaderSorting.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/TablePagination.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/TextFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/TimeFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/ToolTip.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/ToolTipContainer.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/UserOption.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/components/ValidationError.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/constants.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/CommentReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/NewsReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/commonFormUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/commonFormUtil.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/completedVisitsReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/dataEntryReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/encounterReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/generalSubjectDashboardReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/loadReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/messagesReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/metadataReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/programEncounterReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/programEnrolReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/programReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/programSubjectDashboardReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/registrationReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/relationshipReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/relationshipReducer.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/searchFilterReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/searchReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/serverSideRulesReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/subjectDashboardReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/reducers/viewVisitReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/CommentSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/NewsSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/completedVisitSaga.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/encounterSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/encounterSaga.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/encounterSelector.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/enrolmentSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/enrolmentSelectors.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/generalSubjectDashboardSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/messagesSaga.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/programEncounterSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/programEncounterSaga.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/programEncounterSelector.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/programSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/programSubjectDashboardSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/referenceDataSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/referenceDataSaga.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/relationshipSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/relationshipSaga.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/sagaUtils.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/sagaUtils.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/selectors.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/selectors.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/subjectDashboardSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/subjectSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/subjectSaga.mock.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/subjectSaga.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/sagas/viewVisitSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/services/AddressLevelService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/services/ConceptService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/services/FormElementService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/services/FormElementService.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/services/IdentifierAssignmentService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/services/IdentifierAssignmentService.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/services/IndividualService.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/services/RuleEvaluationService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/services/SubjectProfileService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/services/SubjectSearchService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/services/SubjectService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/state/Wizard.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/test/EntityFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/test/TestKeyValueFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/utils/LocationUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/utils/RelationshipUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/GlobalSearch/BasicForm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/GlobalSearch/CheckBoxSearchComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/GlobalSearch/CodedConceptForm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/GlobalSearch/NonCodedConceptForm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/GlobalSearch/NonConceptForm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/GlobalSearch/SearchFilterForm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/GlobalSearch/SubjectTypeOptions.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/audio/Player.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/dashboardNew/NewMenu.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/dashboardNew/content.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/registration/FormWizard.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/registration/FormWizardButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/registration/FormWizardHeader.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/registration/RegistrationForm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/registration/SubjectRegister.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/registration/SubjectValidation.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/registration/Summary.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/search/SubjectSearch.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/search/SubjectSearchTable.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/CompletedVisitsTable.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/PlannedVisitsTable.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/SubjectDashboard.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/AddRelative.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/Button.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/CancelEncounter.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/CancelEncounterForm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/CancelProgramEncounter.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/CancelProgramEncounterForm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/CommonModal.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/CompletedEncounter.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/CompletedProgramEncounter.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/CompletedVisits.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/Encounter.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/EncounterForm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/EnrolmentDetails.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/FilterResult.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/FindRelative.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/FindRelativeTable.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/FloatingButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/GridCommonList.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/NewGeneralEncounterButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/NewGeneralVisit.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/NewProgramEncounterButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/NewProgramVisit.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/NewVisitLinkButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/NewVisitMenuView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/ProfileDetails.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/Program.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/ProgramEncounter.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/ProgramEncounterForm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/ProgramEnrol.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/ProgramEnrolmentForm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/ProgramExitEnrolmentForm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/RemoveRelative.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/RuleSummary.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/SubjectDashboardGeneralTab.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/SubjectDashboardMessagesTab.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/SubjectDashboardProfileTab.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/SubjectDashboardProgramDetails.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/SubjectDashboardProgramTab.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/SubjectDashboardProgramView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/SubjectDashboardTabs.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/ViewVisit.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/comments/CommentCard.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/comments/CommentDrawer.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/comments/CommentListing.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/comments/NewCommentThreadDialog.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/comments/ThreadListing.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/extension/ExtensionOption.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/news/NewsCard.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/news/NewsDetails.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/news/NewsList.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/subjectDashBoard/components/programsJson.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/dataEntryApp/views/viewmodel/StaticFormElement.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/documentation/DocumentationList.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/documentation/DocumentationRoutes.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/documentation/api/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/documentation/components/Documentation.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/documentation/components/DocumentationItem.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/documentation/components/DocumentationSearch.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/documentation/components/Item.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/documentation/context/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/documentation/hooks/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/documentation/reducers/index.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/StaticFormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/api/ChecklistDetailsApi.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/common/ColorValue.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/common/CommonSearch.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/common/DragNDropComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/common/ErrorUtil.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/common/FormDesignerHandlers.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/common/LocationSearch.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/common/LocationTypeSearch.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/common/ResourceListView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/common/ResourceShowView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/common/SampleRule.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/common/ShowLabelValue.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/common/constants.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/AiRuleCreationModal.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/AutoComplete.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/AutoSuggestSingleSelection.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/BorderBox.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/CodedConcept.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/ColourStyle.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/ConceptActiveSwitch.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/ConceptDetails.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/CustomizedSnackbar.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Dashboard/CreateEditDashboard.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Dashboard/CreateEditDashboardSectionCards.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Dashboard/CreateEditDashboardSections.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Dashboard/CreateEditFilterDialog.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Dashboard/DashboardList.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Dashboard/DashboardReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Dashboard/DashboardShow.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Dashboard/SelectCardsView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Dashboard/ShowDashboardFilters.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Dashboard/ShowDashboardSectionCards.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Dashboard/ShowDashboardSections.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/ActionComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/ActionDetailsComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/CompoundRuleComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/CompoundRuleConjunctionComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/ConceptAndScope.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/ConceptSearch.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/ConditionComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/ConditionConjunctionComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/DeclarativeRuleComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/DeclarativeRuleContext.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/DeclarativeRuleReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/DeclarativeRules.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/InputField.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/LHSComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/MiddleText.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/OperatorComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/RHSComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/RuleComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/RuleDesigner.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/DeclarativeRule/RuleSummaryComponent.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/EncounterConcept.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Extensions/ExtensionReducer.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Extensions/Extensions.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Extensions/LabelFileName.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/FileOptions.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/FormCard.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/FormElement.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/FormElementDetails.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/FormElementGroup.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/FormElementGroupRule.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/FormElementTabs.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/FormElementWithAddButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/FormLevelRules.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/FormListing.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/FormSettings.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/IconButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/ImageV2Concept.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/InlineConcept.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/JsonEditor.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/KeyValues.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/LocationConcept.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/MessageRule/MessageReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/MessageRule/MessageRule.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/MessageRule/MessageRules.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/NewFormModal.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/NumericConcept.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/PhoneNumberConcept.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/QuestionGroup.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/RelationshipTypes/RelationshipTypeCreate.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/RelationshipTypes/RelationshipTypeList.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Relationships/RelationshipCreate.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Relationships/RelationshipEdit.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Relationships/RelationshipShow.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Relationships/Relationships.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/ReportCard/CreateEditReportCard.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/ReportCard/ReportCardList.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/ReportCard/ReportCardReducer.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/ReportCard/ReportCardShow.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/ReportingViews/ReportingViews.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/RuleFailureTelemetry/RuleFailureTelemetryList.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/RuleFailureTelemetry/RuleFailureToolbar.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/SearchResultFields/SearchFieldReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/SearchResultFields/SearchResultFieldState.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/SearchResultFields/SearchResultFields.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/StaticFormElementGroup.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/StorageManagement/StorageManagementConfig.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/StorageManagement/StorageManagementConfigReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/SubjectConcept.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/SubjectFormElementKeyValues.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/SystemInfo.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/TemplateOrganisations/ApplyTemplateDialog.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/TemplateOrganisations/TemplateDialogErrorBoundary.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/TemplateOrganisations/TemplateOrganisations.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/UserMessagingConfig.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/ValidationError.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Video/CreateEditVideo.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Video/VideoList.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Video/VideoReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/components/Video/VideoShow.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/util/KeyValuesUtil.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/util/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/views/ChecklistDetails.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/views/Concepts.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/views/CreateEditConcept.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/views/FormDesignerContext.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/views/FormDetails.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/views/Forms.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/formDesigner/views/ImplementationBundle.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/i18nTranslations/TranslationReducers.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/i18nTranslations/TranslationSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/i18nTranslations/api/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/index.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/modelTest/OperationalModulesFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/modelTest/SubjectTypeFactory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/Broadcast.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/CreateEditNews.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/News.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/NewsDetails.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/NewsList.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/api/ContactService.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/api/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/components/ActionButton.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/components/AvniAlertDialog.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/components/CustomDialogTitle.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/components/CustomToolbar.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/components/DeleteBroadcast.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/components/DialogActionButton.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/components/NewsDetailsCard.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/components/PublishBroadcast.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/components/RichTextEditor.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/model/ContactGroup.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/reducers/index.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/reducers/metadataReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/sagas/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/utils/BroadcastPath.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/utils/index.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/AddContactGroupSubjects.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/AddContactGroupUsers.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/AddEditContactGroup.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/ChooseSubject.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/ComposeMessageView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/GroupMessageTab.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/GroupsTab.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/ReceiverType.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/SearchUserAndConfirm.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/SendMessage.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/WhatsAppContactGroup.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/WhatsAppHome.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/WhatsAppMessagesView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/WhatsAppSubjectsTab.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/news/whatsapp/WhatsAppUsersTab.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/phoneNumberVerification/Msg91Config.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/phoneNumberVerification/api.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/providers.tsx",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/reports/Common.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/SelfServiceReports.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/api.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/components/export/DateOptions.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/components/export/DateSelector.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/components/export/EncounterType.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/components/export/EnrolmentType.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/components/export/ExportOptions.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/components/export/ExportRequestBody.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/components/export/GroupSubjectType.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/components/export/JobStatus.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/components/export/RegistrationType.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/domain/MetabaseSetupStatus.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/export/Export.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/export/NewExport.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/export/ReportTypes.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/export/reducer/ExportReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/reducers.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/reports/sagas.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/App.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/ChooseIdpView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/CognitoSignIn.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/Routes.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/SagaErrorReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/SecureApp.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/SignInSide.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/ducks.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/rootReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/rootSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/saga.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/security/BaseAuthSession.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/security/BaseIdp.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/security/CognitoAuthSession.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/security/CognitoWebClient.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/security/IdpDetails.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/rootApp/security/IdpFactory.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/security/IdpFactory.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/security/KeycloakAuthSession.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/security/KeycloakWebClient.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/security/NoAuthSession.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/security/NullIdp.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/security/StubbedLocalStorage.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "src/rootApp/security/UndecidedIdp.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/utils.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/views/ForgotPasswordView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/views/HomePageCard.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/views/Homepage.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/views/KeycloakSignInView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/views/NewPasswordRequiredView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/rootApp/views/SignInView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/serviceWorker.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/setupProxy.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/translations/Import.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/translations/TranslationDashboard.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/translations/Translations.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/translations/api/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/translations/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/translations/reducers/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/translations/reducers/onLoadReducer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/translations/sagas/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/translations/sagas/onLoadSaga.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/tutorials/Body.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/tutorials/Resources.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/tutorials/TutorialCard.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/tutorials/Tutorials.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/upload/EncounterModes.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/upload/LocationHierarchy.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/upload/LocationModes.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/upload/MetadataDiff.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/upload/Types.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/upload/UploadDashboard.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/upload/UploadStatus.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/upload/UploadTypes.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/upload/api.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/upload/index.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/upload/reducers.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/upload/sagas.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/userGroups/UserGroupDetails.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/userGroups/UserGroups.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/userGroups/api.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/userGroups/components/GroupCard.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/userGroups/components/GroupDashboards.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/userGroups/components/GroupPrivileges.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/userGroups/components/GroupUsers.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/userGroups/components/TabbedView.jsx",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/userGroups/reducers.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/userGroups/sagas.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "vite.config.js",
+      "language": "JavaScript"
+    }
+  ],
+  "edges": []
+}

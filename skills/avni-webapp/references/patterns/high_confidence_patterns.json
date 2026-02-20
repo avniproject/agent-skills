@@ -1,0 +1,104 @@
+[
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9500000000000001,
+    "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/reports/domain/MetabaseSetupStatus.js",
+    "class_name": "MetabaseSetupStatus",
+    "method_name": null,
+    "line_number": 35,
+    "evidence": [
+      "Factory method: createUnknownStatus",
+      "Factory method: createUnknownStatus",
+      "Factory method: createUnknownStatus",
+      "Factory method: createUnknownStatus",
+      "Multiple factory methods: createUnknownStatus, createUnknownStatus, createUnknownStatus"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/reports/domain/MetabaseSetupStatus.js"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/SubjectTypeFactory.js",
+    "class_name": "SubjectTypeFactory",
+    "method_name": null,
+    "line_number": 3,
+    "evidence": [
+      "Class name contains \"Factory\""
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/SubjectTypeFactory.js"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/reports/WebReportCardFactory.js",
+    "class_name": "WebReportCardFactory",
+    "method_name": null,
+    "line_number": 3,
+    "evidence": [
+      "Class name contains \"Factory\""
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/reports/WebReportCardFactory.js"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/test/EntityFactory.js",
+    "class_name": "EntityFactory",
+    "method_name": null,
+    "line_number": 20,
+    "evidence": [
+      "Class name contains \"Factory\""
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/test/EntityFactory.js"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/test/TestKeyValueFactory.js",
+    "class_name": "TestKeyValueFactory",
+    "method_name": null,
+    "line_number": 3,
+    "evidence": [
+      "Class name contains \"Factory\""
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/test/TestKeyValueFactory.js"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/modelTest/OperationalModulesFactory.js",
+    "class_name": "OperationalModulesFactory",
+    "method_name": null,
+    "line_number": 1,
+    "evidence": [
+      "Class name contains \"Factory\""
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/modelTest/OperationalModulesFactory.js"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/modelTest/SubjectTypeFactory.js",
+    "class_name": "SubjectTypeFactory",
+    "method_name": null,
+    "line_number": 3,
+    "evidence": [
+      "Class name contains \"Factory\""
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/modelTest/SubjectTypeFactory.js"
+  }
+]

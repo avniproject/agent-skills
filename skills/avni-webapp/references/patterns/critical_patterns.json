@@ -1,0 +1,20 @@
+[
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9500000000000001,
+    "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/reports/domain/MetabaseSetupStatus.js",
+    "class_name": "MetabaseSetupStatus",
+    "method_name": null,
+    "line_number": 35,
+    "evidence": [
+      "Factory method: createUnknownStatus",
+      "Factory method: createUnknownStatus",
+      "Factory method: createUnknownStatus",
+      "Factory method: createUnknownStatus",
+      "Multiple factory methods: createUnknownStatus, createUnknownStatus, createUnknownStatus"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/reports/domain/MetabaseSetupStatus.js"
+  }
+]

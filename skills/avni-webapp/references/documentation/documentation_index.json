@@ -1,0 +1,970 @@
+{
+  "total_files": 39,
+  "categories": {
+    "templates": [
+      ".github/ISSUE_TEMPLATE/bug_report.md",
+      ".github/ISSUE_TEMPLATE/story.md"
+    ],
+    "overview": [
+      "README.md"
+    ],
+    "other": [
+      "public/documentation/sideBarDocumentation/ApplicationMenu.md",
+      "public/documentation/sideBarDocumentation/Bundle.md",
+      "public/documentation/sideBarDocumentation/Card.md",
+      "public/documentation/sideBarDocumentation/Catchment.md",
+      "public/documentation/sideBarDocumentation/Checklist.md",
+      "public/documentation/sideBarDocumentation/Concept.md",
+      "public/documentation/sideBarDocumentation/Dashboard.md",
+      "public/documentation/sideBarDocumentation/Documentation.md",
+      "public/documentation/sideBarDocumentation/EncounterType.md",
+      "public/documentation/sideBarDocumentation/IdentifierSource.md",
+      "public/documentation/sideBarDocumentation/IdentifierUserAssignment.md",
+      "public/documentation/sideBarDocumentation/Language.md",
+      "public/documentation/sideBarDocumentation/Location.md",
+      "public/documentation/sideBarDocumentation/LocationType.md",
+      "public/documentation/sideBarDocumentation/MyDashboardFilter.md",
+      "public/documentation/sideBarDocumentation/NewsBroadcast.md",
+      "public/documentation/sideBarDocumentation/OrganisationDetail.md",
+      "public/documentation/sideBarDocumentation/PhoneNumberVerification.md",
+      "public/documentation/sideBarDocumentation/Prints.md",
+      "public/documentation/sideBarDocumentation/Program.md",
+      "public/documentation/sideBarDocumentation/Relationship.md",
+      "public/documentation/sideBarDocumentation/RelationshipType.md",
+      "public/documentation/sideBarDocumentation/Report.md",
+      "public/documentation/sideBarDocumentation/SearchFilter.md",
+      "public/documentation/sideBarDocumentation/SearchResultFields.md",
+      "public/documentation/sideBarDocumentation/StorageManagementConfig.md",
+      "public/documentation/sideBarDocumentation/SubjectType.md",
+      "public/documentation/sideBarDocumentation/Translation.md",
+      "public/documentation/sideBarDocumentation/Upload.md",
+      "public/documentation/sideBarDocumentation/User.md",
+      "public/documentation/sideBarDocumentation/UserGroup.md",
+      "public/documentation/sideBarDocumentation/UserMessagingConfig.md",
+      "public/documentation/sideBarDocumentation/Video.md",
+      "public/documentation/sideBarDocumentation/View.md",
+      "public/documentation/sideBarDocumentation/WorklistUpdationRule.md",
+      "src/adminApp/README.md"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "filename": "bug_report.md",
+      "category": "templates",
+      "size_bytes": 1189,
+      "title": "bug_report",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 191,
+        "line_count": 53
+      },
+      "summary": "--- name: Bug report about: Create a report to help us improve title: '' labels: '' assignees: ''\n(191 words, 0 code blocks)",
+      "content": "---\nname: Bug report\nabout: Create a report to help us improve\ntitle: ''\nlabels: ''\nassignees: ''\n\n---\n\n**Describe the bug**\nA clear and concise description of what the bug is.\n\n**To Reproduce**\nSteps to reproduce the behavior:\n\n1. Go to '...'\n2. Click on '....'\n3. Scroll down to '....'\n4. See error\n\n**Expected behavior**\nA clear and concise description of what you expected to happen.\n\n**Test Data**\nGive details of example users, environment detail, username against which this issue is happening.\n\n**Screenshots**\nIf applicable, add screenshots to help explain your problem.\n\n**Desktop (please complete the following information):**\n\n- OS: [e.g. iOS]\n- Browser [e.g. chrome, safari]\n- Version [e.g. 22]\n\n**Smartphone (please complete the following information):**\n\n- Device: [e.g. iPhone6]\n- OS: [e.g. iOS8.1]\n- Browser [e.g. stock browser, safari]\n- Version [e.g. 22]\n\n**Additional context**\nAdd any other context about the problem here.\n\n**Developer Checklist**(Developer fixing the bug should fill this checklist)\n- Does the fix require extensive regression testing?\n  - [ ] Yes\n  - [ ] No\n- Are you mentioning the required scenarios that could be affected?\n  - [ ] Yes\n  - [ ] No\n"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/story.md",
+      "filename": "story.md",
+      "category": "templates",
+      "size_bytes": 232,
+      "title": "story",
+      "structure": {
+        "title": null,
+        "headers": [
+          {
+            "level": 3,
+            "text": "Motivation",
+            "line": 9
+          },
+          {
+            "level": 3,
+            "text": "Acceptance Criteria",
+            "line": 11
+          },
+          {
+            "level": 3,
+            "text": "Visual Design",
+            "line": 13
+          },
+          {
+            "level": 3,
+            "text": "Tech Approach",
+            "line": 15
+          },
+          {
+            "level": 3,
+            "text": "Test Scenarios",
+            "line": 17
+          }
+        ],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 36,
+        "line_count": 20
+      },
+      "summary": "Sections: Motivation, Acceptance Criteria, Visual Design, Tech Approach, Test Scenarios\n--- name: Story about: Template for webapp stories title: \"\" labels: \"\" assignees: \"\" ---\n(36 words, 0 code blocks)",
+      "content": "---\nname: Story\nabout: Template for webapp stories\ntitle: \"\"\nlabels: \"\"\nassignees: \"\"\n---\n\n### Motivation\n\n### Acceptance Criteria\n\n### Visual Design\n\n### Tech Approach\n\n### Test Scenarios\n\n- [ ] Including all required translations\n"
+    },
+    {
+      "path": "README.md",
+      "filename": "README.md",
+      "category": "overview",
+      "size_bytes": 3410,
+      "title": "Readme",
+      "structure": {
+        "title": "Readme",
+        "headers": [
+          {
+            "level": 1,
+            "text": "Readme",
+            "line": 1
+          },
+          {
+            "level": 2,
+            "text": "Install dependencies",
+            "line": 6
+          },
+          {
+            "level": 2,
+            "text": "Setup",
+            "line": 14
+          },
+          {
+            "level": 4,
+            "text": "1. Setup to connect to hosted API Server (Samanvay hosted staging server)",
+            "line": 21
+          },
+          {
+            "level": 4,
+            "text": "2. Setup to connect to your local API Server",
+            "line": 27
+          },
+          {
+            "level": 2,
+            "text": "Contributing",
+            "line": 33
+          },
+          {
+            "level": 4,
+            "text": "Pull requests",
+            "line": 35
+          },
+          {
+            "level": 4,
+            "text": "File/folder structure",
+            "line": 39
+          },
+          {
+            "level": 4,
+            "text": "Code Style",
+            "line": 51
+          },
+          {
+            "level": 4,
+            "text": "Continuous Integration",
+            "line": 55
+          }
+        ],
+        "code_blocks": [
+          {
+            "language": "text",
+            "code": "make deps",
+            "full_length": 9
+          }
+        ],
+        "links": [
+          {
+            "text": "product developement setup document",
+            "url": "https://avni.readme.io/docs/developer-environment-setup-ubuntu#server-side-components"
+          }
+        ],
+        "word_count": 497,
+        "line_count": 58
+      },
+      "summary": "**Readme**\nSections: Install dependencies, Setup, Contributing\nYou will need `yarn` package mananger to be installed globally to run this project. Follow the instructions on https://yarnpkg.com/en/docs/install to install `yarn` if it is not already installed on y...\n(497 words, 1 code blocks)",
+      "content": "# Readme\n\nYou will need `yarn` package mananger to be installed globally to run this project. Follow the instructions on https://yarnpkg.com/en/docs/install to install `yarn` if it is not already installed on your machine.\nOnce installed you can verify it by running `yarn -v` on terminal. It should return whatever is the latest version mentioned on https://yarnpkg.com/en/docs/install.\n\n## Install dependencies\n\nOnce yarn is installed run the following:\n\n```\nmake deps\n```\n\n## Setup\n\nThere are two possible ways to setup Avni Webapp for developement:\n\n1. Connect to the Hosted API Server: This is the easiest and fastest way to get started. You don\u2019t need to set up a local PostgreSQL database or Java API server. This method is lightweight and ideal for contributors who want to focus on the webapp without worrying about backend dependencies.\n2. Set Up a Local Development Environment: This involves setting up a local PostgreSQL database and running the Java API server locally. It\u2019s more resource-intensive and complex but may be necessary for certain testing.\n\n#### 1. Setup to connect to hosted API Server (Samanvay hosted staging server)\n\n1. Run `make start-with-staging`\n2. Use the credentials : Username : `dummy@osc` and Password : `dummy@123`\n3. After logging in please create a new user for yourself and use that .\n\n#### 2. Setup to connect to your local API Server\n\n1. Start your Java Server. For this refer to [product developement setup document](https://avni.readme.io/docs/developer-environment-setup-ubuntu#server-side-components).\n2. Run `make start` in avni-webapp directory.\n3. It will assume whatever user you started the Java Server with since we don't do authentication when running the server locally. If you want to change the user then restart the webapp after setting environment variable `REACT_APP_DEV_ENV_USER` to user you want. E.g. start the server like `REACT_APP_DEV_ENV_USER=ihmp-admin make start`.\n\n## Contributing\n\n#### Pull requests\n\n- Please make sure that your code follows guidelines given in https://avni.readme.io/v2.0/docs/contribution-guide.\n\n#### File/folder structure\n\n- There are multiple apps inside this repository\n  - Admin (Allow admins to do admin work like creating organisations, users, locations)\n  - App Designer (Allow admins to design the app)\n  - Reports (Allow admins to download longitudnal reports)\n  - Translations (Allow admins to upload translations)\n  - Data Entry App (Allow users to do data entry using web based app)\n- Folders per route/feature\n  (See https://marmelab.com/blog/2015/12/17/react-directory-structure.html)\n- Reducers and actions in 'ducks' structure (See https://github.com/erikras/ducks-modular-redux). This is not applicable for App Designer as it does not use Redux.\n\n#### Code Style\n\n- We use Prettier for javascript/jsx formatting. You can use your IDE/Editor specific Plugin to format code using Prettier. Alternatively there is also a command `make prettier-all` that will format all files in src folder using Prettier. And there also is a git precommit hook that formats staged files using prettier before commiting.\n\n#### Continuous Integration\n\nAll commits are built and tested and deployed to staging if tests succeed. Build status can be seen at https://circleci.com/gh/OpenCHS/openchs-webapp. Please run tests using `make test` before you push your code so you don't end up breaking things unnecessarily.\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/ApplicationMenu.md",
+      "filename": "ApplicationMenu.md",
+      "category": "other",
+      "size_bytes": 233,
+      "title": "ApplicationMenu",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Learn about creating an entry in Application Menu.",
+            "url": "https://avni.readme.io/docs/application-menu"
+          }
+        ],
+        "word_count": 32,
+        "line_count": 4
+      },
+      "summary": "The customizable \"Application menu\" feature helps you add a new menu item that will show up on the \"More\" option of the Android app.\n(32 words, 0 code blocks)",
+      "content": "The customizable \"Application menu\" feature helps you add a new menu item that will show up on the \"More\" option of the Android app.\n\n[Learn about creating an entry in Application Menu.](https://avni.readme.io/docs/application-menu)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Bundle.md",
+      "filename": "Bundle.md",
+      "category": "other",
+      "size_bytes": 178,
+      "title": "Bundle",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 25,
+        "line_count": 2
+      },
+      "summary": "Configuration from an organisation can be exported and imported into another organisation. This helps migrating the implementation of a program from one organisation to another.\n(25 words, 0 code blocks)",
+      "content": "Configuration from an organisation can be exported and imported into another organisation. This helps migrating the implementation of a program from one organisation to another.\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Card.md",
+      "filename": "Card.md",
+      "category": "other",
+      "size_bytes": 110,
+      "title": "Card",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 18,
+        "line_count": 2
+      },
+      "summary": "Card contains the actual query that gets executed. Right now query should return a list of individual object.\n(18 words, 0 code blocks)",
+      "content": "Card contains the actual query that gets executed. Right now query should return a list of individual object.\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Catchment.md",
+      "filename": "Catchment.md",
+      "category": "other",
+      "size_bytes": 542,
+      "title": "Catchment",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "upload screen",
+            "url": "/#/admin/upload"
+          },
+          {
+            "text": "Learn more about Avni's domain model",
+            "url": "https://avni.readme.io/docs/avnis-domain-model-of-field-based-work"
+          }
+        ],
+        "word_count": 78,
+        "line_count": 9
+      },
+      "summary": "A Catchment is a group of locations. Catchments are used to segregate areas of operation of each user (or group of users).\n(78 words, 0 code blocks)",
+      "content": "A Catchment is a group of locations. Catchments are used to segregate areas of operation of each user (or group of users).\n\nThe field app will sync only data for the catchment assigned to the logged in user. By dividing into catchments, we ensure that the user has a smaller set of information to work with.\n\n**Uploading catchments**\nCatchments can also be created along with users in bulk using the [upload screen](/#/admin/upload).\n\n[Learn more about Avni's domain model](https://avni.readme.io/docs/avnis-domain-model-of-field-based-work)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Checklist.md",
+      "filename": "Checklist.md",
+      "category": "other",
+      "size_bytes": 172,
+      "title": "Checklist",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Learn about uploading a checklist",
+            "url": "https://avni.readme.io/docs/upload-checklist"
+          }
+        ],
+        "word_count": 19,
+        "line_count": 4
+      },
+      "summary": "Checklists are typically used to upload time-tables of things to do such as vaccination.\n(19 words, 0 code blocks)",
+      "content": "Checklists are typically used to upload time-tables of things to do such as vaccination.\n\n[Learn about uploading a checklist](https://avni.readme.io/docs/upload-checklist)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Concept.md",
+      "filename": "Concept.md",
+      "category": "other",
+      "size_bytes": 479,
+      "title": "Concept",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "More information about concepts",
+            "url": "https://avni.readme.io/docs/concepts"
+          },
+          {
+            "text": "Learn more about Avni's domain model",
+            "url": "https://avni.readme.io/docs/avnis-domain-model-of-field-based-work"
+          }
+        ],
+        "word_count": 63,
+        "line_count": 7
+      },
+      "summary": "Concepts define the different pieces of information that you collect as part of your service delivery.\n(63 words, 0 code blocks)",
+      "content": "Concepts define the different pieces of information that you collect as part of your service delivery.\n\nFor example, if you collect the blood pressure of a subject in a form, then \"Blood Pressure\" should be defined as a concept. You would notice that every question in a form requires a concept\n\n- [More information about concepts](https://avni.readme.io/docs/concepts)\n- [Learn more about Avni's domain model](https://avni.readme.io/docs/avnis-domain-model-of-field-based-work)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Dashboard.md",
+      "filename": "Dashboard.md",
+      "category": "other",
+      "size_bytes": 388,
+      "title": "Dashboard",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 65,
+        "line_count": 8
+      },
+      "summary": "`Dashboard` created here will be shown in the field app. You can add multiple `Sections` to a dashboard. `Sections` will be shown in the same order as added here from the app-designer. `Sections` can ...\n(65 words, 0 code blocks)",
+      "content": "`Dashboard` created here will be shown in the field app.\nYou can add multiple `Sections` to a dashboard.\n`Sections` will be shown in the same order as added here from the app-designer.\n`Sections` can have multiple `Cards`, either in `Tile` or `List` format.\nWithin a `Section`, `Cards` will be shown in the same order as added here.\n\nCollapse all the `Sections` for changing their order.\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Documentation.md",
+      "filename": "Documentation.md",
+      "category": "other",
+      "size_bytes": 101,
+      "title": "Documentation",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 16,
+        "line_count": 2
+      },
+      "summary": "You can create documentation for the app. Currently documentation can be attached to a form element.\n(16 words, 0 code blocks)",
+      "content": "You can create documentation for the app. Currently documentation can be attached to a form element.\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/EncounterType.md",
+      "filename": "EncounterType.md",
+      "category": "other",
+      "size_bytes": 844,
+      "title": "EncounterType",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Learn more about Avni's domain model",
+            "url": "https://avni.readme.io/docs/avnis-domain-model-of-field-based-work"
+          },
+          {
+            "text": "Learn more about writing rules",
+            "url": "https://avni.readme.io/docs/rules-concept-guide"
+          }
+        ],
+        "word_count": 119,
+        "line_count": 9
+      },
+      "summary": "Encounter Types (also called Visit Types) are used to determine the kinds of encounters/visits that can be performed. An encounter can be scheduled for a specific encounter type using rules. Here, we ...\n(119 words, 0 code blocks)",
+      "content": "Encounter Types (also called Visit Types) are used to determine the kinds of encounters/visits that can be performed. An encounter can be scheduled for a specific encounter type using rules. Here, we define that encounter type and the forms associated with the encounter type.\n\nAn encounter type is associated to a subject type. It need not be associated with programs (you can perform an annual survey of a population using encounter types not associated with programs, and use this information to enrol subjects into a program).\n\nThe encounter eligibility check rule is used to determine eligibility of an encounter type for a subject at any time.\n\n- [Learn more about Avni's domain model](https://avni.readme.io/docs/avnis-domain-model-of-field-based-work)\n- [Learn more about writing rules](https://avni.readme.io/docs/rules-concept-guide)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/IdentifierSource.md",
+      "filename": "IdentifierSource.md",
+      "category": "other",
+      "size_bytes": 194,
+      "title": "IdentifierSource",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Learn more about setting up identifiers",
+            "url": "https://avni.readme.io/docs/creating-identifiers"
+          }
+        ],
+        "word_count": 18,
+        "line_count": 4
+      },
+      "summary": "Create autogenerated Ids by configuring Identifier Sources, and creating Identifier user assignments\n(18 words, 0 code blocks)",
+      "content": "Create autogenerated Ids by configuring Identifier Sources, and creating Identifier user assignments\n\n[Learn more about setting up identifiers](https://avni.readme.io/docs/creating-identifiers)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/IdentifierUserAssignment.md",
+      "filename": "IdentifierUserAssignment.md",
+      "category": "other",
+      "size_bytes": 92,
+      "title": "IdentifierUserAssignment",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Learn more about setting up identifiers",
+            "url": "https://avni.readme.io/docs/creating-identifiers"
+          }
+        ],
+        "word_count": 6,
+        "line_count": 2
+      },
+      "summary": "[Learn more about setting up identifiers](https://avni.readme.io/docs/creating-identifiers)\n(6 words, 0 code blocks)",
+      "content": "[Learn more about setting up identifiers](https://avni.readme.io/docs/creating-identifiers)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Language.md",
+      "filename": "Language.md",
+      "category": "other",
+      "size_bytes": 437,
+      "title": "Language",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "translations",
+            "url": "/#/translations"
+          },
+          {
+            "text": "Learn more about translation management",
+            "url": "https://avni.readme.io/docs/translation-management"
+          }
+        ],
+        "word_count": 57,
+        "line_count": 8
+      },
+      "summary": "Choose all the languages you need the app to be available in.\n(57 words, 0 code blocks)",
+      "content": "Choose all the languages you need the app to be available in.\n\nUsers can choose the language of their choice through their settings. You should remember to provide translations for your forms in these languages through the [translations](/#/translations) section.\n\nWhen creating users, you can also provide the default language for each user\n\n[Learn more about translation management](https://avni.readme.io/docs/translation-management)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Location.md",
+      "filename": "Location.md",
+      "category": "other",
+      "size_bytes": 682,
+      "title": "Location",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Location Types menu",
+            "url": "/#/admin/addressLevelType"
+          },
+          {
+            "text": "upload screen",
+            "url": "/#/admin/upload"
+          },
+          {
+            "text": "Learn more about Avni's domain model",
+            "url": "https://avni.readme.io/docs/avnis-domain-model-of-field-based-work"
+          }
+        ],
+        "word_count": 86,
+        "line_count": 12
+      },
+      "summary": "Your service area is a hierarchy of different locations (eg: district, taluka, village).\n(86 words, 0 code blocks)",
+      "content": "Your service area is a hierarchy of different locations (eg: district, taluka, village).\n\nA Location is associated with a Location Type. Define Location Types from the [Location Types menu](/#/admin/addressLevelType) before you start adding Locations.\n\nAll Subjects are associated with Locations. The field app requires you to provide this location to the lowest level available in the system.\n\n**Uploading Locations**\n\nYou can also upload locations in bulk using the [upload screen](/#/admin/upload). When using the upload screen, location types are automatically created.\n\n[Learn more about Avni's domain model](https://avni.readme.io/docs/avnis-domain-model-of-field-based-work)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/LocationType.md",
+      "filename": "LocationType.md",
+      "category": "other",
+      "size_bytes": 717,
+      "title": "LocationType",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Learn more about Avni's domain model",
+            "url": "https://avni.readme.io/docs/avnis-domain-model-of-field-based-work"
+          }
+        ],
+        "word_count": 103,
+        "line_count": 13
+      },
+      "summary": "Your service area is a hierarchy of different locations (eg: district, taluka, village). Here, we define the different location types that are required for your program to run.\n(103 words, 0 code blocks)",
+      "content": "Your service area is a hierarchy of different locations (eg: district, taluka, village). Here, we define the different location types that are required for your program to run.\n\n**Example**: In State -> District -> City hierarchy\n<br>City is level 1, District is level 2 and parent of City, State is level 3 and parent of District.\n\nAll Subjects are associated with Locations. The field app requires you to provide this location to the lowest level available in the system.\n\n**Uploading Locations**\n\nYou can also upload locations using the Upload screen. This option will automatically create Location Types.\n\n[Learn more about Avni's domain model](https://avni.readme.io/docs/avnis-domain-model-of-field-based-work)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/MyDashboardFilter.md",
+      "filename": "MyDashboardFilter.md",
+      "category": "other",
+      "size_bytes": 176,
+      "title": "MyDashboardFilter",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Look up more details",
+            "url": "https://avni.readme.io/docs/my-dashboard-and-search-filters"
+          }
+        ],
+        "word_count": 18,
+        "line_count": 4
+      },
+      "summary": "MyDashboard in Avni comes with some default filters. Additional filters can be added here.\n(18 words, 0 code blocks)",
+      "content": "MyDashboard in Avni comes with some default filters. Additional filters can be added here.\n\n[Look up more details](https://avni.readme.io/docs/my-dashboard-and-search-filters)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/NewsBroadcast.md",
+      "filename": "NewsBroadcast.md",
+      "category": "other",
+      "size_bytes": 118,
+      "title": "NewsBroadcast",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 22,
+        "line_count": 2
+      },
+      "summary": "You can create and publish news from here. Once news is published it starts showing up to the field users after sync.\n(22 words, 0 code blocks)",
+      "content": "You can create and publish news from here. Once news is published it starts showing up to the field users after sync.\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/OrganisationDetail.md",
+      "filename": "OrganisationDetail.md",
+      "category": "other",
+      "size_bytes": 971,
+      "title": "OrganisationDetail",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "custom dashboard",
+            "url": "#/appdesigner/dashboard"
+          },
+          {
+            "text": "privileges",
+            "url": "#/admin/userGroups"
+          },
+          {
+            "text": "the documentation",
+            "url": "https://avni.readme.io/docs/draft-save"
+          }
+        ],
+        "word_count": 136,
+        "line_count": 12
+      },
+      "summary": "You can delete all the data that is filled using the field app. Also if you select to delete metadata, it'll delete all the forms and concept that you had created using web application.\n(136 words, 0 code blocks)",
+      "content": "You can delete all the data that is filled using the field app. Also if you select to delete metadata, it'll delete all the forms and concept that you had created using web application.\n\n**Please note that DELETE ALL DATA action is irreversible, so choose the options very carefully**\n\nSeveral organisation-wide changes can be enabled from here.\n\n`Approval Workflow`: Enabling this will allow you to approve/reject all the forms filled by the field users. You'll need to create a [custom dashboard](#/appdesigner/dashboard) and also adjust the [privileges](#/admin/userGroups) accordingly.\n\n`Draft Save`: Enabling this feature will automatically save the form every time the Next button is pressed. For more details, refer to [the documentation](https://avni.readme.io/docs/draft-save).\n\n`Enable Messaging`: Enabling this will introduce the capability of sending messages through Whatsapp. Remember that there is more configuration required for this integration to work.\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/PhoneNumberVerification.md",
+      "filename": "PhoneNumberVerification.md",
+      "category": "other",
+      "size_bytes": 212,
+      "title": "PhoneNumberVerification",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Learn more about Phone Number Verification",
+            "url": "https://avni.readme.io/docs/phone-number-verification"
+          }
+        ],
+        "word_count": 24,
+        "line_count": 4
+      },
+      "summary": "This configuration is used to integrate with Msg91 to perform verification of phone numbers by sending an OTP.\n(24 words, 0 code blocks)",
+      "content": "This configuration is used to integrate with Msg91 to perform verification of phone numbers by sending an OTP.\n\n[Learn more about Phone Number Verification](https://avni.readme.io/docs/phone-number-verification)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Prints.md",
+      "filename": "Prints.md",
+      "category": "other",
+      "size_bytes": 401,
+      "title": "Prints",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 66,
+        "line_count": 8
+      },
+      "summary": "Custom web pages for the prints can be uploaded from here. All the required static files must be zipped and uploaded here. Below information is required while uploading the zip file.\n(66 words, 0 code blocks)",
+      "content": "Custom web pages for the prints can be uploaded from here. All the required static files must be zipped and uploaded here. Below information is required while uploading the zip file.\n\n`Label: Text that will appear on the subject dashboard`\n\n`File Name: HTML file name that will be served when above label button is pressed`\n\nMultiple `Label/FileName` can be added by clicking on `Add more extensions`\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Program.md",
+      "filename": "Program.md",
+      "category": "other",
+      "size_bytes": 445,
+      "title": "Program",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Learn more about Avni's domain model",
+            "url": "https://avni.readme.io/docs/avnis-domain-model-of-field-based-work"
+          },
+          {
+            "text": "Learn more about writing rules",
+            "url": "https://avni.readme.io/docs/rules-concept-guide"
+          }
+        ],
+        "word_count": 53,
+        "line_count": 7
+      },
+      "summary": "A program defines the service, or intervention that you provide to subjects.\n(53 words, 0 code blocks)",
+      "content": "A program defines the service, or intervention that you provide to subjects.\n\nA subject is enrolled into the program using the Enrolment Form. Routine information is collected through Encounters. A subject exits a program by filling in the Exit Form.\n\n- [Learn more about Avni's domain model](https://avni.readme.io/docs/avnis-domain-model-of-field-based-work)\n- [Learn more about writing rules](https://avni.readme.io/docs/rules-concept-guide)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Relationship.md",
+      "filename": "Relationship.md",
+      "category": "other",
+      "size_bytes": 103,
+      "title": "Relationship",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 15,
+        "line_count": 2
+      },
+      "summary": "If you plan to store relationships of individuals between each other, define these relationships here.\n(15 words, 0 code blocks)",
+      "content": "If you plan to store relationships of individuals between each other, define these relationships here.\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/RelationshipType.md",
+      "filename": "RelationshipType.md",
+      "category": "other",
+      "size_bytes": 259,
+      "title": "RelationshipType",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 36,
+        "line_count": 2
+      },
+      "summary": "Relationship Types define the different kind of relationships, and their reverse relationships. For example, the reverse relationship of a relationship \"Son\" could be \"Mother\" or \"Father\" (or \"Guardia...\n(36 words, 0 code blocks)",
+      "content": "Relationship Types define the different kind of relationships, and their reverse relationships. For example, the reverse relationship of a relationship \"Son\" could be \"Mother\" or \"Father\" (or \"Guardian\", or \"Parent\" depending on how you model relationships).\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Report.md",
+      "filename": "Report.md",
+      "category": "other",
+      "size_bytes": 54,
+      "title": "Report",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 9,
+        "line_count": 2
+      },
+      "summary": "Reports of different type can be generated from here.\n(9 words, 0 code blocks)",
+      "content": "Reports of different type can be generated from here.\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/SearchFilter.md",
+      "filename": "SearchFilter.md",
+      "category": "other",
+      "size_bytes": 168,
+      "title": "SearchFilter",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Look up more details",
+            "url": "https://avni.readme.io/docs/my-dashboard-and-search-filters"
+          }
+        ],
+        "word_count": 20,
+        "line_count": 4
+      },
+      "summary": "Filters on the Search tab of the field app can be enhanced by adding filters here.\n(20 words, 0 code blocks)",
+      "content": "Filters on the Search tab of the field app can be enhanced by adding filters here.\n\n[Look up more details](https://avni.readme.io/docs/my-dashboard-and-search-filters)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/SearchResultFields.md",
+      "filename": "SearchResultFields.md",
+      "category": "other",
+      "size_bytes": 209,
+      "title": "SearchResultFields",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 37,
+        "line_count": 3
+      },
+      "summary": "Custom search result fields can be setup for each subject type. User can choose concepts from the registration form. If no fields are setup for a subject type default fields will show up in the search...\n(37 words, 0 code blocks)",
+      "content": "Custom search result fields can be setup for each subject type. User can choose concepts from the\nregistration form. If no fields are setup for a subject type default fields will show up in the search result.\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/StorageManagementConfig.md",
+      "filename": "StorageManagementConfig.md",
+      "category": "other",
+      "size_bytes": 496,
+      "title": "StorageManagementConfig",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "the documentation for this feature",
+            "url": "https://avni.readme.io/docs/app-storage-management-and-sync-disable"
+          }
+        ],
+        "word_count": 72,
+        "line_count": 4
+      },
+      "summary": "This feature enables configuration of a custom SQL query which is used to determine which subjects' records should be excluded from syncing to the Avni mobile app. This helps to reduce storage usage o...\n(72 words, 0 code blocks)",
+      "content": "This feature enables configuration of a custom SQL query which is used to determine which subjects' records should be excluded from syncing to the Avni mobile app. This helps to reduce storage usage on mobile devices and the time taken to sync the records.\n\nThe SQL query should only return the IDs of subjects whose data needs to be excluded from syncing. Refer to [the documentation for this feature](https://avni.readme.io/docs/app-storage-management-and-sync-disable) for additional details.\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/SubjectType.md",
+      "filename": "SubjectType.md",
+      "category": "other",
+      "size_bytes": 1210,
+      "title": "SubjectType",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Learn more about Avni's domain model",
+            "url": "https://avni.readme.io/docs/avnis-domain-model-of-field-based-work"
+          }
+        ],
+        "word_count": 191,
+        "line_count": 24
+      },
+      "summary": "Subject Types define the subjects (or things) that you collect information on. eg: Individual, Tractor, Water source, Classroom session.\n(191 words, 0 code blocks)",
+      "content": "Subject Types define the subjects (or things) that you collect information on. eg: Individual, Tractor, Water source, Classroom session.\n\n**Person**\n\nIf you use this type, you get some bonus questions for free in the registration form - first and last names, gender and date of birth.\n\n**Individual**\n\nUse this type when you want to record data against non-human and single entity.\n\n**Group**\n\nUse the group type to define groups of a certain subject type. eg: A school might decide to define \"Class\" as a subject type against which information can be captured. It can also contain member subjects that are can have their own information.\n\n**Household**\n\nA household is a special kind of group. Groups roles are predefined when you choose household type, but you can choose any of the existing Person as member subject.\n\n**User**\n\nA user subject type is a type that can be used to manage information about users of the system. Each user will have one subject created based on this subject type. This subject and any data collected against it will or encounters and enrolments are only for single user.\n\n[Learn more about Avni's domain model](https://avni.readme.io/docs/avnis-domain-model-of-field-based-work)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Translation.md",
+      "filename": "Translation.md",
+      "category": "other",
+      "size_bytes": 229,
+      "title": "Translation",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "languages",
+            "url": "#/admin/language"
+          },
+          {
+            "text": "translation management",
+            "url": "https://avni.readme.io/docs/translation-management"
+          }
+        ],
+        "word_count": 22,
+        "line_count": 4
+      },
+      "summary": "After adding [languages](#/admin/language) you will be able to download/upload the translation file for all the different languages.\n(22 words, 0 code blocks)",
+      "content": "After adding [languages](#/admin/language) you will be able to download/upload the translation file for all the different languages.\n\nLearn more about [translation management](https://avni.readme.io/docs/translation-management).\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Upload.md",
+      "filename": "Upload.md",
+      "category": "other",
+      "size_bytes": 562,
+      "title": "Upload",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "CSV",
+            "url": "https://en.wikipedia.org/wiki/Comma-separated_values"
+          },
+          {
+            "text": "here",
+            "url": "https://avni.readme.io/docs/upload-data"
+          }
+        ],
+        "word_count": 79,
+        "line_count": 6
+      },
+      "summary": "You can upload users, subjects, enrolments and encounters in bulk in this screen. Metadata zip files that have been downloaded from another organisation can also be uploaded in this screen.\n(79 words, 0 code blocks)",
+      "content": "You can upload users, subjects, enrolments and encounters in bulk in this screen. Metadata zip files that have been downloaded from another organisation can also be uploaded in this screen.\n\nAll files except the metadata zip are supposed to be in a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) format. If you use Microsoft Excel, it has an option to save your spreadsheet in CSV format.\n\nUse the **Download Sample** option to download a sample file. More details about the sample file are available [here](https://avni.readme.io/docs/upload-data)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/User.md",
+      "filename": "User.md",
+      "category": "other",
+      "size_bytes": 496,
+      "title": "User",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Users screen",
+            "url": "/#/admin/user"
+          },
+          {
+            "text": "upload screen",
+            "url": "/#/admin/upload"
+          },
+          {
+            "text": "Learn more about Users",
+            "url": "https://avni.readme.io/docs/access-control"
+          }
+        ],
+        "word_count": 68,
+        "line_count": 8
+      },
+      "summary": "Logins for Avni. Users will get their first login details on email and SMS.\n(68 words, 0 code blocks)",
+      "content": "Logins for Avni. Users will get their first login details on email and SMS.\n\nEnsure that you have created catchments for your users before creating them. Users can be created either through the [Users screen](/#/admin/user) or through the [upload screen](/#/admin/upload).\n\nUsers can be created or disabled. Disabled users cannot login. In case of password issues, the field application has the capability to reset passwords.\n\n[Learn more about Users](https://avni.readme.io/docs/access-control)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/UserGroup.md",
+      "filename": "UserGroup.md",
+      "category": "other",
+      "size_bytes": 309,
+      "title": "UserGroup",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Learn more about Access Control and User Groups",
+            "url": "https://avni.readme.io/docs/access-control"
+          }
+        ],
+        "word_count": 45,
+        "line_count": 6
+      },
+      "summary": "User Groups can be created to finely control user access to functions in the field and data entry apps.\n(45 words, 0 code blocks)",
+      "content": "User Groups can be created to finely control user access to functions in the field and data entry apps.\n\nBy default, no configuration is required here as there is already an Everyone group that has all privileges.\n\n[Learn more about Access Control and User Groups](https://avni.readme.io/docs/access-control)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/UserMessagingConfig.md",
+      "filename": "UserMessagingConfig.md",
+      "category": "other",
+      "size_bytes": 259,
+      "title": "UserMessagingConfig",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Refer this link to know more about how to configure.",
+            "url": "https://avni.readme.io/docs/writing-rules#13-message-rule"
+          }
+        ],
+        "word_count": 31,
+        "line_count": 3
+      },
+      "summary": "Newly created users will receive a message on their \"WhatsApp application registered with their mobile number\", based on the configuration here. [Refer this link to know more about how to configure.](...\n(31 words, 0 code blocks)",
+      "content": "Newly created users will receive a message on their \"WhatsApp application registered with their mobile number\", based on the configuration here.\n[Refer this link to know more about how to configure.](https://avni.readme.io/docs/writing-rules#13-message-rule)\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/Video.md",
+      "filename": "Video.md",
+      "category": "other",
+      "size_bytes": 181,
+      "title": "Video",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 28,
+        "line_count": 4
+      },
+      "summary": "You can create video playlist from webApp. These videos will show up in field application.\n(28 words, 0 code blocks)",
+      "content": "You can create video playlist from webApp. These videos will show up in field application.\n\n**Make sure that videos are already downloaded and exists in the path \"OpenCHS/movies\"**\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/View.md",
+      "filename": "View.md",
+      "category": "other",
+      "size_bytes": 834,
+      "title": "View",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 143,
+        "line_count": 6
+      },
+      "summary": "The views on this page are automatically generated or refreshed on click of `Create/Refresh View` button. There is one view corresponding to each form with every form field available as a column. Thes...\n(143 words, 0 code blocks)",
+      "content": "The views on this page are automatically generated or refreshed on click of `Create/Refresh View` button. There is one view corresponding to each form with every form field available as a column. These views help in writing the reports easily without having to understand the generic underlying Avni schema. Once generated, the views are available in Metabase or any other reporting tool you use.\n\nThe column names are based on form fields (concepts) which can be longer than permitted by the database, in such a case the names are shortened and you can see them at the top of view definition in comments. The format is - `Field name >> Shortened column name`.\n\nSome types of change in form definition can cause these views to become obsolete. In such a case please regenerate these views and check your reports based on these views.\n"
+    },
+    {
+      "path": "public/documentation/sideBarDocumentation/WorklistUpdationRule.md",
+      "filename": "WorklistUpdationRule.md",
+      "category": "other",
+      "size_bytes": 214,
+      "title": "WorklistUpdationRule",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [
+          {
+            "text": "Learn more about writing rules",
+            "url": "https://avni.readme.io/docs/rules-concept-guide"
+          }
+        ],
+        "word_count": 22,
+        "line_count": 4
+      },
+      "summary": "Worklist updation rules help stitch together different workflows, such as registration, enrolment and completion of various forms.\n(22 words, 0 code blocks)",
+      "content": "Worklist updation rules help stitch together different workflows, such as registration, enrolment and completion of various forms.\n\n[Learn more about writing rules](https://avni.readme.io/docs/rules-concept-guide)\n"
+    },
+    {
+      "path": "src/adminApp/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 268,
+      "title": "README",
+      "structure": {
+        "title": null,
+        "headers": [],
+        "code_blocks": [],
+        "links": [],
+        "word_count": 35,
+        "line_count": 11
+      },
+      "summary": "`orgManager` will encapsulate functionality related to managing an organisation's data by the organisation administrator. * Users * Catchments * Operational Programs (?) * Operational Encounter Types ...\n(35 words, 0 code blocks)",
+      "content": "`orgManager` will encapsulate functionality related to managing \nan organisation's data by the organisation administrator.\n* Users\n* Catchments\n* Operational Programs (?)\n* Operational Encounter Types (?) etc.\n\n---\nPlus organisation-wide metadata:\n* Concept Answers  \n"
+    }
+  ]
+}

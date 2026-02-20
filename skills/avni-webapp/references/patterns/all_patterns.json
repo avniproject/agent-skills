@@ -1,0 +1,907 @@
+[
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/adminApp/ApplicationMenu/AdminMenuItem.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/adminApp/ApplicationMenu/AdminMenuItem.js",
+        "class_name": "AdminMenuItem",
+        "method_name": null,
+        "line_number": 5,
+        "evidence": [
+          "Implements interface: MenuItem",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Adapter": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/adminApp/Reducers/ApplicationMenuReducer.jsx",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/adminApp/Reducers/ApplicationMenuReducer.jsx",
+        "class_name": "ApplicationMenuReducer",
+        "method_name": "createApplicationMenuInitialState",
+        "line_number": null,
+        "evidence": [
+          "Factory method detected: createApplicationMenuInitialState"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/adminApp/react-admin-config/requestUtils.jsx",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/adminApp/react-admin-config/requestUtils.jsx",
+        "class_name": "FilterProcessor",
+        "method_name": null,
+        "line_number": 24,
+        "evidence": [
+          "Class name suggests handler chain: FilterProcessor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 1,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/assignment/reducers/TaskAssignmentReducer.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/assignment/reducers/TaskAssignmentReducer.js",
+        "class_name": "TaskMetadata",
+        "method_name": null,
+        "line_number": 11,
+        "evidence": [
+          "Class name suggests Command: TaskMetadata"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 3,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/GroupPrivilegesModel.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/GroupPrivilegesModel.js",
+        "class_name": "GroupPrivilegesModel",
+        "method_name": null,
+        "line_number": 26,
+        "evidence": [
+          "Parameterized factory method: getSubjectTypeDependencies"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 5,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/NamedSelectableEntities.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/NamedSelectableEntities.js",
+        "class_name": "NamedSelectableEntities",
+        "method_name": "createEmpty",
+        "line_number": null,
+        "evidence": [
+          "Factory method detected: createEmpty"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/OperationalModules.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/OperationalModules.js",
+        "class_name": "OperationalModules",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Class name suggests Command: OperationalModules"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/SubjectTypeFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/SubjectTypeFactory.js",
+        "class_name": "SubjectTypeFactory",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/UserInfo.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/UserInfo.js",
+        "class_name": "UserInfo",
+        "method_name": "createEmpty",
+        "line_number": null,
+        "evidence": [
+          "Factory method detected: createEmpty"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/WebConcept.ts",
+    "language": "TypeScript",
+    "patterns": [
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/WebConcept.ts",
+        "class_name": "WebConceptView",
+        "method_name": null,
+        "line_number": 86,
+        "evidence": [
+          "Implements interface: WebConcept",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/WebConcept.ts",
+        "class_name": "WebConceptAnswerView",
+        "method_name": null,
+        "line_number": 119,
+        "evidence": [
+          "Implements interface: WebConceptAnswer",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 2,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Adapter": 2
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/WebSubjectType.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/WebSubjectType.js",
+        "class_name": "WebSubjectType",
+        "method_name": "updateType",
+        "line_number": null,
+        "evidence": [
+          "Observer method detected: updateType"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/reports/WebDashboard.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/reports/WebDashboard.js",
+        "class_name": "WebDashboard",
+        "method_name": "createNew",
+        "line_number": null,
+        "evidence": [
+          "Factory method detected: createNew"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/reports/WebDashboardSectionCardMapping.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/reports/WebDashboardSectionCardMapping.js",
+        "class_name": "WebDashboardSectionCardMapping",
+        "method_name": null,
+        "line_number": 1,
+        "evidence": [
+          "Parameterized factory method: newCard"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/reports/WebReportCardFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/model/reports/WebReportCardFactory.js",
+        "class_name": "WebReportCardFactory",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/utils/ErrorMessageUtil.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/common/utils/ErrorMessageUtil.js",
+        "class_name": "UnhandledRejectionError",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/components/Observations.jsx",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/components/Observations.jsx",
+        "class_name": "MediaData",
+        "method_name": null,
+        "line_number": 148,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 20,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/services/IndividualService.jsx",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/services/IndividualService.jsx",
+        "class_name": "IndividualService",
+        "method_name": null,
+        "line_number": 7,
+        "evidence": [
+          "Parameterized factory method: getSubjectsInLocation"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/state/Wizard.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/state/Wizard.js",
+        "class_name": "Wizard",
+        "method_name": null,
+        "line_number": 1,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/test/EntityFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/test/EntityFactory.js",
+        "class_name": "EntityFactory",
+        "method_name": null,
+        "line_number": 20,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/test/TestKeyValueFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/test/TestKeyValueFactory.js",
+        "class_name": "TestKeyValueFactory",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/views/registration/SubjectValidation.jsx",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/views/registration/SubjectValidation.jsx",
+        "class_name": "SubjectValidation",
+        "method_name": null,
+        "line_number": 1,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/views/viewmodel/StaticFormElement.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/dataEntryApp/views/viewmodel/StaticFormElement.js",
+        "class_name": "StaticFormElement",
+        "method_name": null,
+        "line_number": 1,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/formDesigner/common/constants.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/formDesigner/common/constants.js",
+        "class_name": "FormTypeInfo",
+        "method_name": null,
+        "line_number": 5,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/formDesigner/components/SearchResultFields/SearchResultFieldState.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/formDesigner/components/SearchResultFields/SearchResultFieldState.js",
+        "class_name": "SearchResultField",
+        "method_name": null,
+        "line_number": 61,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/modelTest/OperationalModulesFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/modelTest/OperationalModulesFactory.js",
+        "class_name": "OperationalModulesFactory",
+        "method_name": null,
+        "line_number": 1,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/modelTest/OperationalModulesFactory.js",
+        "class_name": "OperationalModulesFactory",
+        "method_name": null,
+        "line_number": 1,
+        "evidence": [
+          "Class name suggests Command: OperationalModulesFactory"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/modelTest/SubjectTypeFactory.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/modelTest/SubjectTypeFactory.js",
+        "class_name": "SubjectTypeFactory",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/reports/domain/MetabaseSetupStatus.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9500000000000001,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/reports/domain/MetabaseSetupStatus.js",
+        "class_name": "MetabaseSetupStatus",
+        "method_name": null,
+        "line_number": 35,
+        "evidence": [
+          "Factory method: createUnknownStatus",
+          "Factory method: createUnknownStatus",
+          "Factory method: createUnknownStatus",
+          "Factory method: createUnknownStatus",
+          "Multiple factory methods: createUnknownStatus, createUnknownStatus, createUnknownStatus"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/rootApp/security/CognitoAuthSession.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/rootApp/security/CognitoAuthSession.js",
+        "class_name": "CognitoAuthSession",
+        "method_name": null,
+        "line_number": 3,
+        "evidence": [
+          "Parameterized factory method: constructor",
+          "Inherits from: BaseAuthSession"
+        ],
+        "related_classes": [
+          "BaseAuthSession"
+        ]
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/rootApp/security/CognitoWebClient.jsx",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/rootApp/security/CognitoWebClient.jsx",
+        "class_name": "CognitoWebClient",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Implements interface: BaseIdp",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/rootApp/security/CognitoWebClient.jsx",
+        "class_name": "CognitoWebClient",
+        "method_name": "updateRequestWithSession",
+        "line_number": null,
+        "evidence": [
+          "Observer method detected: updateRequestWithSession"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Adapter": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/rootApp/security/IdpFactory.jsx",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.55,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/rootApp/security/IdpFactory.jsx",
+        "class_name": "IdpFactory",
+        "method_name": null,
+        "line_number": 7,
+        "evidence": [
+          "Parameterized factory method: createIdp"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/rootApp/security/KeycloakWebClient.jsx",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/rootApp/security/KeycloakWebClient.jsx",
+        "class_name": "KeycloakWebClient",
+        "method_name": null,
+        "line_number": 7,
+        "evidence": [
+          "Parameterized factory method: getAuthRequest",
+          "Inherits from: BaseIdp"
+        ],
+        "related_classes": [
+          "BaseIdp"
+        ]
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/rootApp/security/NoAuthSession.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/rootApp/security/NoAuthSession.js",
+        "class_name": "NoAuthSession",
+        "method_name": "userInfoUpdate",
+        "line_number": null,
+        "evidence": [
+          "Observer method detected: userInfoUpdate"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/rootApp/security/NullIdp.jsx",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/rootApp/security/NullIdp.jsx",
+        "class_name": "NullIdp",
+        "method_name": "updateRequestWithSession",
+        "line_number": null,
+        "evidence": [
+          "Observer method detected: updateRequestWithSession"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-webapp/src/upload/UploadDashboard.jsx",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-webapp/src/upload/UploadDashboard.jsx",
+        "class_name": "ReviewStatus",
+        "method_name": null,
+        "line_number": 100,
+        "evidence": [
+          "Parameterized factory method: constructor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  }
+]
