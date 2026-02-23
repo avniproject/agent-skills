@@ -1,0 +1,2796 @@
+[
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/dify/analytics_tools/dify_data_extractor.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/dify/analytics_tools/dify_data_extractor.py",
+        "class_name": "DifyDataExtractor",
+        "method_name": null,
+        "line_number": 49,
+        "evidence": [
+          "Parameterized factory method: get_all_conversations",
+          "Parameterized factory method: get_all_chat_messages",
+          "Multiple factory methods: get_all_conversations, get_all_chat_messages"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/src/clients/avni_client.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/clients/avni_client.py",
+        "class_name": "ApiResult",
+        "method_name": "success_result",
+        "line_number": 18,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/clients/avni_client.py",
+        "class_name": "AvniClient",
+        "method_name": "get_headers",
+        "line_number": 34,
+        "evidence": [
+          "Factory method detected: get_headers"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/clients/avni_client.py",
+        "class_name": "AvniClient",
+        "method_name": "get_headers",
+        "line_number": 34,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 2,
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/src/clients/openai_client.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/clients/openai_client.py",
+        "class_name": "OpenAIResponsesClient",
+        "method_name": null,
+        "line_number": 10,
+        "evidence": [
+          "Parameterized factory method: create_response",
+          "Parameterized factory method: _make_continuation_call",
+          "Multiple factory methods: create_response, _make_continuation_call"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/clients/openai_client.py",
+        "class_name": "OpenAIResponsesClient",
+        "method_name": "_parse_function_arguments",
+        "line_number": 19,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/src/dspy/training.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/dspy/training.py",
+        "class_name": "SimplifiedAvniAnalyzer",
+        "method_name": null,
+        "line_number": 93,
+        "evidence": [
+          "Part of strategy family with: AvniJudge",
+          "Strategy interface method: forward"
+        ],
+        "related_classes": [
+          "dspy.Module"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/dspy/training.py",
+        "class_name": "AvniJudge",
+        "method_name": null,
+        "line_number": 145,
+        "evidence": [
+          "Part of strategy family with: SimplifiedAvniAnalyzer",
+          "Strategy interface method: forward"
+        ],
+        "related_classes": [
+          "dspy.Module"
+        ]
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 9,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Strategy": 2
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/src/handlers/request_handlers.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/handlers/request_handlers.py",
+        "class_name": "ConfigRequestValidation",
+        "method_name": "is_valid",
+        "line_number": 22,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 5,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/src/schemas/field_names.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/schemas/field_names.py",
+        "class_name": "AddressLevelTypeFields",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Part of strategy family with: LocationFields, CatchmentFields, SubjectTypeFields"
+        ],
+        "related_classes": [
+          "Enum"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/schemas/field_names.py",
+        "class_name": "LocationFields",
+        "method_name": null,
+        "line_number": 13,
+        "evidence": [
+          "Part of strategy family with: AddressLevelTypeFields, CatchmentFields, SubjectTypeFields"
+        ],
+        "related_classes": [
+          "Enum"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/schemas/field_names.py",
+        "class_name": "CatchmentFields",
+        "method_name": null,
+        "line_number": 23,
+        "evidence": [
+          "Part of strategy family with: AddressLevelTypeFields, LocationFields, SubjectTypeFields"
+        ],
+        "related_classes": [
+          "Enum"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/schemas/field_names.py",
+        "class_name": "SubjectTypeFields",
+        "method_name": null,
+        "line_number": 30,
+        "evidence": [
+          "Part of strategy family with: AddressLevelTypeFields, LocationFields, CatchmentFields"
+        ],
+        "related_classes": [
+          "Enum"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/schemas/field_names.py",
+        "class_name": "ProgramFields",
+        "method_name": null,
+        "line_number": 61,
+        "evidence": [
+          "Part of strategy family with: AddressLevelTypeFields, LocationFields, CatchmentFields"
+        ],
+        "related_classes": [
+          "Enum"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/schemas/field_names.py",
+        "class_name": "EncounterTypeFields",
+        "method_name": null,
+        "line_number": 86,
+        "evidence": [
+          "Part of strategy family with: AddressLevelTypeFields, LocationFields, CatchmentFields"
+        ],
+        "related_classes": [
+          "Enum"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/schemas/field_names.py",
+        "class_name": "UserFields",
+        "method_name": null,
+        "line_number": 99,
+        "evidence": [
+          "Part of strategy family with: AddressLevelTypeFields, LocationFields, CatchmentFields"
+        ],
+        "related_classes": [
+          "Enum"
+        ]
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Strategy": 7
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/src/services/avni/form_mapping_processor.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/services/avni/form_mapping_processor.py",
+        "class_name": "FormMappingProcessor",
+        "method_name": "find_registration_form_uuid",
+        "line_number": 13,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/services/avni/form_mapping_processor.py",
+        "class_name": "FormMappingProcessor",
+        "method_name": null,
+        "line_number": 9,
+        "evidence": [
+          "Class name suggests handler chain: FormMappingProcessor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 1,
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/src/services/config_processor.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/services/config_processor.py",
+        "class_name": "ConfigProcessor",
+        "method_name": "process_config",
+        "line_number": 176,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/services/config_processor.py",
+        "class_name": "ConfigProcessor",
+        "method_name": null,
+        "line_number": 174,
+        "evidence": [
+          "Class name suggests handler chain: ConfigProcessor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 4,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 1,
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/src/services/enums.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/services/enums.py",
+        "class_name": "TaskStatus",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Class name suggests Command: TaskStatus"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/src/services/task_manager.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/services/task_manager.py",
+        "class_name": "ConfigTask",
+        "method_name": null,
+        "line_number": 15,
+        "evidence": [
+          "Class name suggests Command: ConfigTask"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/services/task_manager.py",
+        "class_name": "TaskManager",
+        "method_name": null,
+        "line_number": 51,
+        "evidence": [
+          "Parameterized factory method: create_task",
+          "Parameterized factory method: get_task",
+          "Parameterized factory method: _create_progress_updater",
+          "Factory method: get_task_count",
+          "Multiple factory methods: create_task, get_task, _create_progress_updater"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/services/task_manager.py",
+        "class_name": "TaskManager",
+        "method_name": null,
+        "line_number": 51,
+        "evidence": [
+          "Notify method: update_task_status",
+          "Notify method: _create_progress_updater"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/services/task_manager.py",
+        "class_name": "TaskManager",
+        "method_name": null,
+        "line_number": 51,
+        "evidence": [
+          "Class name suggests Command: TaskManager"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 3,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Command": 2,
+      "Factory": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/src/services/tool_registry.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/src/services/tool_registry.py",
+        "class_name": "ToolRegistry",
+        "method_name": null,
+        "line_number": 216,
+        "evidence": [
+          "Parameterized factory method: get_openai_tools"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 5,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/config_generation_manager.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/config_generation_manager.py",
+        "class_name": "ConversationResult",
+        "method_name": "has_config",
+        "line_number": 24,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/config_generation_manager.py",
+        "class_name": "DifyConversationManager",
+        "method_name": "_create_initial_message",
+        "line_number": 127,
+        "evidence": [
+          "Factory method detected: _create_initial_message"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/config_generation_manager.py",
+        "class_name": "DifyConversationManager",
+        "method_name": "_create_initial_message",
+        "line_number": 127,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 2,
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/mch_integration_test.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/mch_integration_test.py",
+        "class_name": "MCHIntegrationTest",
+        "method_name": "create_dify_inputs",
+        "line_number": 252,
+        "evidence": [
+          "Factory method detected: create_dify_inputs"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/mch_integration_test.py",
+        "class_name": "MCHIntegrationTest",
+        "method_name": "generate_tester_message",
+        "line_number": 235,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 2,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/test_config_create_validator.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/test_config_create_validator.py",
+        "class_name": "TestConfigCreateValidator",
+        "method_name": "validate_test_create_config",
+        "line_number": 10,
+        "evidence": [
+          "Factory method detected: validate_test_create_config"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/test_config_create_validator.py",
+        "class_name": "TestConfigCreateValidator",
+        "method_name": "validate_test_create_config",
+        "line_number": 10,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/test_config_create_validator.py",
+        "class_name": "TestConfigCreateValidator",
+        "method_name": null,
+        "line_number": 8,
+        "evidence": [
+          "Has hook methods: validate_test_create_config, _validate_crud_address_level_types, _validate_crud_locations",
+          "Has abstract methods: _validate_crud_address_level_types, _validate_crud_locations"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/test_config_delete_validator.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/test_config_delete_validator.py",
+        "class_name": "TestConfigDeleteValidator",
+        "method_name": "validate_test_delete_config",
+        "line_number": 10,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/test_config_delete_validator.py",
+        "class_name": "TestConfigDeleteValidator",
+        "method_name": null,
+        "line_number": 8,
+        "evidence": [
+          "Has hook methods: validate_test_delete_config, _validate_delete_encounter_types, _validate_delete_programs",
+          "Has abstract methods: _validate_delete_encounter_types, _validate_delete_programs"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 1,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/test_config_update_validator.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/test_config_update_validator.py",
+        "class_name": "TestConfigUpdateValidator",
+        "method_name": "validate_test_update_config",
+        "line_number": 17,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.95,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/test_config_update_validator.py",
+        "class_name": "TestConfigUpdateValidator",
+        "method_name": null,
+        "line_number": 13,
+        "evidence": [
+          "Notify method: validate_test_update_config",
+          "Attach method: _validate_updated_address_level_types",
+          "Notify method: _validate_updated_address_level_types",
+          "Notify method: _validate_updated_locations",
+          "Notify method: _validate_updated_catchments",
+          "Notify method: _validate_updated_subject_types",
+          "Notify method: _validate_updated_programs",
+          "Notify method: _validate_updated_encounter_types"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/test_config_update_validator.py",
+        "class_name": "TestConfigUpdateValidator",
+        "method_name": null,
+        "line_number": 13,
+        "evidence": [
+          "Has hook methods: validate_test_update_config, _validate_updated_address_level_types, _validate_updated_locations",
+          "Has abstract methods: _validate_updated_address_level_types, _validate_updated_locations"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/validation_result.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/validation_result.py",
+        "class_name": "ValidationResult",
+        "method_name": "has_errors",
+        "line_number": 11,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/validation_result.py",
+        "class_name": "ValidationResult",
+        "method_name": null,
+        "line_number": 6,
+        "evidence": [
+          "Attach method: add_error",
+          "Attach method: add_errors"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/prompts/ai_reviewer.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/prompts/ai_reviewer.py",
+        "class_name": "AIReviewer",
+        "method_name": null,
+        "line_number": 9,
+        "evidence": [
+          "Parameterized factory method: validate_created_configuration"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/prompts/ai_reviewer.py",
+        "class_name": "AIReviewer",
+        "method_name": "validate_created_configuration",
+        "line_number": 52,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/prompts/analytics.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/prompts/analytics.py",
+        "class_name": "StatisticsCalculator",
+        "method_name": "calculate_statistics",
+        "line_number": 13,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/prompts/analytics.py",
+        "class_name": "ReportGenerator",
+        "method_name": "generate_report",
+        "line_number": 68,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/analytics/reporting.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/analytics/reporting.py",
+        "class_name": "ReportGenerator",
+        "method_name": "generate_console_report",
+        "line_number": 15,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/analytics/statistics.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/analytics/statistics.py",
+        "class_name": "StatisticsCalculator",
+        "method_name": "calculate_suite_statistics",
+        "line_number": 14,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_executor.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_executor.py",
+        "class_name": "ConversationExecutorWrapper",
+        "method_name": "get_executor_metadata",
+        "line_number": 56,
+        "evidence": [
+          "Factory method detected: get_executor_metadata"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_executor.py",
+        "class_name": "ConversationExecutorWrapper",
+        "method_name": null,
+        "line_number": 19,
+        "evidence": [
+          "Class name suggests Decorator: ConversationExecutorWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_executor.py",
+        "class_name": "ConversationExecutorWrapper",
+        "method_name": null,
+        "line_number": 19,
+        "evidence": [
+          "Implements interface: ConversationExecutor",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_executor.py",
+        "class_name": "ConversationExecutorWrapper",
+        "method_name": null,
+        "line_number": 19,
+        "evidence": [
+          "Has execute method: execute()",
+          "Encapsulates receiver/parameters"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1,
+      "Adapter": 1,
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_judge.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_judge.py",
+        "class_name": "ConversationJudgeStrategyWrapper",
+        "method_name": null,
+        "line_number": 18,
+        "evidence": [
+          "Factory method: _get_evaluation_prompt",
+          "Factory method: _get_evaluation_metrics",
+          "Multiple factory methods: _get_evaluation_prompt, _get_evaluation_metrics",
+          "Inherits from: JudgeStrategy"
+        ],
+        "related_classes": [
+          "JudgeStrategy"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_judge.py",
+        "class_name": "ConversationJudgeStrategyWrapper",
+        "method_name": null,
+        "line_number": 18,
+        "evidence": [
+          "Class name suggests Decorator: ConversationJudgeStrategyWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_judge.py",
+        "class_name": "ConversationJudgeStrategyWrapper",
+        "method_name": null,
+        "line_number": 18,
+        "evidence": [
+          "Implements interface: JudgeStrategy",
+          "Has 4 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_judge.py",
+        "class_name": "ConversationJudgeStrategyWrapper",
+        "method_name": null,
+        "line_number": 18,
+        "evidence": [
+          "Class name suggests Strategy: ConversationJudgeStrategyWrapper"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1,
+      "Adapter": 1,
+      "Strategy": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_subject.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_subject.py",
+        "class_name": "ConversationTestSubject",
+        "method_name": null,
+        "line_number": 18,
+        "evidence": [
+          "Factory method: get_test_identifier",
+          "Factory method: get_test_input",
+          "Factory method: get_expected_behavior",
+          "Factory method: get_evaluation_context",
+          "Factory method: _get_default_dify_inputs",
+          "Multiple factory methods: get_test_identifier, get_test_input, get_expected_behavior",
+          "Inherits from: TestSubject"
+        ],
+        "related_classes": [
+          "TestSubject"
+        ]
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_subject.py",
+        "class_name": "ConversationTestSubject",
+        "method_name": null,
+        "line_number": 18,
+        "evidence": [
+          "Implements interface: TestSubject",
+          "Has 6 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_subject.py",
+        "class_name": "ConversationTestSubjectFactory",
+        "method_name": null,
+        "line_number": 73,
+        "evidence": [
+          "Parameterized factory method: create_from_static_data",
+          "Parameterized factory method: create_from_ai_generation",
+          "Factory method: get_generation_prompt_template",
+          "Factory method: create_static_test_cases",
+          "Multiple factory methods: create_from_static_data, create_from_ai_generation, get_generation_prompt_template",
+          "Inherits from: TestSubjectFactory"
+        ],
+        "related_classes": [
+          "TestSubjectFactory"
+        ]
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_subject.py",
+        "class_name": "ConversationTestSubjectFactory",
+        "method_name": null,
+        "line_number": 73,
+        "evidence": [
+          "Implements interface: TestSubjectFactory",
+          "Has 7 interface methods"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 2,
+      "Adapter": 2
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_executor.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_executor.py",
+        "class_name": "FormElementValidationExecutorWrapper",
+        "method_name": "get_executor_metadata",
+        "line_number": 38,
+        "evidence": [
+          "Factory method detected: get_executor_metadata"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_executor.py",
+        "class_name": "FormElementValidationExecutorWrapper",
+        "method_name": null,
+        "line_number": 17,
+        "evidence": [
+          "Class name suggests Decorator: FormElementValidationExecutorWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_executor.py",
+        "class_name": "FormElementValidationExecutorWrapper",
+        "method_name": null,
+        "line_number": 17,
+        "evidence": [
+          "Implements interface: DifyFormValidationExecutor",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_executor.py",
+        "class_name": "FormElementValidationExecutorWrapper",
+        "method_name": null,
+        "line_number": 17,
+        "evidence": [
+          "Has execute method: execute()",
+          "Encapsulates receiver/parameters"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1,
+      "Adapter": 1,
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_judge.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_judge.py",
+        "class_name": "FormElementValidationJudgeStrategyWrapper",
+        "method_name": null,
+        "line_number": 20,
+        "evidence": [
+          "Class name suggests Decorator: FormElementValidationJudgeStrategyWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_judge.py",
+        "class_name": "FormElementValidationJudgeStrategyWrapper",
+        "method_name": null,
+        "line_number": 20,
+        "evidence": [
+          "Class name suggests Adapter: FormElementValidationJudgeStrategyWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_judge.py",
+        "class_name": "FormElementValidationJudgeStrategyWrapper",
+        "method_name": null,
+        "line_number": 20,
+        "evidence": [
+          "Inherits from strategy base: DifyFormValidationJudgeStrategy",
+          "Strategy interface method: evaluate"
+        ],
+        "related_classes": [
+          "DifyFormValidationJudgeStrategy"
+        ]
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Adapter": 1,
+      "Strategy": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_subject.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_subject.py",
+        "class_name": "FormElementValidationTestSubject",
+        "method_name": null,
+        "line_number": 19,
+        "evidence": [
+          "Factory method: get_test_identifier",
+          "Factory method: get_test_input",
+          "Factory method: get_expected_behavior",
+          "Factory method: get_evaluation_context",
+          "Factory method: _get_auth_token",
+          "Factory method: _get_mcp_server_url",
+          "Multiple factory methods: get_test_identifier, get_test_input, get_expected_behavior",
+          "Inherits from: TestSubject"
+        ],
+        "related_classes": [
+          "TestSubject"
+        ]
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_subject.py",
+        "class_name": "FormElementValidationTestSubject",
+        "method_name": null,
+        "line_number": 19,
+        "evidence": [
+          "Implements interface: TestSubject",
+          "Has 7 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_subject.py",
+        "class_name": "FormElementValidationTestSubjectFactory",
+        "method_name": null,
+        "line_number": 81,
+        "evidence": [
+          "Parameterized factory method: create_from_static_data",
+          "Parameterized factory method: create_from_ai_generation",
+          "Factory method: get_generation_prompt_template",
+          "Factory method: create_static_test_cases",
+          "Multiple factory methods: create_from_static_data, create_from_ai_generation, get_generation_prompt_template",
+          "Inherits from: TestSubjectFactory"
+        ],
+        "related_classes": [
+          "TestSubjectFactory"
+        ]
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_subject.py",
+        "class_name": "FormElementValidationTestSubjectFactory",
+        "method_name": null,
+        "line_number": 81,
+        "evidence": [
+          "Implements interface: TestSubjectFactory",
+          "Has 5 interface methods"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 2,
+      "Adapter": 2
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_conversation_strategy.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_conversation_strategy.py",
+        "class_name": "RulesGenerationConversationStrategy",
+        "method_name": null,
+        "line_number": 12,
+        "evidence": [
+          "Implements interface: ConversationGenerationStrategy",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_conversation_strategy.py",
+        "class_name": "RulesGenerationConversationStrategy",
+        "method_name": null,
+        "line_number": 12,
+        "evidence": [
+          "Class name suggests Strategy: RulesGenerationConversationStrategy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Adapter": 1,
+      "Strategy": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_executor.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_executor.py",
+        "class_name": "RulesGenerationExecutorWrapper",
+        "method_name": "get_executor_metadata",
+        "line_number": 19,
+        "evidence": [
+          "Factory method detected: get_executor_metadata"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_executor.py",
+        "class_name": "RulesGenerationExecutorWrapper",
+        "method_name": null,
+        "line_number": 10,
+        "evidence": [
+          "Class name suggests Decorator: RulesGenerationExecutorWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_executor.py",
+        "class_name": "RulesGenerationExecutorWrapper",
+        "method_name": null,
+        "line_number": 10,
+        "evidence": [
+          "Implements interface: ConversationExecutorWrapper",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_executor.py",
+        "class_name": "RulesGenerationExecutorWrapper",
+        "method_name": null,
+        "line_number": 10,
+        "evidence": [
+          "Has execute method: execute()",
+          "Encapsulates receiver/parameters"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1,
+      "Adapter": 1,
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_judge.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_judge.py",
+        "class_name": "RulesGenerationJudgeWrapper",
+        "method_name": null,
+        "line_number": 12,
+        "evidence": [
+          "Parameterized factory method: _create_evaluation_prompt",
+          "Factory method: get_judge_metadata",
+          "Multiple factory methods: _create_evaluation_prompt, get_judge_metadata",
+          "Inherits from: ConversationJudgeStrategyWrapper"
+        ],
+        "related_classes": [
+          "ConversationJudgeStrategyWrapper"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_judge.py",
+        "class_name": "RulesGenerationJudgeWrapper",
+        "method_name": null,
+        "line_number": 12,
+        "evidence": [
+          "Class name suggests Decorator: RulesGenerationJudgeWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_judge.py",
+        "class_name": "RulesGenerationJudgeWrapper",
+        "method_name": null,
+        "line_number": 12,
+        "evidence": [
+          "Implements interface: ConversationJudgeStrategyWrapper",
+          "Has 4 interface methods"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1,
+      "Adapter": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_subject.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_subject.py",
+        "class_name": "RulesGenerationTestSubject",
+        "method_name": null,
+        "line_number": 19,
+        "evidence": [
+          "Factory method: get_test_input",
+          "Factory method: get_test_identifier",
+          "Factory method: get_expected_outputs",
+          "Multiple factory methods: get_test_input, get_test_identifier, get_expected_outputs",
+          "Inherits from: ConversationTestSubject"
+        ],
+        "related_classes": [
+          "ConversationTestSubject"
+        ]
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_subject.py",
+        "class_name": "RulesGenerationTestSubject",
+        "method_name": null,
+        "line_number": 19,
+        "evidence": [
+          "Implements interface: ConversationTestSubject",
+          "Has 4 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_subject.py",
+        "class_name": "RulesGenerationTestSubjectFactory",
+        "method_name": null,
+        "line_number": 71,
+        "evidence": [
+          "Parameterized factory method: create_from_static_data",
+          "Parameterized factory method: create_from_ai_generation",
+          "Factory method: get_generation_prompt_template",
+          "Parameterized factory method: create_test_subject",
+          "Parameterized factory method: create_test_subjects_from_config",
+          "Multiple factory methods: create_from_static_data, create_from_ai_generation, get_generation_prompt_template",
+          "Inherits from: TestSubjectFactory"
+        ],
+        "related_classes": [
+          "TestSubjectFactory"
+        ]
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_subject.py",
+        "class_name": "RulesGenerationTestSubjectFactory",
+        "method_name": null,
+        "line_number": 71,
+        "evidence": [
+          "Implements interface: TestSubjectFactory",
+          "Has 6 interface methods"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 2,
+      "Adapter": 2
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py",
+        "class_name": "ConversationGenerationStrategy",
+        "method_name": "generate_next_message",
+        "line_number": 16,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.8,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py",
+        "class_name": "ConversationGenerationStrategy",
+        "method_name": null,
+        "line_number": 9,
+        "evidence": [
+          "Strategy base with implementations: AIConversationStrategy, RuleBasedConversationStrategy, EndConversationStrategy",
+          "Strategy interface method: generate_next_message"
+        ],
+        "related_classes": [
+          "ABC",
+          "AIConversationStrategy",
+          "RuleBasedConversationStrategy",
+          "EndConversationStrategy"
+        ]
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py",
+        "class_name": "AIConversationStrategy",
+        "method_name": null,
+        "line_number": 48,
+        "evidence": [
+          "Implements interface: ConversationGenerationStrategy",
+          "Has 4 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.8,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py",
+        "class_name": "AIConversationStrategy",
+        "method_name": null,
+        "line_number": 48,
+        "evidence": [
+          "Part of strategy family with: RuleBasedConversationStrategy, EndConversationStrategy",
+          "Inherits from strategy base: ConversationGenerationStrategy"
+        ],
+        "related_classes": [
+          "ConversationGenerationStrategy"
+        ]
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py",
+        "class_name": "RuleBasedConversationStrategy",
+        "method_name": null,
+        "line_number": 134,
+        "evidence": [
+          "Implements interface: ConversationGenerationStrategy",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.8,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py",
+        "class_name": "RuleBasedConversationStrategy",
+        "method_name": null,
+        "line_number": 134,
+        "evidence": [
+          "Part of strategy family with: AIConversationStrategy, EndConversationStrategy",
+          "Inherits from strategy base: ConversationGenerationStrategy"
+        ],
+        "related_classes": [
+          "ConversationGenerationStrategy"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py",
+        "class_name": "EndConversationStrategy",
+        "method_name": null,
+        "line_number": 163,
+        "evidence": [
+          "Part of strategy family with: AIConversationStrategy, RuleBasedConversationStrategy",
+          "Inherits from strategy base: ConversationGenerationStrategy",
+          "Strategy interface method: generate_next_message"
+        ],
+        "related_classes": [
+          "ConversationGenerationStrategy"
+        ]
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Strategy": 4,
+      "Adapter": 2
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_executor.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_executor.py",
+        "class_name": "FormValidationExecutor",
+        "method_name": "get_executor_metadata",
+        "line_number": 42,
+        "evidence": [
+          "Factory method detected: get_executor_metadata"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_executor.py",
+        "class_name": "FormValidationExecutor",
+        "method_name": "execute",
+        "line_number": 21,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_executor.py",
+        "class_name": "FormValidationExecutor",
+        "method_name": null,
+        "line_number": 11,
+        "evidence": [
+          "Implements interface: ABC",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_executor.py",
+        "class_name": "FormValidationExecutor",
+        "method_name": null,
+        "line_number": 11,
+        "evidence": [
+          "Has execute method: execute()",
+          "Encapsulates receiver/parameters"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6000000000000001,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_executor.py",
+        "class_name": "FormValidationExecutor",
+        "method_name": null,
+        "line_number": 11,
+        "evidence": [
+          "Base class with 1 implementations",
+          "Has abstract methods: __init__"
+        ],
+        "related_classes": [
+          "DifyFormValidationExecutor"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_executor.py",
+        "class_name": "DifyFormValidationExecutor",
+        "method_name": null,
+        "line_number": 47,
+        "evidence": [
+          "Parameterized factory method: _build_context_string",
+          "Factory method: get_executor_metadata",
+          "Multiple factory methods: _build_context_string, get_executor_metadata",
+          "Inherits from: FormValidationExecutor"
+        ],
+        "related_classes": [
+          "FormValidationExecutor"
+        ]
+      },
+      {
+        "pattern_type": "Builder",
+        "category": "Creational",
+        "confidence": 0.55,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_executor.py",
+        "class_name": "DifyFormValidationExecutor",
+        "method_name": null,
+        "line_number": 47,
+        "evidence": [
+          "Has terminal build/create method",
+          "Builds complex object with multiple fields"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_executor.py",
+        "class_name": "DifyFormValidationExecutor",
+        "method_name": null,
+        "line_number": 47,
+        "evidence": [
+          "Implements interface: FormValidationExecutor",
+          "Has 6 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_executor.py",
+        "class_name": "DifyFormValidationExecutor",
+        "method_name": null,
+        "line_number": 47,
+        "evidence": [
+          "Has execute method: execute()",
+          "Encapsulates receiver/parameters"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 2,
+      "Decorator": 1,
+      "Adapter": 2,
+      "Command": 2,
+      "TemplateMethod": 1,
+      "Builder": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_judge.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_judge.py",
+        "class_name": "FormValidationJudgeStrategy",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Factory method: _get_evaluation_prompt",
+          "Factory method: _get_evaluation_metrics",
+          "Multiple factory methods: _get_evaluation_prompt, _get_evaluation_metrics",
+          "Inherits from: ABC"
+        ],
+        "related_classes": [
+          "ABC"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_judge.py",
+        "class_name": "FormValidationJudgeStrategy",
+        "method_name": "evaluate",
+        "line_number": 32,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_judge.py",
+        "class_name": "FormValidationJudgeStrategy",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Implements interface: ABC",
+          "Has 7 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_judge.py",
+        "class_name": "FormValidationJudgeStrategy",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Class name suggests Strategy: FormValidationJudgeStrategy"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6000000000000001,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_judge.py",
+        "class_name": "FormValidationJudgeStrategy",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Base class with 1 implementations",
+          "Has abstract methods: __init__, _get_evaluation_prompt"
+        ],
+        "related_classes": [
+          "DifyFormValidationJudgeStrategy"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_judge.py",
+        "class_name": "DifyFormValidationJudgeStrategy",
+        "method_name": null,
+        "line_number": 165,
+        "evidence": [
+          "Factory method: _get_evaluation_prompt",
+          "Factory method: _get_evaluation_metrics",
+          "Multiple factory methods: _get_evaluation_prompt, _get_evaluation_metrics",
+          "Inherits from: FormValidationJudgeStrategy"
+        ],
+        "related_classes": [
+          "FormValidationJudgeStrategy"
+        ]
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_judge.py",
+        "class_name": "DifyFormValidationJudgeStrategy",
+        "method_name": null,
+        "line_number": 165,
+        "evidence": [
+          "Implements interface: FormValidationJudgeStrategy",
+          "Has 5 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_judge.py",
+        "class_name": "DifyFormValidationJudgeStrategy",
+        "method_name": null,
+        "line_number": 165,
+        "evidence": [
+          "Class name suggests Strategy: DifyFormValidationJudgeStrategy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 2,
+      "Decorator": 1,
+      "Adapter": 2,
+      "Strategy": 2,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+        "class_name": "JudgeStrategy",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Factory method: _get_evaluation_prompt",
+          "Factory method: _get_evaluation_metrics",
+          "Multiple factory methods: _get_evaluation_prompt, _get_evaluation_metrics",
+          "Inherits from: ABC"
+        ],
+        "related_classes": [
+          "ABC"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+        "class_name": "JudgeStrategy",
+        "method_name": "evaluate",
+        "line_number": 32,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+        "class_name": "JudgeStrategy",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Implements interface: ABC",
+          "Has 6 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+        "class_name": "JudgeStrategy",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Strategy base with implementations: ConversationJudgeStrategy, FormValidationJudgeStrategy, SchedulingRuleJudgeStrategy"
+        ],
+        "related_classes": [
+          "ABC",
+          "ConversationJudgeStrategy",
+          "FormValidationJudgeStrategy",
+          "SchedulingRuleJudgeStrategy"
+        ]
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6000000000000001,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+        "class_name": "JudgeStrategy",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Base class with 3 implementations",
+          "Has abstract methods: __init__, _get_evaluation_prompt"
+        ],
+        "related_classes": [
+          "ConversationJudgeStrategy",
+          "FormValidationJudgeStrategy",
+          "SchedulingRuleJudgeStrategy"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+        "class_name": "ConversationJudgeStrategy",
+        "method_name": null,
+        "line_number": 155,
+        "evidence": [
+          "Factory method: _get_evaluation_prompt",
+          "Factory method: _get_evaluation_metrics",
+          "Multiple factory methods: _get_evaluation_prompt, _get_evaluation_metrics",
+          "Inherits from: JudgeStrategy"
+        ],
+        "related_classes": [
+          "JudgeStrategy"
+        ]
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+        "class_name": "ConversationJudgeStrategy",
+        "method_name": null,
+        "line_number": 155,
+        "evidence": [
+          "Implements interface: JudgeStrategy",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.8,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+        "class_name": "ConversationJudgeStrategy",
+        "method_name": null,
+        "line_number": 155,
+        "evidence": [
+          "Part of strategy family with: FormValidationJudgeStrategy, SchedulingRuleJudgeStrategy",
+          "Inherits from strategy base: JudgeStrategy"
+        ],
+        "related_classes": [
+          "JudgeStrategy"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+        "class_name": "FormValidationJudgeStrategy",
+        "method_name": null,
+        "line_number": 259,
+        "evidence": [
+          "Factory method: _get_evaluation_prompt",
+          "Factory method: _get_evaluation_metrics",
+          "Multiple factory methods: _get_evaluation_prompt, _get_evaluation_metrics",
+          "Inherits from: JudgeStrategy"
+        ],
+        "related_classes": [
+          "JudgeStrategy"
+        ]
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+        "class_name": "FormValidationJudgeStrategy",
+        "method_name": null,
+        "line_number": 259,
+        "evidence": [
+          "Implements interface: JudgeStrategy",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.8,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+        "class_name": "FormValidationJudgeStrategy",
+        "method_name": null,
+        "line_number": 259,
+        "evidence": [
+          "Part of strategy family with: ConversationJudgeStrategy, SchedulingRuleJudgeStrategy",
+          "Inherits from strategy base: JudgeStrategy"
+        ],
+        "related_classes": [
+          "JudgeStrategy"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+        "class_name": "SchedulingRuleJudgeStrategy",
+        "method_name": null,
+        "line_number": 359,
+        "evidence": [
+          "Factory method: _get_evaluation_prompt",
+          "Factory method: _get_evaluation_metrics",
+          "Multiple factory methods: _get_evaluation_prompt, _get_evaluation_metrics",
+          "Inherits from: JudgeStrategy"
+        ],
+        "related_classes": [
+          "JudgeStrategy"
+        ]
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+        "class_name": "SchedulingRuleJudgeStrategy",
+        "method_name": null,
+        "line_number": 359,
+        "evidence": [
+          "Implements interface: JudgeStrategy",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.8,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+        "class_name": "SchedulingRuleJudgeStrategy",
+        "method_name": null,
+        "line_number": 359,
+        "evidence": [
+          "Part of strategy family with: ConversationJudgeStrategy, FormValidationJudgeStrategy",
+          "Inherits from strategy base: JudgeStrategy"
+        ],
+        "related_classes": [
+          "JudgeStrategy"
+        ]
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 4,
+      "Decorator": 1,
+      "Adapter": 4,
+      "Strategy": 4,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/result_models.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/result_models.py",
+        "class_name": "TestConfiguration",
+        "method_name": "dify_api_key",
+        "line_number": 60,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/result_models.py",
+        "class_name": "BaseTestSubject",
+        "method_name": null,
+        "line_number": 157,
+        "evidence": [
+          "Factory method: get_test_identifier",
+          "Factory method: get_test_input",
+          "Factory method: get_expected_behavior",
+          "Multiple factory methods: get_test_identifier, get_test_input, get_expected_behavior",
+          "Inherits from: ABC"
+        ],
+        "related_classes": [
+          "ABC"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/result_models.py",
+        "class_name": "BaseTestSubject",
+        "method_name": "get_test_identifier",
+        "line_number": 165,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/result_models.py",
+        "class_name": "BaseTestSubject",
+        "method_name": null,
+        "line_number": 157,
+        "evidence": [
+          "Implements interface: ABC",
+          "Has 4 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.8,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/result_models.py",
+        "class_name": "TestSuite",
+        "method_name": null,
+        "line_number": 180,
+        "evidence": [
+          "Factory method: get_test_subjects",
+          "Factory method: get_suite_summary",
+          "Multiple factory methods: get_test_subjects, get_suite_summary"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 8,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Decorator": 2,
+      "Factory": 2,
+      "Adapter": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+        "class_name": "TestExecutor",
+        "method_name": "get_executor_metadata",
+        "line_number": 37,
+        "evidence": [
+          "Factory method detected: get_executor_metadata"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Builder",
+        "category": "Creational",
+        "confidence": 0.55,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+        "class_name": "TestExecutor",
+        "method_name": null,
+        "line_number": 14,
+        "evidence": [
+          "Has terminal build/create method",
+          "Builds complex object with multiple fields"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+        "class_name": "TestExecutor",
+        "method_name": "execute",
+        "line_number": 24,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+        "class_name": "TestExecutor",
+        "method_name": null,
+        "line_number": 14,
+        "evidence": [
+          "Implements interface: ABC",
+          "Has 5 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+        "class_name": "TestExecutor",
+        "method_name": null,
+        "line_number": 14,
+        "evidence": [
+          "Has execute method: execute()",
+          "Encapsulates receiver/parameters"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6000000000000001,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+        "class_name": "TestExecutor",
+        "method_name": null,
+        "line_number": 14,
+        "evidence": [
+          "Base class with 1 implementations",
+          "Has abstract methods: __init__"
+        ],
+        "related_classes": [
+          "DifyWorkflowExecutor"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+        "class_name": "DifyWorkflowExecutor",
+        "method_name": null,
+        "line_number": 56,
+        "evidence": [
+          "Factory method: _get_default_inputs",
+          "Factory method: get_executor_metadata",
+          "Multiple factory methods: _get_default_inputs, get_executor_metadata",
+          "Inherits from: TestExecutor"
+        ],
+        "related_classes": [
+          "TestExecutor"
+        ]
+      },
+      {
+        "pattern_type": "Builder",
+        "category": "Creational",
+        "confidence": 0.55,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+        "class_name": "DifyWorkflowExecutor",
+        "method_name": null,
+        "line_number": 56,
+        "evidence": [
+          "Has terminal build/create method",
+          "Builds complex object with multiple fields"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+        "class_name": "DifyWorkflowExecutor",
+        "method_name": null,
+        "line_number": 56,
+        "evidence": [
+          "Implements interface: TestExecutor",
+          "Has 5 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+        "class_name": "DifyWorkflowExecutor",
+        "method_name": null,
+        "line_number": 56,
+        "evidence": [
+          "Has execute method: execute()",
+          "Encapsulates receiver/parameters"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6000000000000001,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+        "class_name": "DifyWorkflowExecutor",
+        "method_name": null,
+        "line_number": 56,
+        "evidence": [
+          "Base class with 1 implementations",
+          "Has abstract methods: __init__, _initialize_dify_client"
+        ],
+        "related_classes": [
+          "ConversationExecutor"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+        "class_name": "ConversationExecutor",
+        "method_name": "get_executor_metadata",
+        "line_number": 220,
+        "evidence": [
+          "Factory method detected: get_executor_metadata"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+        "class_name": "ConversationExecutor",
+        "method_name": null,
+        "line_number": 137,
+        "evidence": [
+          "Implements interface: DifyWorkflowExecutor",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+        "class_name": "ConversationExecutor",
+        "method_name": null,
+        "line_number": 137,
+        "evidence": [
+          "Has execute method: execute()",
+          "Encapsulates receiver/parameters"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 3,
+      "Builder": 2,
+      "Decorator": 1,
+      "Adapter": 3,
+      "Command": 3,
+      "TemplateMethod": 2
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_subject.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_subject.py",
+        "class_name": "TestSubject",
+        "method_name": null,
+        "line_number": 10,
+        "evidence": [
+          "Factory method: get_test_identifier",
+          "Factory method: get_test_input",
+          "Factory method: get_expected_behavior",
+          "Factory method: get_evaluation_context",
+          "Factory method: get_test_metadata",
+          "Multiple factory methods: get_test_identifier, get_test_input, get_expected_behavior",
+          "Inherits from: ABC"
+        ],
+        "related_classes": [
+          "ABC"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_subject.py",
+        "class_name": "TestSubject",
+        "method_name": "get_test_identifier",
+        "line_number": 21,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_subject.py",
+        "class_name": "TestSubject",
+        "method_name": null,
+        "line_number": 10,
+        "evidence": [
+          "Implements interface: ABC",
+          "Has 6 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_subject.py",
+        "class_name": "TestSubject",
+        "method_name": null,
+        "line_number": 10,
+        "evidence": [
+          "Part of strategy family with: TestSubjectFactory"
+        ],
+        "related_classes": [
+          "ABC"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_subject.py",
+        "class_name": "TestSubjectFactory",
+        "method_name": null,
+        "line_number": 49,
+        "evidence": [
+          "Parameterized factory method: create_from_static_data",
+          "Parameterized factory method: create_from_ai_generation",
+          "Factory method: get_generation_prompt_template",
+          "Multiple factory methods: create_from_static_data, create_from_ai_generation, get_generation_prompt_template",
+          "Inherits from: ABC"
+        ],
+        "related_classes": [
+          "ABC"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_subject.py",
+        "class_name": "TestSubjectFactory",
+        "method_name": "create_from_static_data",
+        "line_number": 55,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_subject.py",
+        "class_name": "TestSubjectFactory",
+        "method_name": null,
+        "line_number": 49,
+        "evidence": [
+          "Implements interface: ABC",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_subject.py",
+        "class_name": "TestSubjectFactory",
+        "method_name": null,
+        "line_number": 49,
+        "evidence": [
+          "Part of strategy family with: TestSubject"
+        ],
+        "related_classes": [
+          "ABC"
+        ]
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 2,
+      "Decorator": 2,
+      "Adapter": 2,
+      "Strategy": 2
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/orchestrator.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.55,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/orchestrator.py",
+        "class_name": "ProgressReporter",
+        "method_name": null,
+        "line_number": 23,
+        "evidence": [
+          "Implements interface: Protocol",
+          "Has 4 interface methods"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.5,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/orchestrator.py",
+        "class_name": "JudgeOrchestrator",
+        "method_name": null,
+        "line_number": 70,
+        "evidence": [
+          "Parameterized factory method: _get_test_type_name"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Adapter": 1,
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/test_result_utils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/test_result_utils.py",
+        "class_name": "TestResultUtils",
+        "method_name": "test_format_update_response",
+        "line_number": 30,
+        "evidence": [
+          "Observer method detected: test_format_update_response"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/test_server.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/test_server.py",
+        "class_name": "TestServerInitialization",
+        "method_name": "test_create_server_returns_fastmcp_instance",
+        "line_number": 12,
+        "evidence": [
+          "Factory method detected: test_create_server_returns_fastmcp_instance"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/test_server.py",
+        "class_name": "TestServerInitialization",
+        "method_name": "test_create_server_returns_fastmcp_instance",
+        "line_number": 12,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.run(order=1)', 'pytest.mark.asyncio']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "full",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  }
+]

@@ -1,0 +1,593 @@
+[
+  {
+    "pattern_type": "Observer",
+    "category": "Behavioral",
+    "confidence": 0.95,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/test_config_update_validator.py",
+    "class_name": "TestConfigUpdateValidator",
+    "method_name": null,
+    "line_number": 13,
+    "evidence": [
+      "Notify method: validate_test_update_config",
+      "Attach method: _validate_updated_address_level_types",
+      "Notify method: _validate_updated_address_level_types",
+      "Notify method: _validate_updated_locations",
+      "Notify method: _validate_updated_catchments",
+      "Notify method: _validate_updated_subject_types",
+      "Notify method: _validate_updated_programs",
+      "Notify method: _validate_updated_encounter_types"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/dify/config/validators/test_config_update_validator.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/dify/analytics_tools/dify_data_extractor.py",
+    "class_name": "DifyDataExtractor",
+    "method_name": null,
+    "line_number": 49,
+    "evidence": [
+      "Parameterized factory method: get_all_conversations",
+      "Parameterized factory method: get_all_chat_messages",
+      "Multiple factory methods: get_all_conversations, get_all_chat_messages"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/dify/analytics_tools/dify_data_extractor.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/src/clients/openai_client.py",
+    "class_name": "OpenAIResponsesClient",
+    "method_name": null,
+    "line_number": 10,
+    "evidence": [
+      "Parameterized factory method: create_response",
+      "Parameterized factory method: _make_continuation_call",
+      "Multiple factory methods: create_response, _make_continuation_call"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/src/clients/openai_client.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/src/services/task_manager.py",
+    "class_name": "TaskManager",
+    "method_name": null,
+    "line_number": 51,
+    "evidence": [
+      "Parameterized factory method: create_task",
+      "Parameterized factory method: get_task",
+      "Parameterized factory method: _create_progress_updater",
+      "Factory method: get_task_count",
+      "Multiple factory methods: create_task, get_task, _create_progress_updater"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/src/services/task_manager.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_judge.py",
+    "class_name": "ConversationJudgeStrategyWrapper",
+    "method_name": null,
+    "line_number": 18,
+    "evidence": [
+      "Factory method: _get_evaluation_prompt",
+      "Factory method: _get_evaluation_metrics",
+      "Multiple factory methods: _get_evaluation_prompt, _get_evaluation_metrics",
+      "Inherits from: JudgeStrategy"
+    ],
+    "related_classes": [
+      "JudgeStrategy"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_judge.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_subject.py",
+    "class_name": "ConversationTestSubject",
+    "method_name": null,
+    "line_number": 18,
+    "evidence": [
+      "Factory method: get_test_identifier",
+      "Factory method: get_test_input",
+      "Factory method: get_expected_behavior",
+      "Factory method: get_evaluation_context",
+      "Factory method: _get_default_dify_inputs",
+      "Multiple factory methods: get_test_identifier, get_test_input, get_expected_behavior",
+      "Inherits from: TestSubject"
+    ],
+    "related_classes": [
+      "TestSubject"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_subject.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_subject.py",
+    "class_name": "ConversationTestSubjectFactory",
+    "method_name": null,
+    "line_number": 73,
+    "evidence": [
+      "Parameterized factory method: create_from_static_data",
+      "Parameterized factory method: create_from_ai_generation",
+      "Factory method: get_generation_prompt_template",
+      "Factory method: create_static_test_cases",
+      "Multiple factory methods: create_from_static_data, create_from_ai_generation, get_generation_prompt_template",
+      "Inherits from: TestSubjectFactory"
+    ],
+    "related_classes": [
+      "TestSubjectFactory"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/conversation/conversation_subject.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_subject.py",
+    "class_name": "FormElementValidationTestSubject",
+    "method_name": null,
+    "line_number": 19,
+    "evidence": [
+      "Factory method: get_test_identifier",
+      "Factory method: get_test_input",
+      "Factory method: get_expected_behavior",
+      "Factory method: get_evaluation_context",
+      "Factory method: _get_auth_token",
+      "Factory method: _get_mcp_server_url",
+      "Multiple factory methods: get_test_identifier, get_test_input, get_expected_behavior",
+      "Inherits from: TestSubject"
+    ],
+    "related_classes": [
+      "TestSubject"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_subject.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_subject.py",
+    "class_name": "FormElementValidationTestSubjectFactory",
+    "method_name": null,
+    "line_number": 81,
+    "evidence": [
+      "Parameterized factory method: create_from_static_data",
+      "Parameterized factory method: create_from_ai_generation",
+      "Factory method: get_generation_prompt_template",
+      "Factory method: create_static_test_cases",
+      "Multiple factory methods: create_from_static_data, create_from_ai_generation, get_generation_prompt_template",
+      "Inherits from: TestSubjectFactory"
+    ],
+    "related_classes": [
+      "TestSubjectFactory"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/formElementValidation/form_element_validation_subject.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_judge.py",
+    "class_name": "RulesGenerationJudgeWrapper",
+    "method_name": null,
+    "line_number": 12,
+    "evidence": [
+      "Parameterized factory method: _create_evaluation_prompt",
+      "Factory method: get_judge_metadata",
+      "Multiple factory methods: _create_evaluation_prompt, get_judge_metadata",
+      "Inherits from: ConversationJudgeStrategyWrapper"
+    ],
+    "related_classes": [
+      "ConversationJudgeStrategyWrapper"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_judge.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_subject.py",
+    "class_name": "RulesGenerationTestSubject",
+    "method_name": null,
+    "line_number": 19,
+    "evidence": [
+      "Factory method: get_test_input",
+      "Factory method: get_test_identifier",
+      "Factory method: get_expected_outputs",
+      "Multiple factory methods: get_test_input, get_test_identifier, get_expected_outputs",
+      "Inherits from: ConversationTestSubject"
+    ],
+    "related_classes": [
+      "ConversationTestSubject"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_subject.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_subject.py",
+    "class_name": "RulesGenerationTestSubjectFactory",
+    "method_name": null,
+    "line_number": 71,
+    "evidence": [
+      "Parameterized factory method: create_from_static_data",
+      "Parameterized factory method: create_from_ai_generation",
+      "Factory method: get_generation_prompt_template",
+      "Parameterized factory method: create_test_subject",
+      "Parameterized factory method: create_test_subjects_from_config",
+      "Multiple factory methods: create_from_static_data, create_from_ai_generation, get_generation_prompt_template",
+      "Inherits from: TestSubjectFactory"
+    ],
+    "related_classes": [
+      "TestSubjectFactory"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/implementations/rulesGeneration/rules_generation_subject.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py",
+    "class_name": "EndConversationStrategy",
+    "method_name": null,
+    "line_number": 163,
+    "evidence": [
+      "Part of strategy family with: AIConversationStrategy, RuleBasedConversationStrategy",
+      "Inherits from strategy base: ConversationGenerationStrategy",
+      "Strategy interface method: generate_next_message"
+    ],
+    "related_classes": [
+      "ConversationGenerationStrategy"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_executor.py",
+    "class_name": "DifyFormValidationExecutor",
+    "method_name": null,
+    "line_number": 47,
+    "evidence": [
+      "Parameterized factory method: _build_context_string",
+      "Factory method: get_executor_metadata",
+      "Multiple factory methods: _build_context_string, get_executor_metadata",
+      "Inherits from: FormValidationExecutor"
+    ],
+    "related_classes": [
+      "FormValidationExecutor"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_executor.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_judge.py",
+    "class_name": "FormValidationJudgeStrategy",
+    "method_name": null,
+    "line_number": 21,
+    "evidence": [
+      "Factory method: _get_evaluation_prompt",
+      "Factory method: _get_evaluation_metrics",
+      "Multiple factory methods: _get_evaluation_prompt, _get_evaluation_metrics",
+      "Inherits from: ABC"
+    ],
+    "related_classes": [
+      "ABC"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_judge.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_judge.py",
+    "class_name": "DifyFormValidationJudgeStrategy",
+    "method_name": null,
+    "line_number": 165,
+    "evidence": [
+      "Factory method: _get_evaluation_prompt",
+      "Factory method: _get_evaluation_metrics",
+      "Multiple factory methods: _get_evaluation_prompt, _get_evaluation_metrics",
+      "Inherits from: FormValidationJudgeStrategy"
+    ],
+    "related_classes": [
+      "FormValidationJudgeStrategy"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/form_validation_judge.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+    "class_name": "JudgeStrategy",
+    "method_name": null,
+    "line_number": 21,
+    "evidence": [
+      "Factory method: _get_evaluation_prompt",
+      "Factory method: _get_evaluation_metrics",
+      "Multiple factory methods: _get_evaluation_prompt, _get_evaluation_metrics",
+      "Inherits from: ABC"
+    ],
+    "related_classes": [
+      "ABC"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+    "class_name": "ConversationJudgeStrategy",
+    "method_name": null,
+    "line_number": 155,
+    "evidence": [
+      "Factory method: _get_evaluation_prompt",
+      "Factory method: _get_evaluation_metrics",
+      "Multiple factory methods: _get_evaluation_prompt, _get_evaluation_metrics",
+      "Inherits from: JudgeStrategy"
+    ],
+    "related_classes": [
+      "JudgeStrategy"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+    "class_name": "FormValidationJudgeStrategy",
+    "method_name": null,
+    "line_number": 259,
+    "evidence": [
+      "Factory method: _get_evaluation_prompt",
+      "Factory method: _get_evaluation_metrics",
+      "Multiple factory methods: _get_evaluation_prompt, _get_evaluation_metrics",
+      "Inherits from: JudgeStrategy"
+    ],
+    "related_classes": [
+      "JudgeStrategy"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+    "class_name": "SchedulingRuleJudgeStrategy",
+    "method_name": null,
+    "line_number": 359,
+    "evidence": [
+      "Factory method: _get_evaluation_prompt",
+      "Factory method: _get_evaluation_metrics",
+      "Multiple factory methods: _get_evaluation_prompt, _get_evaluation_metrics",
+      "Inherits from: JudgeStrategy"
+    ],
+    "related_classes": [
+      "JudgeStrategy"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/result_models.py",
+    "class_name": "BaseTestSubject",
+    "method_name": null,
+    "line_number": 157,
+    "evidence": [
+      "Factory method: get_test_identifier",
+      "Factory method: get_test_input",
+      "Factory method: get_expected_behavior",
+      "Multiple factory methods: get_test_identifier, get_test_input, get_expected_behavior",
+      "Inherits from: ABC"
+    ],
+    "related_classes": [
+      "ABC"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/result_models.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py",
+    "class_name": "DifyWorkflowExecutor",
+    "method_name": null,
+    "line_number": 56,
+    "evidence": [
+      "Factory method: _get_default_inputs",
+      "Factory method: get_executor_metadata",
+      "Multiple factory methods: _get_default_inputs, get_executor_metadata",
+      "Inherits from: TestExecutor"
+    ],
+    "related_classes": [
+      "TestExecutor"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_executor.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_subject.py",
+    "class_name": "TestSubject",
+    "method_name": null,
+    "line_number": 10,
+    "evidence": [
+      "Factory method: get_test_identifier",
+      "Factory method: get_test_input",
+      "Factory method: get_expected_behavior",
+      "Factory method: get_evaluation_context",
+      "Factory method: get_test_metadata",
+      "Multiple factory methods: get_test_identifier, get_test_input, get_expected_behavior",
+      "Inherits from: ABC"
+    ],
+    "related_classes": [
+      "ABC"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_subject.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.9,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_subject.py",
+    "class_name": "TestSubjectFactory",
+    "method_name": null,
+    "line_number": 49,
+    "evidence": [
+      "Parameterized factory method: create_from_static_data",
+      "Parameterized factory method: create_from_ai_generation",
+      "Factory method: get_generation_prompt_template",
+      "Multiple factory methods: create_from_static_data, create_from_ai_generation, get_generation_prompt_template",
+      "Inherits from: ABC"
+    ],
+    "related_classes": [
+      "ABC"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/test_subject.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.8,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py",
+    "class_name": "ConversationGenerationStrategy",
+    "method_name": null,
+    "line_number": 9,
+    "evidence": [
+      "Strategy base with implementations: AIConversationStrategy, RuleBasedConversationStrategy, EndConversationStrategy",
+      "Strategy interface method: generate_next_message"
+    ],
+    "related_classes": [
+      "ABC",
+      "AIConversationStrategy",
+      "RuleBasedConversationStrategy",
+      "EndConversationStrategy"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.8,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py",
+    "class_name": "AIConversationStrategy",
+    "method_name": null,
+    "line_number": 48,
+    "evidence": [
+      "Part of strategy family with: RuleBasedConversationStrategy, EndConversationStrategy",
+      "Inherits from strategy base: ConversationGenerationStrategy"
+    ],
+    "related_classes": [
+      "ConversationGenerationStrategy"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.8,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py",
+    "class_name": "RuleBasedConversationStrategy",
+    "method_name": null,
+    "line_number": 134,
+    "evidence": [
+      "Part of strategy family with: AIConversationStrategy, EndConversationStrategy",
+      "Inherits from strategy base: ConversationGenerationStrategy"
+    ],
+    "related_classes": [
+      "ConversationGenerationStrategy"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/conversation_strategy.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.8,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+    "class_name": "ConversationJudgeStrategy",
+    "method_name": null,
+    "line_number": 155,
+    "evidence": [
+      "Part of strategy family with: FormValidationJudgeStrategy, SchedulingRuleJudgeStrategy",
+      "Inherits from strategy base: JudgeStrategy"
+    ],
+    "related_classes": [
+      "JudgeStrategy"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.8,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+    "class_name": "FormValidationJudgeStrategy",
+    "method_name": null,
+    "line_number": 259,
+    "evidence": [
+      "Part of strategy family with: ConversationJudgeStrategy, SchedulingRuleJudgeStrategy",
+      "Inherits from strategy base: JudgeStrategy"
+    ],
+    "related_classes": [
+      "JudgeStrategy"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.8,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py",
+    "class_name": "SchedulingRuleJudgeStrategy",
+    "method_name": null,
+    "line_number": 359,
+    "evidence": [
+      "Part of strategy family with: ConversationJudgeStrategy, FormValidationJudgeStrategy",
+      "Inherits from strategy base: JudgeStrategy"
+    ],
+    "related_classes": [
+      "JudgeStrategy"
+    ],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/judge_strategy.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.8,
+    "location": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/result_models.py",
+    "class_name": "TestSuite",
+    "method_name": null,
+    "line_number": 180,
+    "evidence": [
+      "Factory method: get_test_subjects",
+      "Factory method: get_suite_summary",
+      "Multiple factory methods: get_test_subjects, get_suite_summary"
+    ],
+    "related_classes": [],
+    "file_path": "/Users/himeshr/IdeaProjects/avni-ai/tests/judge_framework/interfaces/result_models.py"
+  }
+]
